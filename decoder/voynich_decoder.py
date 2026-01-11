@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.1 - January 2026 (Polish-Latin Hybrid Expanded)
+Version 6.2 - January 2026 (Zodiac & Plant Expansion)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 720+ (expanded with Polish verb forms, body parts, prepositions)
+Vocabulary entries: 740+ (expanded with zodiac signs, medicinal plants, animals)
 Direct vocabulary coverage: ~70% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -259,7 +259,7 @@ VOCAB = {
     'ytaiin': ('and-star.NOM', 7),
     'yteey': ('and-stars', 7),
     'yteody': ('and-stellar', 7),
-    'otal': ('HEAVEN', 8),
+    'otal': ('HEAVEN/LIBRA', 8),  # Also zodiac Libra (scales = celestial balance)
     'otam': ('heaven.ACC', 7),
     'otol': ('heaven', 7),
     'otaldy': ('heavenly', 7),
@@ -1060,7 +1060,64 @@ VOCAB = {
     'cheeos': ('blood-flow-bone', 5),    # 16x
 
     # =========================================================================
-    # SECTION 27: DATA-DRIVEN EXPANSION BATCH 5 (10+ occurrences)
+    # SECTION 27: ZODIAC SIGNS (f72 Folio Analysis)
+    # =========================================================================
+    # Based on phonetic analysis of f72 zodiac folio labels
+    # See evidence/VOCABULARY_EXPANSION_PROPOSALS.md for methodology
+
+    # --- HIGH CONFIDENCE ZODIAC (7+) ---
+    # Note: 'otal' already defined as HEAVEN - Libra (scales) aligns semantically
+    'otaraldy': ('ARIES', 8),          # Zodiac: Ram - ot-ar-al-dy "star-tree-high-ADJ"
+    'olkalaiin': ('AQUARIUS', 8),      # Zodiac: Water Bearer - ol-kal-aiin "oil-vessel.NOM"
+
+    # --- MEDIUM CONFIDENCE ZODIAC (5-6) ---
+    'ofaralar': ('TAURUS', 6),         # Zodiac: Bull - position on f72r1 "dark Taurus"
+    'sholeey': ('LEO', 6),             # Zodiac: Lion - sh-ol-eey "sun-oil-flow"
+    'ogeom': ('GEMINI', 6),            # Zodiac: Twins - o-ge-om "a-twins.GEN"
+    'oralkam': ('CANCER', 5),          # Zodiac: Crab - or-al-kam "heart-high-bathe"
+    'opalal': ('PISCES', 5),           # Zodiac: Fish - position-based
+
+    # --- LOW CONFIDENCE ZODIAC (3-4) ---
+    'oeedey': ('VIRGO', 4),            # Zodiac: Virgin - weak phonetic match
+    'ofchdady': ('SAGITTARIUS', 3),    # Zodiac: Archer - complex phonetics
+    'oshodody': ('CAPRICORN', 3),      # Zodiac: Sea-Goat - water associations
+
+    # =========================================================================
+    # SECTION 28: MEDICINAL PLANTS
+    # =========================================================================
+    # Phonetic encodings of common medieval medicinal plants
+    # Note: Some overlap with existing botanical vocabulary
+
+    # --- MEDIUM CONFIDENCE PLANTS (5-6) ---
+    'saly': ('SAGE', 5),               # Salvia - salt/sage phonetic overlap
+    'saldar': ('sage-preparation', 5), # Salvia + dar (give) = sage dosage
+    'loly': ('LILY', 5),               # Lilium - l-ol-y "liquid-oil-ADJ"
+    'paiin': ('POPPY.NOM', 5),         # Papaver - poppy (pain medicine)
+    'opaiin': ('a-POPPY', 5),          # With indefinite article
+    'cham': ('CHAMOMILE', 5),          # Chamaemelum - ch-am (alt: blood.ACC)
+    'mol': ('HONEY', 5),               # Mel - honey preparation
+    'moly': ('honey-ADJ', 5),          # Honey preparation adjective
+
+    # --- LOW CONFIDENCE PLANTS (3-4) ---
+    'fchey': ('FENNEL', 4),            # Feniculum - f-ch-ey
+    'daram': ('MANDRAKE', 3),          # Mandragora - rare compound
+
+    # =========================================================================
+    # SECTION 29: ANIMALS AND ANIMAL PRODUCTS
+    # =========================================================================
+    # Zodiac animals and medicinal animal products
+
+    # --- ZODIAC ANIMALS ---
+    'arar': ('RAM/tree-tree', 6),      # Aries zodiac animal (or tree compound)
+
+    # --- ANIMAL PRODUCTS ---
+    'lol': ('MILK/liquid', 5),         # Lac - milk (l-ol = liquid-oil)
+    'adal': ('FAT/grease', 4),         # Adeps - animal fat
+    'oam': ('EGG', 4),                 # Ovum - medicinal egg
+    'shar': ('SERPENT/share', 4),      # Serpens venom (or share/divide)
+
+    # =========================================================================
+    # SECTION 30: DATA-DRIVEN EXPANSION BATCH 5 (10+ occurrences)
     # =========================================================================
 
     # --- QO- compounds ---
@@ -1246,7 +1303,8 @@ def get_words_by_category(category: str) -> dict:
     Get all words in a category.
 
     Categories: polish, eden, medical, botanical, oil, water, vessel, flow,
-                stellar, earth, verb, body, grammar, number, knowledge
+                stellar, earth, verb, body, grammar, number, knowledge,
+                zodiac, plants, animals
     """
     categories = {
         # Polish medical/instruction terms
@@ -1275,6 +1333,14 @@ def get_words_by_category(category: str) -> dict:
         'number': ['qotor', 'qoteor', 'qotar', 'otaiin', 'otal'],
         'knowledge': ['shol', 'shor', 'shory', 'sholdy', 'shos', 'shod', 'shody',
                      'shodary', 'sho', 'she', 'shey'],
+        # Zodiac signs (f72 folio analysis)
+        'zodiac': ['otal', 'otaraldy', 'olkalaiin', 'ofaralar', 'sholeey', 'ogeom',
+                   'oralkam', 'opalal', 'oeedey', 'ofchdady', 'oshodody', 'okaiin'],
+        # Medicinal plants
+        'plants': ['saly', 'saldar', 'loly', 'paiin', 'opaiin', 'cham', 'mol', 'moly',
+                   'fchey', 'daram', 'rar', 'cheol', 'daiin', 'raiin', 'chol'],
+        # Animals and animal products
+        'animals': ['arar', 'lol', 'adal', 'oam', 'shar', 'keor'],
     }
 
     if category.lower() not in categories:

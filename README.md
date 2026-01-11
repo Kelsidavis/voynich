@@ -8,7 +8,7 @@ The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex writt
 
 **Key Discovery:** The word `chor` (529 occurrences) is Polish *chory* ("sick person"), transforming the manuscript from mystical nonsense into coherent medical instructions.
 
-The decoder achieves **88.8% lexical coverage** across 225 folios with **713 vocabulary entries**.
+The decoder achieves **88.8% lexical coverage** across 225 folios with **731 vocabulary entries** (including zodiac signs, medicinal plants, and animal products).
 
 ---
 
@@ -131,6 +131,17 @@ print(f"Vocabulary entries: {len(VOCAB)}")  # 713
 | shedy | Polish | water | 670 |
 | saiin | Latin | heal (sanare) | 312 |
 
+### Zodiac Signs (f72 Folio Analysis)
+
+| Voynich | Meaning | Confidence |
+|---------|---------|------------|
+| otal | HEAVEN/LIBRA | High |
+| otaraldy | ARIES | High |
+| olkalaiin | AQUARIUS | High |
+| ofaralar | TAURUS | Medium |
+| sholeey | LEO | Medium |
+| ogeom | GEMINI | Medium |
+
 ---
 
 ## Statistical Validation
@@ -224,5 +235,5 @@ This research is released under the MIT License. The Voynich manuscript itself i
 ---
 
 *Analysis: January 2026*
-*Decoder Version: 6.1 (713 entries)*
+*Decoder Version: 6.2 (731 entries)*
 *Coverage: 88.8% of ~36,000 word corpus*
