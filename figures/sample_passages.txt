@@ -1,0 +1,272 @@
+==========================================================================================
+VOYNICH MANUSCRIPT - SAMPLE DECODED PASSAGES
+Polish-Latin Decoder v6.1
+==========================================================================================
+
+
+==========================================================================================
+SECTION: HERBAL
+==========================================================================================
+
+Folio f1r:
+  Voynich:  syaiir.sheky.or.ykaiin.shod.cthoary.cthes.daraiin.sa
+  Decoded:  sy(AIR.intensive) . (water-from-ADJ) . (heart) . (and-vessel.NOM) . (knowledge) . (fourth)(tree-ADJ) . cthes . [DRAGON.NOM] . sa
+
+Folio f1r:
+  Voynich:  .odar.o.y.shol.cphoy.oydar.sh.s.cfhoaiin.shodary
+  Decoded:  [give] . o . y . [knowledge/sun] . cphoy . oy[GIVE] . (water) . s . cfhoaiin . [knowledgeable]
+  Notes:    Instruction verb (Polish dar/dal)
+
+Folio f1r:
+  Voynich:  yshey.shody.okchoy.otchol.chocthy.oschy.dain.chor.kos
+  Decoded:  (and-water-flow) . (knowledge-ADJ) . okchoy . (star-flower) . (flower-fourth-ADJ) . [bone/mouth]chy . [leaf.ACC] . [SICK] . k[bone/mouth]
+  Notes:    Patient reference (Polish chor); Botanical ingredient; Botanical ingredient
+
+Folio f1r:
+  Voynich:  .ydain.cphesaiin.ol.s.cphey.ytain.shoshy.cphodales
+  Decoded:  y[leaf.ACC] . cphe[HEAL.NOM] . [OIL] . s . cphey . y(time.ACC) . (knowledge)hy . cphodales
+  Notes:    Pharmaceutical base (Latin oleum); Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f1r:
+  Voynich:  daiin.shckhey.ckeor.chor.shey.kol.chol.chol.kor.chal
+  Decoded:  [leaf.NOM] . (water-flower-vessel-flow) . c[BLOOD] . [SICK] . (knowing) . (mix) . [flower] . [flower] . [ROOT] . (blood-HIGH)
+  Notes:    Patient reference (Polish chor); Botanical ingredient; Botanical ingredient; Botanical ingredient
+
+Folio f1r:
+  Voynich:  shok.chor.chey.dain.ckhey
+  Decoded:  (water-a-vessel) . [SICK] . (with) . [leaf.ACC] . (flower-vessel-ADJ)
+  Notes:    Patient reference (Polish chor); Botanical ingredient; Botanical ingredient
+
+Folio f1r:
+  Voynich:  doin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar
+  Decoded:  doin . [flower] . [leaf.ACC] . (fourth-high) . [GIVE] . (water-tree) . (vessel.NOM) . [GIVE] . (knowing) . (fourth-tree)
+  Notes:    Instruction verb (Polish dar/dal); Botanical ingredient; Botanical ingredient
+
+Folio f1r:
+  Voynich:  choo.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar
+  Decoded:  (flower)o . (vessel.NOM) . (knowledge)aiin . (a-oil) . [leaf.NOM] . f[tree] . (fourth-oil) . [leaf.NOM] . (fourth-oil)[GIVE]
+  Notes:    Instruction verb (Polish dar/dal); Pharmaceutical base (Latin oleum); Botanical ingredient; Botanical ingredient
+
+Folio f1r:
+  Voynich:  fachys.ykal.ar.ataiin.shol.shory.cthres.y.kor.sholdy
+  Decoded:  [FRUIT] . (and-vessel-HIGH) . [tree] . a(time.NOM) . [knowledge/sun] . [knowledge-ADJ] . cthres . y . [ROOT] . [knowledge-GEN]
+  Notes:    Botanical ingredient
+
+Folio f1r:
+  Voynich:  sory.ckhar.or.y.kair.chtaiin.shar.are.cthar.cthar.dan
+  Decoded:  sory . ckh[tree] . (heart) . y . (vessel-air) . ch(time.NOM) . (water-tree) . [tree]e . (fourth-tree) . (fourth-tree) . [GIVEN]
+  Notes:    Instruction verb (Polish dar/dal)
+
+
+==========================================================================================
+SECTION: ASTRONOMICAL
+==========================================================================================
+
+Folio f67r1:
+  Voynich:  teeodaiin.shey.epairody.osaiin.yteeoey.shey.epaiin.oaiin
+  Decoded:  tee(a-leaf.NOM) . (knowing) . e[father](star-is) . (a-heal.NOM) . yteeoey . (knowing) . epaiin . (a.NOM)
+  Notes:    Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f67r1:
+  Voynich:  daiir.okeody.qoekshg.sar.oeteody.oteey.keey.keo.keeodal
+  Decoded:  (leaf-AIR) . (eye-flow-ADJ) . (THE)(from/out)shg . [WORLD/salt] . oeteody . [stars] . (vessel-flow) . keo . keeodal
+  Notes:    Botanical ingredient
+
+Folio f67r1:
+  Voynich:  ycheo.s.o.g.cheos.aiin.okesoe.aram.shees.dalaiin.dam
+  Decoded:  (and-blood-flow) . s . o . g . (flower-bone) . (-inus/NOM) . okesoe . (tree.ACC) . (water-flow-bone) . [GIVE.IMP]aiin . (place.ACC)
+  Notes:    Instruction verb (Polish dar/dal); Botanical ingredient
+
+Folio f67r1:
+  Voynich:  soairal.shdy.chokeody.ykeedal.ol.oteodaiin.choikhedy.ot.chteokeeiin.choteedy.otor.epchy.chpiir.ar.sheees.dady.soeteed.octhchy.soeokeot.y.choteoky.chockhy.okees.sor.aiin.daram.seeder.chdar.dar.deeschdy.dar.dar.ar.otar.dar.ykaras
+  Decoded:  so[AIR](high/of) . (water-is) . (flower)(vessel-flow-ADJ) . ykee[GIVE.IMP] . [OIL] . oteo[leaf.NOM] . (flower)ikhedy . (star) . chteokeeiin . (flower)[earth] . (star-heart) . e[AT/BY] . chpiir . [tree] . sheees . [GIVES]dy . soeteed . octhchy . soeokeot . y . (flower)teoky . (flower-vessel-ADJ) . (eye-flow-bone) . (heal-heart) . (-inus/NOM) . [give] . seeder . (blood-dragon) . [GIVE] . dees(with) . [GIVE] . [GIVE] . [tree] . [STAR] . [GIVE] . (and-vessel)as
+  Notes:    Instruction verb (Polish dar/dal); Celestial term (Latin stella); Pharmaceutical base (Latin oleum); Medical purpose (Latin sanare); Botanical ingredient; Botanical ingredient
+
+Folio f67r1:
+  Voynich:  dair.al.cheol.dal.oekaiin.sol.daiin.eetees.sainn.ykeos.l.chy.otodaiin.chetegy.otar.daiir.ar.chedar.okeedy.oteodaiin.ychsy.cheteey.ot.dol.al.cheor.okeor.oiin.cheeky.ary.okeokedr.oshey.shchey.chol.daiir.dain.cho.dar.aldy
+  Decoded:  [give] . (high/of) . [flower-oil] . [GIVE.IMP] . o(from/out)aiin . [SUN] . [leaf.NOM] . eetees . [heal]n . yke[bone/mouth] . l . (blood-ADJ) . oto[leaf.NOM] . chetegy . [STAR] . (leaf-AIR) . [tree] . (blood-give) . (eye-flowing) . oteo[leaf.NOM] . ychsy . che(time-flow) . (star) . [pain] . (high/of) . [flower-heart] . (eye-heart) . (eye.NOM) . (with-from) . (tree-ADJ) . okeokedr . [bone/mouth]hey . shchey . [flower] . (leaf-AIR) . [leaf.ACC] . (flower) . [GIVE] . (HIGH-ADJ)
+  Notes:    Instruction verb (Polish dar/dal); Celestial term (Latin stella); Pharmaceutical base (Latin oleum); Medical purpose (Latin sanare); Botanical ingredient; Botanical ingredient
+
+Folio f67r1:
+  Voynich:  archeor.qoikeey.oteeos.cheockhey.oteochedy.okeohdar.dararal.okeosar.sotey.dair.ytoy.oteos.oteees.oteo.oteesy.sheokeey.oteodal.chokeed.sar.ainy.otokeedar.deeety.okeey.teodain.chekchy.dair.chparam
+  Decoded:  [tree][flower-heart] . (THE)i(vessel-flow) . oteeos . (flower)(flower-vessel-ADJ) . oteo(with) . okeoh[GIVE] . [GIVE]aral . okeos[tree] . s(STAR-ADJ) . [give] . ytoy . [STAR] . oteees . (star-flow) . oteesy . (water)(vessel-flow) . oteo[GIVE.IMP] . (flower)keed . [WORLD/salt] . ainy . otokee[GIVE] . deeety . (eye-flow) . te(a-leaf.ACC) . ch(from/out)chy . [give] . chparam
+  Notes:    Instruction verb (Polish dar/dal); Celestial term (Latin stella); Botanical ingredient; Botanical ingredient
+
+Folio f67r2:
+  Voynich:  qofchy.daiin.dal
+  Decoded:  (THE)fchy . [leaf.NOM] . [GIVE.IMP]
+  Notes:    Instruction verb (Polish dar/dal); Botanical ingredient
+
+Folio f67r2:
+  Voynich:  sodar.ofor.ar
+  Decoded:  s[give] . ofor . [tree]
+
+Folio f67r1:
+  Voynich:  cheodaiin.chekeey.sar.air.soar.cheey.dair.cthey
+  Decoded:  (blood-flow-give.NOM) . (blood-vessel-flow) . [WORLD/salt] . [AIR] . soar . (with) . [give] . (fourth-ADJ)
+
+Folio f67r2:
+  Voynich:  ykchs.ykchos
+  Decoded:  ykchs . yk(with-bone)
+
+
+==========================================================================================
+SECTION: BIOLOGICAL
+==========================================================================================
+
+Folio f75r:
+  Voynich:  kchedy.karyokeey.qokar.shy.kchedy.qotar.shedy
+  Decoded:  (vessel-with-flowing) . (vessel)y(eye-flow) . [the-vessel] . (water-ADJ) . (vessel-with-flowing) . [the-star] . [WATER/under]
+
+Folio f75r:
+  Voynich:  dackhy.lkamoykeey.lshey.kal.dy.shey.or.shey.qokeedy
+  Decoded:  [give!]khy . l[BATHE]o(and-flow) . (world-water-flow) . (vessel-high) . (-is/ADJ) . (knowing) . (heart) . (knowing) . [the-flowing]
+  Notes:    Hydrotherapy (Polish kam)
+
+Folio f75r:
+  Voynich:  pchey.keeor.olkydar.okey.qokain.chcthy.qokeedy.qoky
+  Decoded:  [AT/BY] . keeor . (oil-vessel)[GIVE] . (a-flow) . [the-vessel] . (with-fourth) . [the-flowing] . (the-flow)
+  Notes:    Instruction verb (Polish dar/dal); Pharmaceutical base (Latin oleum)
+
+Folio f75r:
+  Voynich:  sor.chey.qotardydsheckhy.qokain.chckhy.lshedy.okeedy
+  Decoded:  (heal-heart) . (with) . [the-star]dyd(water-flower-vessel) . [the-vessel] . (mix-ADJ) . (world-water-flowing) . (eye-flowing)
+  Notes:    Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f75r:
+  Voynich:  dshor.qotar.chdyshey.qokain.chckhy.dy.otey.tedy.lchedy
+  Decoded:  [give-knowledge] . [the-star] . (with)(knowing) . [the-vessel] . (mix-ADJ) . (-is/ADJ) . (STAR-ADJ) . (time-flowing) . (with-flow)
+  Notes:    Celestial term (Latin stella)
+
+Folio f75r:
+  Voynich:  qokeedy.qokain.olyqokeedy.dy.qokal.okar.shedy.dor.chekam
+  Decoded:  [the-flowing] . [the-vessel] . (OIL-ADJ)[the-flowing] . (-is/ADJ) . [the-vessel] . (a-vessel) . [WATER/under] . [PAIN] . ch(from/out)am
+  Notes:    Pharmaceutical base (Latin oleum)
+
+Folio f75r:
+  Voynich:  ssheckhy.qokal.olyshey.r.ol.cheey.shey.dy.ol.shedy.qoky
+  Decoded:  s(water-flower-vessel) . [the-vessel] . (OIL-ADJ)(knowing) . r . [OIL] . (with) . (knowing) . (-is/ADJ) . [OIL] . [WATER/under] . (the-flow)
+  Notes:    Pharmaceutical base (Latin oleum); Botanical ingredient
+
+Folio f75r:
+  Voynich:  pchedy.keedy.qokedyqokedy.qokedy.qokedy.qokain.olshedy
+  Decoded:  (for-with-flowing) . (flowing) . (the-flow)(the-flow) . (the-flow) . (the-flow) . [the-vessel] . [oil-water]
+  Notes:    Pharmaceutical base (Latin oleum)
+
+Folio f75r:
+  Voynich:  dain.shey.lyssheol.qolchedy.chedykar.chekeedy.ror
+  Decoded:  [leaf.ACC] . (knowing) . [POUR!]s[sun] . (the-world-with-flowing) . (with)(vessel) . ch(from/out)eedy . (root-heart)
+  Notes:    Botanical ingredient; Botanical ingredient
+
+Folio f75r:
+  Voynich:  qokain.chalorchey.qey.kain.sheeky.ltain.olkar.or
+  Decoded:  [the-vessel] . (blood-HIGH)orchey . qey . (vessel.ACC) . (water-from) . l(time.ACC) . [oil-vessel] . (heart)
+  Notes:    Pharmaceutical base (Latin oleum)
+
+
+==========================================================================================
+SECTION: ROSETTES
+==========================================================================================
+
+Folio f85r1:
+  Voynich:  pdsheody.shdol.shey.otchdy.dshedy.soeeedy.dchefoey.sair.shedy.sodair.shey
+  Decoded:  pd(watery-ADJ) . sh[pain] . (knowing) . [star-ADJ] . [give-water] . soeeedy . dchefoey . [heal] . [WATER/under] . so[give] . (knowing)
+  Notes:    Medical purpose (Latin sanare)
+
+Folio f85r1:
+  Voynich:  tarar.otedy.opcheey.ykdair.chy.qotedy.qokchdy.otedy.cheol.saiin.otedam
+  Decoded:  [earth-earth] . [star-like] . (a-circle) . yk[give] . (blood-ADJ) . [the-stars] . (the-vessel-with-ADJ) . [star-like] . [flower-oil] . [HEAL.NOM] . [star-place]
+  Notes:    Pharmaceutical base (Latin oleum); Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f85r1:
+  Voynich:  odeedaiin.qokechy.daiin.chekchy.olshedy.qokeedy.doltshdy.otar.otchdy.ols
+  Decoded:  odee[leaf.NOM] . (the-vessel-blood-ADJ) . [leaf.NOM] . ch(from/out)chy . [oil-water] . [the-flowing] . [pain]t(water-is) . [STAR] . [star-ADJ] . (oil-heal)
+  Notes:    Celestial term (Latin stella); Pharmaceutical base (Latin oleum); Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f85r1:
+  Voynich:  tchedy.kchedy.qodaiin.olkeedy.oraiin.olshedy.okchy.kedy.tedy.tdam
+  Decoded:  (time-with-flowing) . (vessel-with-flowing) . (the-leaf.NOM) . (oil-flowing) . [heart.NOM] . [oil-water] . (eye-with-ADJ) . (vessel-flowing) . (time-flowing) . (time-place)
+  Notes:    Pharmaceutical base (Latin oleum); Botanical ingredient
+
+Folio f85r1:
+  Voynich:  rorain.shey.pchey.qokeey.chor.ol.shedy
+  Decoded:  (root-heart)ain . (knowing) . [AT/BY] . [the-flow] . [SICK] . [OIL] . [WATER/under]
+  Notes:    Patient reference (Polish chor); Pharmaceutical base (Latin oleum); Botanical ingredient
+
+Folio f85r1:
+  Voynich:  pchedy.oraiin.shefchdy.qopar.sheedy.qokedy.qotchedy.kchdar.ypchdy.ldo
+  Decoded:  (for-with-flowing) . [heart.NOM] . (know)f(with) . (THE)p[tree] . [watery] . (the-flow) . (the-star-with-flowing) . k(blood-dragon) . (and-for-with-ADJ) . ldo
+
+Folio f85r1:
+  Voynich:  daiin.chckhdy.qotchdy.opchsd.qokchdy.otchy.qodal.daiin.dal.shdar.oram
+  Decoded:  [leaf.NOM] . (with-flow-ADJ) . (the-star-ADJ) . opchsd . (the-vessel-with-ADJ) . (star-with-ADJ) . (THE)[GIVE.IMP] . [leaf.NOM] . [GIVE.IMP] . (water-give-tree) . (heart.ACC)
+  Notes:    Instruction verb (Polish dar/dal); Botanical ingredient
+
+Folio f85r1:
+  Voynich:  tsheed.lchey.qokeshy.dair.csedar.sheol.qoar.chofchdy.qotdcty.ofar
+  Decoded:  tsheed . (world-blood-flow) . (THE)keshy . [give] . cse[GIVE] . [sun] . (the-tree) . (flower)f(with) . (THE)tdcty . of[tree]
+  Notes:    Instruction verb (Polish dar/dal); Botanical ingredient
+
+Folio f85r1:
+  Voynich:  yoiin.cheey.qocthdy.otedy.dol.oraiin.okshd.okchedy.otedy.chckhdy.otam
+  Decoded:  yoiin . (with) . (the-fourth-ADJ) . [star-like] . [pain] . [heart.NOM] . okshd . (eye-flow) . [star-like] . (with-flow-ADJ) . [heaven.ACC]
+
+Folio f85r1:
+  Voynich:  shoiin.qokar.okary.cheey
+  Decoded:  (water-a.NOM) . [the-vessel] . (a-vessel)y . (with)
+
+
+==========================================================================================
+SECTION: RECIPE
+==========================================================================================
+
+Folio f88r:
+  Voynich:  dorsheoy.ctheol.qockhey.dory.sheor.sholfchor.dal.chckhod
+  Decoded:  [PAIN](water)y . ctheol . (the-flower-vessel-flow) . [painful] . (water-heart) . [knowledge-cherub] . [GIVE.IMP] . (mix-give)
+  Notes:    Instruction verb (Polish dar/dal); Botanical ingredient
+
+Folio f88r:
+  Voynich:  oain.or.om.otam.okeom.cheeor.qokeody.dar.or.om.cheody
+  Decoded:  oain . (heart) . (genitive) . [heaven.ACC] . okeom . (with-heart) . [the-flow-ADJ] . [GIVE] . (heart) . (genitive) . (with-ADJ)
+  Notes:    Instruction verb (Polish dar/dal)
+
+Folio f88r:
+  Voynich:  qokeol.cheol.saiin.cheos.cheol.doleeey.or.cheom.cheomam
+  Decoded:  [the-flower-oil] . [flower-oil] . [HEAL.NOM] . (flower-bone) . [flower-oil] . [pain-flow] . (heart) . (flower.GEN) . (flower.GEN)am
+  Notes:    Pharmaceutical base (Latin oleum); Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f88r:
+  Voynich:  koaiphhy.cphol.orchor.pcheoly.otchol.oldy.sal.saly
+  Decoded:  (mix-ADJ) . [sphere-oil] . (heart-cherub) . (for-flower-oil) . (star-flower) . (oily) . [SALT] . [salty]
+  Notes:    Pharmaceutical base (Latin oleum); Botanical ingredient
+
+Folio f88r:
+  Voynich:  dchey.chokol.daiin.qoekol.qoekol.qockhoy.okol.cheol
+  Decoded:  (give-with) . [flower-oil] . [leaf.NOM] . (the-eye-oil) . (the-eye-oil) . (the-mix) . (a-oil) . [flower-oil]
+  Notes:    Pharmaceutical base (Latin oleum); Botanical ingredient; Botanical ingredient
+
+Folio f88r:
+  Voynich:  dsheol.qokeey.s.chy.saiin.chor.oteor.aiin.chosals
+  Decoded:  (give-sun) . [the-flow] . s . (blood-ADJ) . [HEAL.NOM] . [SICK] . [star] . (-inus/NOM) . (flower-salt)
+  Notes:    Patient reference (Polish chor); Medical purpose (Latin sanare); Botanical ingredient
+
+Folio f88r:
+  Voynich:  teol.chor.olsheody.qokeol.shoikhy.ol.sheeol.sheol.dg
+  Decoded:  (earth-oil) . [SICK] . (oil-water-ADJ) . [the-flower-oil] . (knowledge-ADJ) . [OIL] . [water-oil] . [sun] . dg
+  Notes:    Patient reference (Polish chor); Pharmaceutical base (Latin oleum); Botanical ingredient
+
+Folio f88r:
+  Voynich:  ychey.okaiin.chol.cheor.ol.chorcholsal
+  Decoded:  (and-blood-flow) . [eye.NOM] . [flower] . [flower-heart] . [OIL] . [SICK][flower][SALT]
+  Notes:    Patient reference (Polish chor); Pharmaceutical base (Latin oleum); Botanical ingredient
+
+Folio f88r:
+  Voynich:  sal.sheom.kol.chear.shekor.qokor.daiin.sar.raiin.oky.sam
+  Decoded:  [SALT] . (water.GEN) . (mix) . [CHERUB] . (water-heart) . (the-mix) . [leaf.NOM] . [WORLD/salt] . [ROOT.NOM] . (eye-ADJ) . [salt.ACC]
+  Notes:    Botanical ingredient; Botanical ingredient
+
+Folio f88r:
+  Voynich:  yokeody.cheom.qoor.chees.ykeor.shy.sam
+  Decoded:  (and-eye-flow) . (flower.GEN) . (the-heart) . (with-bone) . (and-heart) . (water-ADJ) . [salt.ACC]
+  Notes:    Botanical ingredient
+
