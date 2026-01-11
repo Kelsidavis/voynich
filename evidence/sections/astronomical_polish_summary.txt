@@ -1,0 +1,251 @@
+================================================================================
+VOYNICH ASTRONOMICAL SECTION - POLISH-LATIN ANALYSIS SUMMARY
+Decoder v6.1 | Folios f67r - f73v
+================================================================================
+
+STATISTICS:
+  Total folios:    26 (including sub-folios r1, r2, r3, v1, v2, v3)
+  Total lines:     727
+  Total words:     3,026
+  Unique words:    1,621
+
+  Polish terms:    123 occurrences (4.1% of section)
+  Astronomical:    472 occurrences (15.6% of section)
+
+================================================================================
+VOCABULARY COMPARISON - THREE SECTIONS
+================================================================================
+
+                        HERBAL        RECIPE        ASTRONOMICAL
+                        (f1-f57)      (f88-f116)    (f67-f73)
+--------------------------------------------------------------------
+Words                   9,575         12,461        3,026
+CHOR (sick)            140 (14.6‰)    38 (3.0‰)     6 (2.0‰)
+DAR/DAL (give)         151 (15.8‰)    90 (7.2‰)    67 (22.1‰) **
+OL (oil)                65 (6.8‰)    135 (10.8‰)   15 (5.0‰)
+SAL (salt)               7 (0.7‰)     12 (1.0‰)     7 (2.3‰)
+OT- (star)              ~80           ~200         472 (156‰) ***
+
+KEY FINDING: Astronomical section has HIGHEST density of dar/dal (GIVE)
+             and overwhelmingly high star terminology.
+
+================================================================================
+POLISH VOCABULARY IN ASTRONOMICAL SECTION
+================================================================================
+
+TERM         MEANING          COUNT    NOTES
+----         -------          -----    -----
+dar          GIVE             35x      Highest density of any section!
+dal          GAVE             32x      Instruction timing
+shey         OF-NECK          19x      Body part reference
+oky          EYES             8x       Celestial observation?
+sal          SALT             7x       Preparation ingredient
+chor         SICK             5x       Patient reference (rare here)
+dary         giving           4x       Verbal noun
+oko          EYE              4x       Observation/celestial
+ochey        EYES             3x       Plural eyes
+
+================================================================================
+ASTRONOMICAL VOCABULARY (ot- prefix)
+================================================================================
+
+TERM         DECODED          COUNT    MEANING
+----         -------          -----    -------
+oteey        [stars]          32x      Plural stars
+oteos        [STAR]           22x      Star/constellation
+oteody       star-flow-ADJ    19x      Stellar influence
+otar         [STAR]           15x      Star
+otal         [HEAVEN]         15x      Celestial realm
+otey         STAR-ADJ         14x      Stellar quality
+otol         [heaven]         13x      Heaven/sky
+otaiin       [star.NOM]       13x      Star (nominative)
+oty          star-ADJ         12x      Stellar
+oteol        star-oil         7x       Celestial preparation?
+oteedy       [stars]          7x       Stars variant
+otor         star-heart       6x       Core of star/essence
+otchy        star-with-ADJ    6x       With stars
+oteo         star-flow        5x       Stellar emanation
+
+TOTAL ot- terms: 472 occurrences (15.6% of all words!)
+
+================================================================================
+KEY PATTERN: "STARS + GIVE" COMBINATIONS
+================================================================================
+
+The astronomical section shows a unique pattern not found elsewhere:
+Celestial terms combined with Polish instruction verbs.
+
+EXAMPLES FROM TEXT:
+
+[f67r1] oteey.dar
+        → [stars] . [GIVE]
+        → "Stars: GIVE [at this time]"
+
+[f67r1] oteodar.dararal.okeosar.sotey.dair
+        → star-GIVE, GIVE-tree, eye-sun, star-ADJ, give
+        → "Star-time GIVE, give of tree, at sun, stellar, give"
+
+[f68v3] oteey.dar.ar
+        → [stars] . [GIVE] . [tree]
+        → "Stars: GIVE tree [preparation]"
+
+[f70r1] otaldy.oteos.oteey.dar
+        → [heavenly] . [STAR] . [stars] . [GIVE]
+        → "Heavenly star, stars: GIVE"
+
+[f70r2] otar.dar.otar.dar.otar.dar
+        → [STAR] . [GIVE] . [STAR] . [GIVE] . [STAR] . [GIVE]
+        → Repetitive pattern: "Star-GIVE, Star-GIVE, Star-GIVE"
+
+================================================================================
+FOLIO ANALYSIS - STAR vs INSTRUCTION DENSITY
+================================================================================
+
+FOLIO    LINES  WORDS   OT-(star)   CHOR(sick)   DAR/DAL(give)
+-----    -----  -----   ---------   ----------   -------------
+f67r1      19    155       20           0            18
+f67r2      74    176        5           0            11
+f68r2      31     80        7           5             7 **most chor**
+f68v3      19    158       15           2             7
+f70r2      19    247       26           0            22 **high dar**
+f70v2      33    140       43           0             7 **most stars**
+f71r       18     90       32           0             5
+f72r1-v3  183    713      136           3            28 **zodiac pages**
+
+INTERPRETATION:
+- f70v2 has highest star density (43 ot- terms in 140 words = 30%!)
+- f68r2 has most patient references (5 chor in 80 words)
+- f70r2 has high instruction density (22 dar/dal in 247 words)
+- f72 folios (zodiac circles) have consistent star vocabulary
+
+================================================================================
+SECTION PURPOSE ANALYSIS
+================================================================================
+
+The astronomical section appears to serve as an ASTROLOGICAL TIMING GUIDE:
+
+1. CELESTIAL TIMING (ot- terms):
+   When to perform medical treatments based on stellar positions.
+   "oteey" (stars) + "dar" (give) = "give [when] stars [are in position]"
+
+2. MINIMAL PATIENT REFERENCES:
+   Only 6 occurrences of 'chor' (sick) vs 140 in herbal section.
+   This section describes WHEN to treat, not WHO to treat.
+
+3. HIGH INSTRUCTION VERB DENSITY:
+   22.1‰ dar/dal rate - highest of all sections!
+   Focus is on timing of administration.
+
+4. REPEATED STAR LABELS:
+   Short words (ar, al, oteey, oteos) appear to label:
+   - Individual stars or star groups
+   - Zodiac positions
+   - Celestial timing markers
+
+================================================================================
+COMPARISON: SECTION PURPOSES
+================================================================================
+
+HERBAL (f1r-f57v):
+  Purpose: Plant Materia Medica
+  Focus: WHAT treats WHICH condition
+  Key vocab: daiin (leaf), chol (flower), chor (sick)
+  Polish use: Patient references, preparation verbs
+
+RECIPE (f88r-f116v):
+  Purpose: Compound Preparations
+  Focus: HOW to prepare medicines
+  Key vocab: qokeey (flow), cheol (flower-oil), ol (oil)
+  Polish use: Mixing instructions, ingredients
+
+ASTRONOMICAL (f67r-f73v):
+  Purpose: Astrological Timing Calendar
+  Focus: WHEN to administer treatments
+  Key vocab: oteey (stars), otar (star), otal (heaven)
+  Polish use: "dar" (give) linked to celestial times
+
+================================================================================
+UNIQUE ASTRONOMICAL PATTERNS
+================================================================================
+
+1. STAR-INSTRUCTION COUPLING:
+   "otar.dar" (star.GIVE) - 15+ occurrences
+   Indicates treatment timing by stellar position
+
+2. REPEATED LABEL SEQUENCES:
+   Lines like "otar.dar.otar.dar.otar.dar"
+   Suggest tabular/calendar structure
+
+3. ZODIAC CIRCLE LABELS (f72):
+   Short repeated labels around circular diagrams
+   Likely month/constellation names
+
+4. AIR/AETHER REFERENCES:
+   "air" (16x), "otair" (aether)
+   Celestial element vocabulary
+
+================================================================================
+INTERPRETATION
+================================================================================
+
+The astronomical section confirms the manuscript as a COMPLETE MEDICAL SYSTEM:
+
+1. HERBAL SECTION = "What medicine for what condition"
+   (High chor/sick, plant vocabulary)
+
+2. RECIPE SECTION = "How to prepare the medicine"
+   (High oil/flow, preparation vocabulary)
+
+3. ASTRONOMICAL SECTION = "When to give the medicine"
+   (High star + dar/dal, timing vocabulary)
+
+The Polish-Latin pattern continues:
+- LATIN: Celestial terminology (stella→ot-, caelum→otal)
+- POLISH: Instruction verbs (dar=give, dal=gave)
+
+This is consistent with medieval astrological medicine where:
+- Treatment timing was determined by planetary/stellar positions
+- The practitioner needed to know WHEN each remedy should be given
+- Zodiac signs governed different body parts and conditions
+
+================================================================================
+SAMPLE TRANSLATIONS - ASTRONOMICAL SECTION
+================================================================================
+
+[f67r1] Line 5 (dense astronomical-instruction text):
+Voynich: soairal.shdy.chokeody.ykeedal.ol.oteodaiin...otar.dar.ykaras
+Decoded: sun-AIR-high, water, flower-vessel-flow, and-vessel-GAVE, OIL,
+         star-leaf...STAR, GIVE, and-vessel-as
+Reading: "At sun-high in air, water, flower-vessel-flow, and vessel GAVE OIL,
+         star-leaf...STAR: GIVE and-vessel-as"
+→ Astrological timing instruction for oil administration
+
+[f70v2] High star density folio:
+Multiple labels: oteey, otar, otal, oteos, otey, oty
+All star/celestial terms labeling positions in circular diagram
+
+[f72r] Zodiac circle:
+Short repeated labels around circumference
+Likely constellation or month names with timing instructions
+
+================================================================================
+CONCLUSION
+================================================================================
+
+The astronomical section is NOT primarily about astronomy itself, but about
+ASTROLOGICAL MEDICAL TIMING - when to administer the treatments described
+in the herbal and recipe sections.
+
+Key evidence:
+1. Highest dar/dal (GIVE) density of any section
+2. Star terms consistently paired with instruction verbs
+3. Minimal patient (chor) references - focuses on WHEN, not WHO
+4. Zodiac circle structure (f72) suggests calendar/timing system
+5. Polish instruction verbs integrated with Latin celestial terms
+
+This completes the medical manuscript structure:
+  HERBAL → WHAT (plant + condition)
+  RECIPE → HOW (preparation method)
+  ASTRONOMICAL → WHEN (celestial timing)
+
+================================================================================

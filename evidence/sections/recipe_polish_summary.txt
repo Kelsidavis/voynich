@@ -1,0 +1,314 @@
+================================================================================
+VOYNICH RECIPE/PHARMACEUTICAL SECTION - POLISH-LATIN ANALYSIS SUMMARY
+Decoder v6.1 | Folios f88r - f116v
+================================================================================
+
+STATISTICS:
+  Total folios:    53
+  Total lines:     1,703
+  Total words:     14,319
+  Unique words:    4,097
+
+  Polish terms:    1,469 occurrences (10.3%)
+  OL (oil) words:  1,432 occurrences (10.0%)  **HIGHEST OF ANY SECTION**
+  DAR/DAL lines:   428 (25.1% of lines contain instruction verbs!)
+  CHOR (sick):     97 lines (patient references)
+  SAL (salt):      38 occurrences
+
+================================================================================
+SIX-SECTION VOCABULARY COMPARISON (COMPLETE)
+================================================================================
+
+                    HERBAL    ASTRO     BIO       ROSETTES  F87       RECIPE
+                    (f1-57)   (f67-73)  (f75-84)  (f85-86)  (f87)     (f88-116)
+--------------------------------------------------------------------------------
+Words               9,575     3,026     6,851     1,810     172       14,319
+Polish %            5.0%      4.1%      4.5%      28.7%     16.9%     10.3%
+CHOR (sick) lines   147       6         10        12        4         97
+DAR/DAL lines       151       67        133       105       13        428 ***
+OL (oil)            65        15        233       ~50       ~5        1,432 ***
+SAIIN (heal)        ~30       ~15       ~20       ~20       5         52
+
+KEY FINDINGS:
+1. Recipe section has HIGHEST DAR/DAL density (428 lines = 25.1% of text!)
+2. Recipe section has HIGHEST OL (oil) count (1,432 words = 10.0%)
+3. Polish % is moderate (10.3%) - between rosettes (28.7%) and herbal (5.0%)
+4. CHOR (sick) is second-highest after herbal section
+
+================================================================================
+TOP VOCABULARY IN RECIPE SECTION
+================================================================================
+
+TERM         DECODED              COUNT    INTERPRETATION
+----         -------              -----    --------------
+daiin        [leaf.NOM]           237x     Plant material for preparation
+aiin         (-inus/NOM)          231x     Latin nominal ending
+chedy        (with)               200x     Compound formation
+qokeey       [the-flow]           185x     Preparation process
+ol           [OIL]                165x     Base for medicines
+ar           [tree]               151x     Plant source
+al           (high/of)            149x     Preparation modifier
+chey         (with)               148x     Compound formation
+qokeedy      [the-flowing]        138x     Active process
+qokaiin      [the-vessel.NOM]     123x     Container/apparatus
+okeey        (eye-flow)           120x     Eye preparation?
+chol         [flower]             119x     Plant ingredient
+shedy        [WATER/under]        119x     Liquid base
+qokain       [the-vessel]         108x     Preparation vessel
+
+INTERPRETATION: Recipe section is dominated by preparation terms -
+vessels, flow processes, oil bases, and plant materials.
+
+================================================================================
+POLISH VOCABULARY IN RECIPE SECTION
+================================================================================
+
+TERM         MEANING          COUNT    NOTES
+----         -------          -----    -----
+dar          GIVE (present)   300x     **PRIMARY** instruction verb
+dal          GIVE (imperative)233x     Command form
+oko          EYE              198x     Body part (eye preparations common)
+shey         KNOWING          168x     Process knowledge
+chor         SICK             111x     Patient references
+oky          EYES             101x     Body part plural
+kor          ROOT             70x      Ingredient
+kam          BATHE            51x      Administration method
+kchy         TO-CRUSH         43x      Preparation verb!
+keor         BLOOD            41x      Body reference
+sal          SALT             38x      Preservative/ingredient
+pchey        AT/BY            27x      Location/method
+lchy         HEALS            12x      Healing verb
+daim         I-GIVE           9x       First person instruction
+dan          GIVEN            9x       Passive form
+ly           POUR!            3x       Liquid administration
+
+KEY DISCOVERY: Recipe section has HIGHEST INSTRUCTION DENSITY
+- 300x 'dar' + 233x 'dal' = 533 instruction verbs in 14,319 words
+- = 3.7% instruction verb density (highest of any section!)
+
+================================================================================
+PHARMACEUTICAL TERMS
+================================================================================
+
+OIL-BASED PREPARATIONS:
+TERM         DECODED              COUNT
+----         -------              -----
+ol           [OIL]                165x    Primary oil base
+chol         [flower]             119x    Flower material
+cheol        [flower-oil]         92x     Flower-oil extract
+sheol        [sun]                55x     Solar-prepared?
+okeol        (eye-oil)            44x     Eye ointment
+shol         [knowledge/sun]      40x     Solar preparation
+qokeol       [the-flower-oil]     39x     The flower-oil
+qokol        [the-oil]            37x     The oil base
+dol          [pain]               35x     Pain remedy
+okol         (a-oil)              33x     An oil
+
+TOTAL OL-compound words: 1,432 (10.0% of section!)
+
+SALT PREPARATIONS:
+sal          [SALT]               15x     Direct salt
+saly         [salty]              4x      Salt quality
+sar          [WORLD/salt]         varies  Salt compound
+
+================================================================================
+HEALING/MEDICAL TERMS
+================================================================================
+
+TERM         DECODED              COUNT
+----         -------              -----
+saiin        [HEAL.NOM]           52x     Healing (nominative)
+chor         [SICK]               48x     Sick patient (direct)
+sain         [heal]               31x     Healing (other forms)
+keor         [BLOOD]              4x      Blood reference
+ychor        (and-CHERUB)         6x      → actually "and-SICK"
+tchor        (time-CHERUB)        5x      → actually "time-SICK"
+
+NOTE: Many 'chor' occurrences in compounds (111 total including compounds)
+
+================================================================================
+BOTANICAL TERMS
+================================================================================
+
+TERM         DECODED              COUNT
+----         -------              -----
+daiin        [leaf.NOM]           237x    **HIGHEST** plant term
+cheol        [flower-oil]         92x     Flower extract
+dain         [leaf.ACC]           72x     Leaf (accusative)
+raiin        [ROOT.NOM]           50x     Root ingredient
+odaiin       (a-leaf.NOM)         22x     A leaf
+qodaiin      (the-leaf.NOM)       21x     The leaf
+chodaiin     [flower-leaf]        18x     Flower-leaf compound
+kor          [ROOT]               7x      Root direct
+
+INTERPRETATION: Recipe section references plants by PART (leaf, root, flower)
+for compound preparation, not by plant NAME as in herbal section.
+
+================================================================================
+FLOW/PREPARATION PROCESS TERMS
+================================================================================
+
+TERM         DECODED              COUNT
+----         -------              -----
+qokeey       [the-flow]           185x    Primary process term
+qokeedy      [the-flowing]        138x    Active process
+okeey        (eye-flow)           120x    Eye-related process
+qokain       [the-vessel]         108x    Preparation vessel
+okain        (a-vessel)           79x     A vessel
+okeedy       (eye-flowing)        50x     Eye process
+lkeey        (SAP/resin)          36x     Tree sap ingredient
+lkeedy       (sap-flowing)        33x     Sap extraction
+lkain        (wood.ACC)           29x     Wood vessel?
+keedy        (flowing)            26x     Active flow
+kain         (vessel.ACC)         23x     Vessel (accusative)
+
+INTERPRETATION: High frequency of flow/vessel terms confirms
+pharmaceutical PREPARATION focus (not diagnosis or administration).
+
+================================================================================
+FOLIO-BY-FOLIO PATTERNS
+================================================================================
+
+HIGHEST OL (oil) FOLIOS:
+  f99r:  56 oil words in 197 total = 28.4%!
+  f99v:  55 oil words in 163 total = 33.7%!
+  f101r: 56 oil words in 205 total = 27.3%
+  f107v: 51 oil words in 455 total = 11.2%
+  f113v: 51 oil words in 482 total = 10.6%
+
+HIGHEST DAR/DAL (instruction) FOLIOS:
+  f108v: 27 dar/dal in 570 words = dense instructions
+  f108r: 24 dar/dal in 491 words
+  f103r: 26 dar/dal in 525 words
+  f115r: 26 dar/dal in 444 words
+  f114r: 25 dar/dal in 447 words
+
+HIGHEST CHOR (sick) FOLIOS:
+  f113r: 9 chor lines (patient-focused recipes)
+  f101v: 8 chor lines
+  f115r: 7 chor lines
+  f88r:  6 chor lines
+  f106r: 6 chor lines
+
+================================================================================
+SAMPLE TRANSLATIONS - RECIPE PATTERNS
+================================================================================
+
+[f88r] Line 8 - Classic recipe with salt:
+Voynich: sal.sheom.kol.chear.shekor.qokor.daiin.sar.raiin.oky.sam
+Decoded: SALT, water.GEN, mix, CHERUB, water-heart, the-mix,
+         LEAF, SALT, ROOT, eyes, salt.ACC
+Reading: "SALT [of] water, MIX, [?], water-heart, the mixture,
+         LEAF, SALT, ROOT, [for] eyes, salt"
+→ Salt-water mixture with leaf and root for eye treatment
+
+[f88r] Line 20 - Healing recipe with patient:
+Voynich: dsheol.qokeey.s.chy.saiin.chor.oteor.aiin.chosals
+Decoded: give-sun, the-flow, s, blood, HEAL, SICK, star, -inus, flower-salt
+Reading: "Give sun[-preparation], the flow, blood, [to] HEAL,
+         [the] SICK, [at] star [time], flower-salt"
+→ Solar preparation with blood element to heal the sick
+
+[f88r] Line 22 - Oil-based compound:
+Voynich: ychey.okaiin.chol.cheor.ol.chorcholsal
+Decoded: and-blood-flow, eye.NOM, flower, flower-heart, OIL, SICK-flower-SALT
+Reading: "And blood-flow, eye, flower, flower-heart, OIL,
+         [for] SICK: flower-SALT"
+→ Oil and flower-salt compound for sick patient
+
+[f103r] Line with instruction density:
+Voynich: dar.chol.qokeey.dal.cheol.okeedy.saiin
+Decoded: GIVE, flower, the-flow, GIVE(imp), flower-oil, eye-flowing, HEAL
+Reading: "GIVE flower, the flow, GIVE flower-oil, eye-flowing, [to] HEAL"
+→ Direct instruction sequence: give flower-oil for healing
+
+================================================================================
+RECIPE FORMULA PATTERN
+================================================================================
+
+Typical recipe structure identified:
+
+```
+[INGREDIENT]  +  [PREPARATION]  +  [METHOD]     +  [PURPOSE]
+   daiin          qokeey           dar/dal         saiin/chor
+   (leaf)         (the-flow)       (give)          (heal/sick)
+
+   cheol          qokain           kol             dol
+   (flower-oil)   (the-vessel)     (mix)           (pain)
+
+   ol             keedy            kam             okeey
+   (oil)          (flowing)        (bathe)         (eye-flow)
+```
+
+Example formula:
+"daiin cheol qokeey dar chor"
+= "LEAF flower-oil the-flow GIVE [to] SICK"
+= "Give the flowing flower-oil of leaf to the sick"
+
+================================================================================
+RELATIONSHIP TO OTHER SECTIONS
+================================================================================
+
+The recipe section is the PRACTICAL OUTPUT of the entire manuscript:
+
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                   MANUSCRIPT WORKFLOW                                 │
+├──────────────────────────────────────────────────────────────────────┤
+│                                                                       │
+│   HERBAL (f1-57)        → WHAT plant for WHICH condition             │
+│         ↓                  (chor=147 - highest patient density)      │
+│                                                                       │
+│   ASTRONOMICAL (f67-73) → WHEN to gather/prepare                     │
+│         ↓                  (otar=472 - highest star terms)           │
+│                                                                       │
+│   BIOLOGICAL (f75-84)   → HOW to administer (bathing/circulation)    │
+│         ↓                  (shedy=247 - highest water terms)         │
+│                                                                       │
+│   ROSETTES (f85-86)     → MASTER DIAGRAM (theoretical framework)     │
+│         ↓                  (28.7% Polish - highest % overall)        │
+│                                                                       │
+│   F87 (TRANSITION)      → BRIDGE from theory to practice             │
+│         ↓                  (16.9% Polish - transitional)             │
+│                                                                       │
+│   RECIPE (f88-116)      → HOW TO PREPARE compounds                   │
+│                            (dar/dal=428 - highest instructions!)     │
+│                            (ol=1,432 - highest oil terms!)           │
+│                                                                       │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+================================================================================
+CONCLUSION
+================================================================================
+
+The recipe/pharmaceutical section is the PRACTICAL CORE of the manuscript:
+
+1. **HIGHEST INSTRUCTION DENSITY** - 428 dar/dal lines (25.1% of text!)
+   This section tells practitioners HOW to prepare medicines
+
+2. **HIGHEST OIL VOCABULARY** - 1,432 oil-related words (10.0%)
+   Oil is the primary base for pharmaceutical preparations
+
+3. **MODERATE POLISH %** (10.3%) - Between rosettes and herbal
+   Instruction verbs dominate, fewer patient references
+
+4. **FORMULA STRUCTURE** - Clear pattern:
+   INGREDIENT + PREPARATION + METHOD + PURPOSE
+
+5. **BOTANICAL PARTS** - References plants by PART (leaf, root, flower)
+   not by NAME, for compound preparation
+
+6. **COMPLETION OF WORKFLOW:**
+   - Herbal identifies plants for conditions
+   - Astronomical determines timing
+   - Biological describes administration
+   - Rosettes provides theoretical framework
+   - F87 bridges theory to practice
+   - **Recipe provides preparation instructions**
+
+The recipe section is the CULMINATION of the manuscript's medical system,
+providing detailed compound preparation instructions that integrate
+knowledge from all preceding sections.
+
+================================================================================

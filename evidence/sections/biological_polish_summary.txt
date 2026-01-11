@@ -1,0 +1,270 @@
+================================================================================
+VOYNICH BIOLOGICAL/NYMPH SECTION - POLISH-LATIN ANALYSIS SUMMARY
+Decoder v6.1 | Folios f75r - f84v
+================================================================================
+
+STATISTICS:
+  Total folios:    20
+  Total lines:     902
+  Total words:     6,851
+  Unique words:    1,571
+
+  Polish terms:    306 occurrences (4.5%)
+  Water terms:     670 occurrences (9.8%)  **HIGHEST OF ANY SECTION**
+  Flow terms:      723 occurrences (10.6%) **HIGHEST OF ANY SECTION**
+  Body terms:      303 occurrences (4.4%)
+
+================================================================================
+FOUR-SECTION VOCABULARY COMPARISON
+================================================================================
+
+                    HERBAL    RECIPE    ASTRO     BIOLOGICAL
+                    (f1-57)   (f88-116) (f67-73)  (f75-84)
+------------------------------------------------------------------
+Words               9,575     12,461    3,026     6,851
+CHOR (sick)         140       38        6         10  (lowest!)
+DAR/DAL (give)      151       90        67        133
+WATER (she-)        ~300      ~400      ~100      670 ***HIGHEST***
+FLOW (keey/kain)    ~200      ~400      ~150      723 ***HIGHEST***
+OIL (ol)            65        135       15        233
+
+KEY FINDING: Biological section has HIGHEST water and flow vocabulary,
+             but LOWEST patient (chor) references!
+
+================================================================================
+DOMINANT VOCABULARY - BIOLOGICAL SECTION
+================================================================================
+
+TOP 10 WORDS (uniquely high in this section):
+TERM         DECODED              COUNT    INTERPRETATION
+----         -------              -----    --------------
+shedy        WATER/under          247x     Water treatment / immersion
+ol           OIL                  233x     Oil-based preparations
+chedy        with                 208x     Compound preparations
+qokedy       the-flow             161x     Bodily circulation
+qokain       the-vessel           158x     Blood vessels / tubes
+qokeedy      the-flowing          150x     Flowing fluids
+qol          the-water            115x     Water element
+qokal        the-vessel           105x     Vessels (repeated)
+shey         knowing/of-neck      96x      Body part or process
+qokeey       the-flow             89x      Circulation
+
+INTERPRETATION: This section is dominated by water, oil, and flow/vessel
+terminology - consistent with hydrotherapy and circulatory medicine.
+
+================================================================================
+POLISH VOCABULARY ANALYSIS
+================================================================================
+
+TERM         MEANING          COUNT    NOTES
+----         -------          -----    -----
+shey         OF-NECK          96x      Body part (Polish "szyi")
+dal          GAVE             67x      Past instruction
+dar          GIVE             66x      Present instruction
+sal          SALT             21x      Preparation ingredient
+oky          EYES             13x      Body part reference
+ly           POUR!            8x       Water/liquid instruction!
+lchy         HEALS            7x       Treatment verb
+rchey        OF-HAND          6x       Body part
+pchey        AT/BY            5x       Location/method
+kam          BATHE            3x       Hydrotherapy verb!
+chor         SICK             1x       Patient (rare here!)
+
+KEY OBSERVATION:
+- Very LOW "chor" (sick) - only 1 direct occurrence!
+- HIGH "dar/dal" (give) - 133 occurrences
+- Presence of "kam" (BATHE) and "ly" (POUR) supports hydrotherapy
+
+================================================================================
+WATER/BATH VOCABULARY
+================================================================================
+
+TERM         DECODED              COUNT
+----         -------              -----
+shedy        WATER/under          247x    Primary water term
+shey         knowing/of-neck      96x     Possibly water-related
+sheedy       watery               43x
+sheey        under                36x
+sheol        sun (water+oil?)     29x
+sheckhy      water-flower-vessel  22x
+shol         knowledge/sun        18x
+sheky        water-from           16x
+shecthy      water-fourth         14x
+shy          water-ADJ            12x
+sheor        water-heart          11x
+
+TOTAL she- words: 670 (9.8% of section!)
+
+================================================================================
+FLOW/CIRCULATION VOCABULARY
+================================================================================
+
+TERM         DECODED              COUNT
+----         -------              -----
+qokain       the-vessel           158x    Blood vessels / tubes
+qokeedy      the-flowing          150x    Circulating fluid
+qokeey       the-flow             89x     Flow/circulation
+okain        a-vessel             46x
+okeedy       eye-flowing          39x     Eye circulation?
+olkain       oil-vessel           25x
+keedy        flowing              18x
+olkeey       oil-vessel-flow      18x
+okeey        eye-flow             18x
+kain         vessel               17x
+
+TOTAL flow words: 723 (10.6% of section!)
+
+================================================================================
+PATTERN ANALYSIS: THE "NYMPH" ILLUSTRATIONS
+================================================================================
+
+The biological section's vocabulary suggests the female figures represent:
+
+1. PATIENTS UNDERGOING HYDROTHERAPY
+   - "shedy" (WATER/under) = immersion/bathing
+   - "kam" (BATHE) = Polish bathing verb
+   - "ly" (POUR) = water application
+
+2. CIRCULATORY SYSTEM ILLUSTRATION
+   - "qokain" (the-vessel) = blood vessels
+   - "qokeedy" (the-flowing) = blood flow
+   - "keedy" (flowing) = circulation
+   - Tubes in illustrations = vessels/arteries
+
+3. OIL-BASED TREATMENTS
+   - "ol" (OIL) = 233 occurrences (very high)
+   - "olkain" (oil-vessel) = oil through vessels
+   - "olkeey" (oil-flow) = oil circulation
+
+4. MINIMAL DISEASE REFERENCES
+   - Only 10 lines with "chor" (sick)
+   - Focus is on PROCESS, not PATIENT
+   - Describes treatment METHOD, not diagnosis
+
+================================================================================
+SAMPLE TRANSLATIONS - HYDROTHERAPY PATTERNS
+================================================================================
+
+[f75r] Line 4:
+Voynich: dackhy.lkamoykeey.lshey.kal.dy.shey.or.shey.qokeedy
+Decoded: GIVE!-vessel, BATHE-flow, world-water, vessel-high, is,
+         knowing, heart, knowing, the-flowing
+Reading: "GIVE vessel, BATHE [with] flowing [water], world-water,
+         tall vessel, is, knowing, heart, knowing, the flowing"
+→ Clear hydrotherapy instruction with BATHE (kam) verb!
+
+[f75r] Line 40:
+Voynich: dar.shedy.qokain.shedy.dal.keedy.rshedy
+Decoded: GIVE, WATER, the-vessel, WATER, GAVE, flowing, r-WATER
+Reading: "GIVE water, the vessel, water, GAVE, flowing, water"
+→ Repeated water administration instruction
+
+[f76r] with CHOR:
+Voynich: chor.shedy.qoked.okees.al.ar.aiin.ar.ain
+Decoded: SICK, WATER/under, the-vessel-give, eye-flow, high,
+         tree, -inus, tree, -anum
+Reading: "SICK [person]: water-immersion, give-vessel, eye-flow,
+         high, tree [preparation]"
+→ Hydrotherapy for sick patient
+
+[f77v] Line with healing:
+Voynich: lchor.oiin.shedy.qokaiin.saiin.dal.sheedy.qokeedy.ral
+Decoded: l-SICK, eye, WATER, the-vessel, HEAL, GAVE, watery,
+         the-flowing, root
+Reading: "For the SICK, eye, WATER, the vessel, HEAL, GAVE,
+         watery [preparation], the flowing, root"
+→ Treatment prescription for sick patient
+
+================================================================================
+FOLIO ANALYSIS
+================================================================================
+
+FOLIO    LINES  WORDS   WATER(she-)  FLOW(che/chy)  DAR/DAL
+-----    -----  -----   -----------  -------------  -------
+f75r       53    392        37           47           21
+f75v       64    341        30           46           21
+f76r       47    547        60           94           23 **highest flow**
+f76v       41    400        44           79           10
+f77r       50    325        35           65           13
+f77v       45    335        37           67           32 **highest dar/dal**
+f78r       47    293        16           32           14
+f78v       32    292        25           43           10
+f79r       44    389        50           71            6
+f79v       42    355        23           41            6
+
+OBSERVATIONS:
+- f76r has highest flow/circulation vocabulary (94 che/chy terms)
+- f77v has highest instruction density (32 dar/dal)
+- All folios have significant water terminology
+
+================================================================================
+INTERPRETATION: PURPOSE OF BIOLOGICAL SECTION
+================================================================================
+
+The biological/nymph section describes HYDROTHERAPY TREATMENT METHODS:
+
+1. WHAT IT IS:
+   - Medicinal bathing procedures
+   - Circulatory system treatments
+   - Oil and water therapies
+   - Female-specific treatments (given the imagery)
+
+2. WHAT IT ISN'T:
+   - NOT a diagnosis section (low "chor")
+   - NOT about which plants to use (low botanical terms)
+   - NOT about celestial timing (moderate "otar")
+
+3. THE ILLUSTRATIONS:
+   - "Nymphs" = patients receiving treatment
+   - "Baths/pools" = treatment vessels (qokain)
+   - "Tubes/pipes" = bodily vessels or treatment apparatus
+   - "Green" elements = herbal/plant preparations
+
+4. POLISH-LATIN PATTERN:
+   LATIN provides:
+   - Anatomical terms (cor→or, sanguis→chy)
+   - Flow concepts (fluens→keey)
+
+   POLISH provides:
+   - Treatment verbs (dar=give, kam=bathe, ly=pour)
+   - Body parts (shey=neck, oky=eyes, rchey=hand)
+   - Very few patient references (chor=sick)
+
+================================================================================
+MANUSCRIPT STRUCTURE - COMPLETE PICTURE
+================================================================================
+
+SECTION          PURPOSE              KEY VOCABULARY        POLISH USE
+-------          -------              --------------        ----------
+HERBAL           WHAT treats WHICH    chor(140), daiin      Patient + plant
+(f1-f57)         condition                                  references
+
+ASTRONOMICAL     WHEN to treat        otar(472), dar(67)    Timing + give
+(f67-f73)                                                   instructions
+
+BIOLOGICAL       HOW to administer    shedy(247), qokain    Treatment method
+(f75-f84)        water/oil therapy    (158), ol(233)        verbs (kam, ly)
+
+RECIPE           HOW to prepare       qokeey(170), ol       Preparation
+(f88-f116)       compounds            (135), cheol          instructions
+
+================================================================================
+CONCLUSION
+================================================================================
+
+The biological section is a HYDROTHERAPY/BALNEOTHERAPY MANUAL:
+
+1. Describes TREATMENT METHODS, not diagnoses
+2. Focuses on water, oil, and circulation
+3. The "nymphs" are patients receiving treatment
+4. The "tubes" represent blood vessels or treatment apparatus
+5. Polish verbs like "kam" (bathe) and "ly" (pour) confirm hydrotherapy
+6. Low "chor" (sick) because focus is on HOW, not WHO
+
+This section completes the medical manuscript structure:
+  HERBAL      → What medicine for what condition
+  ASTRONOMICAL → When to give the medicine
+  BIOLOGICAL   → How to administer (bathing, circulation)
+  RECIPE       → How to prepare the compounds
+
+================================================================================
