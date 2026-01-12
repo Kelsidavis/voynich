@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.2 - January 2026 (Zodiac & Plant Expansion)
+Version 6.3 - January 2026 (Temperature, Ingredients, Planets)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 740+ (expanded with zodiac signs, medicinal plants, animals)
-Direct vocabulary coverage: ~70% of corpus
+Vocabulary entries: 770+ (expanded with temperature, ingredients, planetary terms)
+Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
   Key discovery: 'chor' = Polish 'chory' (sick), NOT Latin 'cherub'
@@ -1163,6 +1163,73 @@ VOCAB = {
     'shy': ('water-ADJ', 5),             # 13x
     'oky': ('eye-ADJ', 5),               # 12x
     'oty': ('star-ADJ', 5),              # 11x
+
+    # =========================================================================
+    # SECTION 31: SHORT BASE FORMS (High-frequency grammatical variants)
+    # =========================================================================
+    # These are shortened forms of common words, completing paradigms
+
+    'dai': ('GIVE!', 6),                 # 181x - Imperative short form of dar
+    'kai': ('vessel', 5),                # 91x - Root form of kaiin/kain
+    'sai': ('SALT', 6),                  # 76x - Latin sal, key ingredient
+    'rai': ('HEAT/ray', 5),              # 34x - Related to warmth/radiance
+    'tai': ('earth/time', 4),            # 25x - Temporal/terrestrial reference
+    'okai': ('a-vessel', 5),             # 160x - o+kai variant
+    'otai': ('star.short', 5),           # 148x - ot+ai celestial reference
+    'qokai': ('the-vessel', 6),          # 353x - Very freq in bio (bathing?)
+    'lkai': ('wood-vessel', 5),          # 50x - l+kai wooden vessel
+    'olkai': ('oil-vessel', 5),          # 39x - 95% in bio section
+    'qotai': ('the-star', 5),            # 102x - Celestial reference
+
+    # =========================================================================
+    # SECTION 32: TEMPERATURE/HUMORAL QUALITIES
+    # =========================================================================
+    # Medieval medicine based on four humors: hot/cold/wet/dry
+
+    'keeo': ('WARM', 5),                 # 23x - Tepid/warming (mostly recipe)
+    'keeedy': ('warming', 5),            # 21x - Active warming
+    'keeey': ('warmth', 5),              # 19x - Heat quality
+    # 'fros': ('cold/frost', 5),         # Already exists - COLD
+    # 'rai': ('HEAT/ray', 5),            # Added above - HOT
+    'dedy': ('give-flow/warm', 4),       # 9x - 100% bio section
+    'ykeeo': ('and-warm', 5),            # 16x - Compound with warm
+
+    # =========================================================================
+    # SECTION 33: HERBAL INGREDIENTS
+    # =========================================================================
+    # Common medieval pharmaceutical ingredients
+
+    'sos': ('SALT', 5),                  # 15x - 80% herbal, Polish sól
+    'far': ('GRAIN/spelt', 4),           # 19x - Latin far (grain type)
+    'dom': ('HOUSE/container', 4),       # 13x - 92% herbal, storage vessel
+    'das': ('gave.variant', 4),          # 8x - 100% herbal, dal variant
+    'ykam': ('and-bathe', 5),            # 13x - y+kam compound
+    'cfhol': ('labial-flower', 4),       # 12x - 100% herbal, flower variant
+
+    # =========================================================================
+    # SECTION 34: ASTRONOMICAL/PLANETARY TERMS
+    # =========================================================================
+    # Celestial bodies concentrated in f67-73 astronomical section
+
+    'oteeos': ('SATURN', 5),             # 14x - 86% astro, slow planet
+    'alal': ('WING/celestial', 4),       # 10x - 70% astro, Latin ala
+    'aldaiin': ('white-star.NOM', 4),    # 6x - 100% astro
+    'okeodar': ('eye-place-give', 4),    # 9x - 78% astro, timing instruction
+    'okeod': ('eye-place', 4),           # 7x - 100% astro, celestial location
+    'otoly': ('heaven-high', 5),         # 20x - Celestial height
+    'dalam': ('gave-them', 4),           # 7x - 100% astro, instruction
+
+    # =========================================================================
+    # SECTION 35: HYDROTHERAPY TERMS (Bio section f75-84)
+    # =========================================================================
+    # Water treatment vocabulary, 70%+ concentrated in biological section
+
+    'otshdy': ('star-water-ADJ', 4),     # 12x - 100% bio, celestial timing
+    'olshdy': ('oil-water-ADJ', 4),      # 12x - 100% bio, mixture
+    'lshdy': ('wood-water-ADJ', 4),      # 13x - 100% bio, herbal bath
+    'qolky': ('the-oil-ADJ', 4),         # 12x - 100% bio, oil treatment
+    'rshedy': ('rinse-water', 4),        # 11x - 100% bio, washing
+    'shckhedy': ('water-vessel-ADJ', 4), # 12x - 100% bio
 }
 
 # =============================================================================
