@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 7.3 - January 2026 (Actions, Verbs, Instructions)
+Version 7.4 - January 2026 (Pain/Dolor Vocabulary)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 951 (expanded with action/verb vocabulary)
-Direct vocabulary coverage: ~71% of corpus
+Vocabulary entries: 967 (expanded with dolor/pain compound forms)
+Direct vocabulary coverage: ~72% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
   Key discovery: 'chor' = Polish 'chory' (sick), NOT Latin 'cherub'
@@ -135,10 +135,9 @@ VOCAB = {
     'sal': ('SALT', 8),            # [PL/LA] Polish "sól", Latin "sal" - cognate!
     'salar': ('salty', 8),         # [PL/LA]
     'saly': ('salty', 7),          # [PL/LA]
-    'dor': ('PAIN', 10),           # [LA] Latin "dolor"
-    'dol': ('pain', 8),            # [LA]
-    'dolor': ('pain', 10),         # [LA]
-    'dory': ('painful', 7),        # [LA]
+    # Note: Full dolor/pain vocabulary in Section 35 (PAIN/SUFFERING)
+    'dor': ('PAIN', 8),            # [LA] Latin "dolor" short form
+    'dory': ('painful', 7),        # [LA] dolor-ADJ
 
     # =========================================================================
     # SECTION 3: BOTANICAL VOCABULARY
@@ -1379,12 +1378,33 @@ VOCAB = {
     'qotchy': ('the-condition', 4),     # 21x - 62% herbal
 
     # --- PAIN/SUFFERING (dol-/dal- pattern, Latin dolor) ---
-    'dol': ('PAIN', 5),                 # 66x - 26% herbal, Latin dolor
-    'dalor': ('pain', 4),               # 6x - 33% herbal, dolor variant
-    'doly': ('painful', 4),             # 3x, pain-ADJ
-    'shor': ('SUFFERING', 4),           # 54x - 44% herbal, symptom
-    'shory': ('suffering-ADJ', 4),      # 2x - 100% herbal
-    'dshor': ('pain-suffering', 4),     # 7x - 43% herbal
+    # Major discovery: dol (439x) = Latin dolor (pain)
+    # Section distribution: herbal 39%, bio 31%, recipe 24%, astro 2%
+    # Confirms medical focus - pain terms in treatment sections
+    'dol': ('PAIN', 8),                 # 439x - Latin dolor, primary pain term
+    'dolor': ('PAIN', 9),               # 7x - literal Latin dolor in text
+    'doly': ('painful', 7),             # 17x - pain-ADJ
+    'doldy': ('painful-ADJ', 6),        # 6x - pain descriptor
+    'dolo': ('pain', 6),                # 4x - pain (short form)
+    'dold': ('pain-leaf', 5),           # 3x - pain treatment (leaf)
+    'dolol': ('pain-oil', 6),           # 3x - pain oil (treatment)
+    'dolar': ('pain-star', 6),          # 7x - acute/celestial pain
+    'dolara': ('pain-star.ACC', 5),     # 4x - accusative case
+    'doldam': ('pain.GEN', 6),          # 3x - genitive "of pain"
+    'dolshy': ('pain-root', 5),         # 3x - pain from root
+    'dolchl': ('pain-cool', 5),         # 3x - cooling pain treatment
+    'doleeey': ('pain-flow', 5),        # 3x - flowing pain
+    'dolds': ('pain-bone', 5),          # 4x - bone pain
+    'dolchey': ('pain-blood', 6),       # 5x - blood pain
+    'dolchedy': ('pain-bleeding', 6),   # 10x - painful bleeding
+    'dolcheedy': ('pain-blood-flow', 5), # 4x - flowing blood pain
+    'dolody': ('pain-water-ADJ', 5),    # 4x - watery pain
+    'dolkedy': ('pain-vessel-flow', 5), # 4x - vessel pain flow
+    'dolfchedy': ('pain-?-blood', 4),   # 4x - pain blood compound
+    'dalor': ('pain', 6),               # 6x - dolor variant
+    'shor': ('SUFFERING', 6),           # 54x - 44% herbal, symptom
+    'shory': ('suffering-ADJ', 5),      # 2x - 100% herbal
+    'dshor': ('pain-suffering', 5),     # 7x - 43% herbal
 
     # --- FEVER/HEAT CONDITIONS ---
     # Temperature-related ailments
