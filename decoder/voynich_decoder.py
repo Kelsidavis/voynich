@@ -1250,6 +1250,20 @@ VOCAB = {
     'oteeody': ('SATURDAY', 5),          # 38x - 32% astro, otee(os/Saturn) + ody
     # Note: -ody suffix = Latin 'dies' or Polish 'dzień' (day)
 
+    # --- MONTHS (planet/zodiac root + -am/-ary suffix) ---
+    # Pattern: root + 'am' (from Latin mensis?) or 'ary' (Latin -arius)
+    # High concentration in astronomical section indicates calendar function
+    'okaram': ('MONTH/calendar', 5),     # 8x/11x - 73% astro, planet-month
+    'otolam': ('MONTH/celestial', 4),    # 5x/5x - 100% astro, heaven-month
+    'okalam': ('OCTOBER?', 4),           # 3x/6x - 50% astro, Jupiter-month
+    'cholam': ('APRIL?', 4),             # 3x/3x - 100% astro, flower-month (spring)
+    'okeoram': ('SEPTEMBER?', 4),        # 3x/3x - 100% astro, Mercury-month
+    'otoloaram': ('MONTH/period', 4),    # 3x/3x - 100% astro, celestial-month
+    'oteeary': ('MONTH/Saturn', 4),      # 3x/3x - 100% astro, Saturn-month
+    'sary': ('MONTH/time', 4),           # 9x/18x - 50% astro, time period
+    # Note: Zodiac signs (Section 33) also function as month markers
+    # -am suffix appears to indicate monthly/temporal periods
+
     # =========================================================================
     # SECTION 35: HYDROTHERAPY TERMS (Bio section f75-84)
     # =========================================================================
