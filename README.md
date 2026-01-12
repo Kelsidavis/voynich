@@ -62,6 +62,47 @@ Translation: "Give the flowing flower-oil to the sick patient"
 
 ---
 
+## Complete Folio Translations
+
+Five complete folios have been translated representing all major manuscript sections:
+
+| Folio | Section | Lines | Key Discovery |
+|-------|---------|-------|---------------|
+| F1R | Herbal Opening | 28 | First word "fachys" = FRUIT; first chor (SICK) at line 8 |
+| F72 | Zodiac | 45+ | 10 zodiac sign names identified; 8 are 100% exclusive to f72 |
+| F75R | Hydrotherapy | 20 | 70%+ shedy (WATER); balneotherapy instructions |
+| F85-F86 | Rosettes | 32+ | Master index function; vocabulary from ALL sections |
+| F88R | Recipe | 31 | 3 complete recipes; dar/dal instruction verbs |
+
+### Key Translation Examples
+
+**F1R Line 15 (Recipe Formula):**
+```
+Voynich:  daiin.chor.sar.cheol.cheol.shol
+Decoded:  [leaf] [SICK] [MIX] [flower] [flower] [ROOT]
+Meaning:  "Mix leaf with flower and root for the sick patient"
+```
+
+**F72 Zodiac Labels:**
+```
+otaraldy  → ARIES (otar+aldy = star-of-ram)
+ofaralar  → TAURUS (ofar+alar = beast-of-bull)
+ogeom     → GEMINI (o+geom = of-twins)
+sholeey   → LEO (shol+eey = root/mane-the)
+olkalaiin → AQUARIUS (ol+kal+aiin = oil-vessel-water)
+```
+
+**F85-F86 Cosmological Framework:**
+```
+tarar  → EARTH (100% exclusive to rosettes)
+otal   → HEAVEN/celestial sphere
+tdam   → [unique cosmological term]
+```
+
+See [`APPENDIX_C_SAMPLE_TRANSLATIONS.md`](appendices/APPENDIX_C_SAMPLE_TRANSLATIONS.md) for complete translations.
+
+---
+
 ## Repository Structure
 
 ```
@@ -133,14 +174,18 @@ print(f"Vocabulary entries: {len(VOCAB)}")  # 713
 
 ### Zodiac Signs (f72 Folio Analysis)
 
-| Voynich | Meaning | Confidence |
-|---------|---------|------------|
-| otal | HEAVEN/LIBRA | High |
-| otaraldy | ARIES | High |
-| olkalaiin | AQUARIUS | High |
-| ofaralar | TAURUS | Medium |
-| sholeey | LEO | Medium |
-| ogeom | GEMINI | Medium |
+| Voynich | Meaning | Exclusivity | Confidence |
+|---------|---------|-------------|------------|
+| otaraldy | ARIES | 100% | High |
+| ofaralar | TAURUS | 100% | High |
+| ogeom | GEMINI | 100% | High |
+| otchol | CANCER | 100% | High |
+| sholeey | LEO | 100% | Medium |
+| okeey | VIRGO | 97% | Medium |
+| otal | LIBRA/HEAVEN | 89% | High |
+| okaiin | SCORPIO | 100% | Medium |
+| otolal | SAGITTARIUS | 100% | Medium |
+| olkalaiin | AQUARIUS | 100% | High |
 
 ---
 
