@@ -9,18 +9,19 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 772
+- **Total entries**: 784
 - **Polish terms**: ~60
-- **Latin terms**: ~420
+- **Latin terms**: ~430
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~292
+- **Uncertain classification**: ~294
 
 - **High confidence (8-11)**: ~65
-- **Medium confidence (5-7)**: ~680
-- **Low confidence (3-4)**: ~27
+- **Medium confidence (5-7)**: ~690
+- **Low confidence (3-4)**: ~29
 
-### New in v6.3
-- **Planetary vocabulary**: 7 planets (Sun, Moon, Mars, Venus, Jupiter, Saturn)
+### New in v6.4
+- **Days of the week**: 10 entries (all 7 days identified via planet + -ody suffix)
+- **Planetary vocabulary**: 7 planets + Mercury (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn)
 - **Temperature terms**: keeo (WARM), rai (HEAT)
 - **Short base forms**: dai, kai, sai, tai, etc.
 - **Herbal ingredients**: sos (SALT), far (GRAIN)
@@ -492,6 +493,23 @@ Supporting celestial terms:
 | otchos | star-flower-bone | Latin | Low | 4 | 75% astro |
 | choteey | flower-time-flow | Latin | Low | 4 | Timing reference |
 | cheteey | blood-time-flow | Latin | Low | 4 | 100% astro |
+
+Days of the Week (planet + -ody suffix):
+
+| EVA Token | Day | Ruling Planet | Count | Astro % | Notes |
+|-----------|-----|---------------|-------|---------|-------|
+| sholdy | SUNDAY | Sol (Sun) | 27 | ~0% | Recipe timing |
+| sheoldy | SUNDAY | Sol (Sun) | 10 | ~0% | Variant |
+| otody | MONDAY | Moon | 45 | 33% | Moon-day |
+| okody | TUESDAY | Mars | 49 | 41% | Mars-day |
+| okeody | WEDNESDAY | Mercury | 110 | 26% | Mercury-day |
+| okeeody | WEDNESDAY | Mercury | 42 | 36% | Variant |
+| okalody | THURSDAY | Jupiter | 5 | 60% | Jupiter-day |
+| oteody | FRIDAY | Venus | 102 | 42% | Venus-day |
+| oteeody | SATURDAY | Saturn | 38 | 32% | Saturn-day |
+
+**Pattern:** planetary root + `-ody` suffix (from Latin *dies* or Polish *dzień*)
+**Function:** Iatromathematical timing - medieval medicine assigned optimal treatment days based on ruling planets
 
 ---
 

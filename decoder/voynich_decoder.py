@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.3 - January 2026 (Temperature, Ingredients, Planets)
+Version 6.4 - January 2026 (Days of the Week, Planets, Temperature)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 770+ (expanded with temperature, ingredients, planetary terms)
+Vocabulary entries: 780+ (expanded with days of week, planets, temperature terms)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1234,6 +1234,21 @@ VOCAB = {
     'otchos': ('star-flower-bone', 4),   # 4x - 75% astro
     'choteey': ('flower-time-flow', 4),  # 7x - 71% astro, timing reference
     'cheteey': ('blood-time-flow', 4),   # 3x - 100% astro
+
+    # --- DAYS OF THE WEEK (planet + -ody suffix) ---
+    # Pattern: planetary root + 'ody' (day) suffix
+    # Medieval iatromathematical medicine assigned each day to a ruling planet
+    'sholdy': ('SUNDAY', 5),             # 27x - shol(sun) + dy = Sun-day
+    'sheoldy': ('SUNDAY', 4),            # 10x - variant sun-day
+    'soldy': ('SUNDAY', 4),              # 4x - sol + dy = Sun-day
+    'otody': ('MONDAY', 5),              # 45x - 33% astro, ot(oar/moon) + ody
+    'okody': ('TUESDAY', 5),             # 49x - 41% astro, ok(eos/Mars) + ody
+    'okeody': ('WEDNESDAY', 5),          # 110x - 26% astro, okeo(Mercury) + ody
+    'okeeody': ('WEDNESDAY', 4),         # 42x - variant Mercury-day
+    'okalody': ('THURSDAY', 4),          # 5x - 60% astro, okal(ar/Jupiter) + ody
+    'oteody': ('FRIDAY', 5),             # 102x - 42% astro, ote(otey/Venus) + ody
+    'oteeody': ('SATURDAY', 5),          # 38x - 32% astro, otee(os/Saturn) + ody
+    # Note: -ody suffix = Latin 'dies' or Polish 'dzień' (day)
 
     # =========================================================================
     # SECTION 35: HYDROTHERAPY TERMS (Bio section f75-84)
