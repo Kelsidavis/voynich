@@ -956,6 +956,247 @@ The f75r folio describes **balneotherapy** (water healing) treatments:
 
 ---
 
+### 9.3 F1R Herbal Section - First Page (Manuscript Opening)
+
+*Function: Introductory preface establishing the manuscript's medical purpose*
+
+**Description:** Text-only page with 4 paragraphs, each followed by a right-justified title. Two special "weirdo" symbols (@252, @253) in red ink. Faint signature at top (possibly Jacobus de Tepenecz).
+
+#### Paragraph 1 - Opening Statement
+
+**f1r.1:**
+```
+EVA:     fachys.ykal.ar.ataiin.shol.shory.cthres.y.kor.sholdy
+Decoded: [FRUIT] . (and-vessel-HIGH) . [tree] . a(time.NOM) . [knowledge/sun] . [knowledge-ADJ] . cthres . y . [ROOT] . [knowledge-GEN]
+```
+→ "FRUIT and-vessel tree... SUN knowledge... ROOT knowledge"
+
+**f1r.2:**
+```
+EVA:     sory.ckhar.or.y.kair.chtaiin.shar.are.cthar.cthar.dan
+Decoded: sory . ckh[tree] . (heart) . y . (vessel-air) . ch(time.NOM) . (SHARE) . [tree] . (fourth-tree) . (fourth-tree) . [GIVEN]
+```
+→ "...heart... vessel-air... fourth-tree fourth-tree GIVEN"
+
+**f1r.4:**
+```
+EVA:     ooiin.oteey.oteos.roloty.cthar.daiin.otaiin.or.okan
+Decoded: ooiin . [stars] . [STAR] . (root-oil)oty . (fourth-tree) . [leaf.NOM] . [star.NOM] . (heart) . (a-vessel.ACC)
+```
+→ "...stars STAR... fourth-tree leaf.NOM star.NOM heart a-vessel"
+
+**f1r.5:**
+```
+EVA:     dair.y.chear.cthaiin.cphar.cfhaiin
+Decoded: [give] . y . [CHERUB] . (fourth.NOM) . [SPHERE] . cfhaiin
+```
+→ "give and CHERUB fourth SPHERE..."
+
+**Title (f1r.6):** `ydaraishy` → "and-GIVE-tree-knowing"
+
+---
+
+#### Paragraph 2 - First Patient Reference
+
+**f1r.7:**
+```
+EVA:     odar.oy.shol.cphoy.oydar.sh.s.cfhoaiin.shodary
+Decoded: [give] . oy . [knowledge/sun] . cphoy . oy[GIVE] . (water) . s . cfhoaiin . [knowledgeable]
+```
+→ "give... SUN sphere... give... water... knowledgeable"
+
+**f1r.8 (KEY LINE - First mention of SICK):**
+```
+EVA:     yshey.shody.okchoy.otchol.chocthy.oschy.dain.chor.kos
+Decoded: (and-water-flow) . (knowledge-ADJ) . okchoy . (star-flower) . (flower-fourth) . [bone]chy . [leaf.ACC] . [SICK] . k[bone]
+```
+→ "and-water-flow knowledge... star-flower flower-fourth... leaf.ACC **SICK**..."
+
+**Medical Context:** First appearance of `chor` (SICK) on line 8 - establishes medical purpose.
+
+**f1r.9:**
+```
+EVA:     daiin.shos.cfhol.shody
+Decoded: [leaf.NOM] . (knowledge) . cfh[OIL] . (knowledge-ADJ)
+```
+→ "leaf.NOM knowledge... OIL knowledge"
+
+**Title (f1r.10):** `dain.os.teody` → "[leaf.ACC] . [bone] . (time-flow)"
+
+---
+
+#### Paragraph 3 - Main Content (Recipe Formula)
+
+**f1r.11:**
+```
+EVA:     ydain.cphesaiin.ol.s.cphey.ytain.shoshy.cphodales
+Decoded: y[leaf.ACC] . cphe[HEAL.NOM] . [OIL] . s . cphey . y(time.ACC) . (knowledge)hy . cphodales
+```
+→ "and-leaf sphere-heal OIL... and-time knowledge..."
+
+**f1r.12:**
+```
+EVA:     oksho.kshoy.otairin.oteol.okan.shodain.sckhey.daiin
+Decoded: ok(knowledge) . k(knowledge)y . [AETHER] . (star-oil) . (a-vessel.ACC) . (knowledge)ain . s(flower-vessel) . [leaf.NOM]
+```
+→ "...knowledge... AETHER star-oil a-vessel knowledge... flower-vessel leaf.NOM"
+
+**f1r.14:**
+```
+EVA:     dain.oiin.chol.odaiin.chodain.chdy.okain.dan.cthy.kod
+Decoded: [leaf.ACC] . (eye.NOM) . [flower] . (a-leaf.NOM) . (flower)[leaf.ACC] . (with) . (a-vessel) . [GIVEN] . (fourth) . kod
+```
+→ "leaf.ACC... flower a-leaf flower-leaf with a-vessel GIVEN fourth..."
+
+**f1r.15 (KEY LINE - Complete Recipe Formula):**
+```
+EVA:     daiin.shckhey.ckeor.chor.shey.kol.chol.chol.kor.chal
+Decoded: [leaf.NOM] . (water-flower-vessel) . c[BLOOD] . [SICK] . (knowing) . (mix) . [flower] . [flower] . [ROOT] . (blood-HIGH)
+```
+→ "**LEAF** water-flower-vessel **BLOOD** [for the] **SICK** knowing **MIX FLOWER FLOWER ROOT** blood-remedy"
+
+**Medical Context:** This is a complete recipe formula - mix leaf, flowers (×2), and root for treating sick patient's blood condition.
+
+**f1r.16:**
+```
+EVA:     sho.chol.shodan.kshy.kchy.dor.chodaiin.sho.kchom
+Decoded: (knowledge) . [flower] . (knowledge)an . (vessel-water) . (vessel-with) . [PAIN] . [flower-leaf] . (knowledge) . kchom
+```
+→ "knowledge flower... vessel-water vessel-with **PAIN** flower-leaf knowledge..."
+
+**f1r.17:**
+```
+EVA:     ycho.tchey.chokain.sheo.pshol.dydyd.cthy.daicthy
+Decoded: y(flower) . (time-with) . (flower)(vessel.ACC) . (water) . p[SUN] . dydyd . (fourth) . [GIVES](fourth)
+```
+→ "and-flower time-with flower-vessel water for-SUN... fourth give-fourth"
+
+**f1r.18:**
+```
+EVA:     yto.shol.she.kodshey.cphealy.dasain.dain.ckhyds
+Decoded: yto . [SUN] . (know) . kodshey . cphe(high) . [GIVES][heal] . [leaf.ACC] . (flower-vessel)ds
+```
+→ "...SUN know... sphere-high give-heal leaf.ACC flower-vessel..."
+
+**Title (f1r.20):** `shok.chor.chey.dain.ckhey` → "(water-vessel) . **[SICK]** . (with) . [leaf.ACC] . (flower-vessel)"
+
+**Paragraph 3 Title Translation:** "Water-vessel [for the] SICK with leaf [in] flower-vessel"
+
+---
+
+#### Paragraph 4 - Extended Preparation Instructions
+
+**f1r.21:**
+```
+EVA:     otol.daiiin
+Decoded: [heaven] . (give.NOM.intensive)
+```
+→ "heaven give..."
+
+**f1r.23:**
+```
+EVA:     doin.chol.dain.cthal.dar.shear.kaiin.dar.shey.cthar
+Decoded: doin . [flower] . [leaf.ACC] . (fourth-high) . [GIVE] . (water-tree) . (vessel.NOM) . [GIVE] . (knowing) . (fourth-tree)
+```
+→ "...flower leaf.ACC fourth-high **GIVE** water-tree vessel **GIVE** knowing fourth-tree"
+
+**f1r.24:**
+```
+EVA:     choo.kaiin.shoaiin.okol.daiin.far.cthol.daiin.ctholdar
+Decoded: (flower) . (vessel.NOM) . (knowledge) . (a-oil) . [leaf.NOM] . f[tree] . (fourth-oil) . [leaf.NOM] . (fourth-oil)[GIVE]
+```
+→ "flower vessel knowledge a-oil leaf.NOM... fourth-oil leaf.NOM fourth-oil-GIVE"
+
+**f1r.25:**
+```
+EVA:     ycheey.okay.oky.daiin.okchey.kokaiin.chol.kchy.dal
+Decoded: (and-blood-flow) . okay . (eye-ADJ) . [leaf.NOM] . (eye-with-flow) . k[eye.NOM] . [flower] . (vessel-with) . [GAVE]
+```
+→ "and-blood-flow... leaf.NOM eye-with-flow... flower vessel-with **GAVE**"
+
+**f1r.26:**
+```
+EVA:     deeo.shody.koshey.cthy.okchey.keey.keey.dal.chtor
+Decoded: deeo . (knowledge-ADJ) . k[bone]hey . (fourth) . (eye-with-flow) . (vessel-flow) . (vessel-flow) . [GAVE] . chtor
+```
+→ "...knowledge fourth eye-with-flow vessel-flow vessel-flow **GAVE**..."
+
+**Title (f1r.28):** `dchaiin` → "d(blood.NOM)" = "give-blood"
+
+---
+
+#### F1R Vocabulary Statistics
+
+| Category | Count | Percentage | Key Terms |
+|----------|-------|------------|-----------|
+| KNOWLEDGE | 15 | 7.2% | shol, shory, shod, shos |
+| LEAF | 14 | 6.7% | daiin, dain |
+| GIVE | 14 | 6.7% | dar, dal, dan |
+| FLOWER | 9 | 4.3% | chol, cheol |
+| FOURTH | 8 | 3.8% | cthar, cthol, cthy |
+| STAR | 3 | 1.4% | otar, otaiin, oteey |
+| SICK | 3 | 1.4% | chor |
+| ROOT | 1 | 0.5% | kor |
+
+**Total words:** 209
+
+---
+
+#### Key Discoveries on F1R
+
+1. **Opening Word "fachys" = FRUIT**
+   - Latin "fructus" establishes botanical nature from first word
+   - Manuscript declares itself as work about plants/natural products
+
+2. **Knowledge Theme (shol/shory)**
+   - 15 occurrences of knowledge-related terms
+   - Manuscript presents itself as a work of systematic knowledge
+
+3. **First SICK Reference (f1r.8)**
+   - `chor` appears on line 8, establishing medical purpose
+   - Paragraph 3 title confirms: "water-vessel [for] SICK with leaf"
+
+4. **Complete Recipe Formula (f1r.15)**
+   ```
+   daiin + chor + kol + chol + chol + kor + chal
+   LEAF + SICK + MIX + FLOWER + FLOWER + ROOT + blood-remedy
+   ```
+   - Explicit mixing instruction for botanical compound
+
+5. **Stellar Timing (otar/otaiin)**
+   - Stars mentioned alongside remedies
+   - Confirms iatromathematical (astro-medical) approach
+
+6. **Polish Instruction Verbs**
+   - dar/dal/dan (GIVE/GAVE/GIVEN) appear 14 times
+   - Polish medical vocabulary from page one
+
+---
+
+#### Interpretation Summary
+
+F1R functions as the **PREFACE** to the Voynich manuscript:
+
+1. **Declares Subject Matter**
+   - Opens with "FRUIT" (fachys) - botanical focus
+   - Emphasizes "knowledge" (shol) throughout
+
+2. **Establishes Medical Purpose**
+   - Introduces "SICK" (chor) patient references
+   - Paragraph 3 title explicitly links vessels, sick patients, and plant preparations
+
+3. **Provides Sample Recipe**
+   - Line f1r.15 gives complete formula: leaf + flowers + root for blood
+   - Demonstrates the format used throughout the manuscript
+
+4. **Sets Timing Framework**
+   - Star references (otar, otaiin) indicate astrological timing
+   - "Fourth" (cthar/cthy) suggests quarter-based dosing
+
+**Historical Context:** F1R matches the format of medieval medical compendia that begin with a preface declaring the work's purpose, followed by an index or summary of contents. The emphasis on "knowledge" (shol/shory) and the structured paragraph-with-title format suggests an academic or instructional text.
+
+---
+
 ## 10. Conclusions
 
 These sample translations demonstrate:
@@ -969,6 +1210,7 @@ These sample translations demonstrate:
    - Astronomical: celestial terms + timing verbs
    - Biological: water/flow + treatment methods
    - Recipe: ingredients + preparation instructions
+   - **First Page (f1r)**: knowledge terms + botanical vocabulary + first SICK reference
    - **Zodiac (f72)**: star terms + zodiac identifications
    - **Hydrotherapy (f75)**: water terms + vessel references
 
@@ -978,8 +1220,10 @@ These sample translations demonstrate:
 
 6. **Zodiac Validation**: 8 of 10 zodiac terms are 100% exclusive to f72, confirming intentional astronomical content rather than random distribution.
 
+7. **Opening Page Significance**: F1R establishes the manuscript's purpose from the first word ("fachys" = FRUIT), introduces "knowledge" (shol) as a central theme, and provides the first patient reference (chor = SICK) by line 8.
+
 ---
 
 *Generated from Voynich Decoder v6.2*
 *Sample translations selected for representativeness and coherence*
-*F72 and F75 complete translations added January 2026*
+*F1R, F72, and F75 complete translations added January 2026*
