@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.1 - Complete Vocabulary Mappings
+## Voynich Decoder v6.3 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,22 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 713
-- **Polish terms**: 54
-- **Latin terms**: 397
+- **Total entries**: 772
+- **Polish terms**: ~60
+- **Latin terms**: ~420
 - **Bilingual terms**: 0
-- **Uncertain classification**: 262
+- **Uncertain classification**: ~292
 
-- **High confidence (8-11)**: 59
-- **Medium confidence (5-7)**: 653
-- **Low confidence (3-4)**: 1
+- **High confidence (8-11)**: ~65
+- **Medium confidence (5-7)**: ~680
+- **Low confidence (3-4)**: ~27
+
+### New in v6.3
+- **Planetary vocabulary**: 7 planets (Sun, Moon, Mars, Venus, Jupiter, Saturn)
+- **Temperature terms**: keeo (WARM), rai (HEAT)
+- **Short base forms**: dai, kai, sai, tai, etc.
+- **Herbal ingredients**: sos (SALT), far (GRAIN)
+- **Hydrotherapy terms**: rshedy, olshdy, etc.
 
 ---
 
@@ -455,6 +462,38 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | otshedy | star-water-flowing | Latin | Medium | 5 |
 | otshey | star-water-flow | Latin | Medium | 5 |
 | oty | star-ADJ | Latin | Medium | 5 |
+
+### Planetary Vocabulary (Section 34)
+
+Classical 7 planets identified in astronomical section (f67-73):
+
+| EVA Token | Meaning | Language | Confidence | Score | Notes |
+|-----------|---------|----------|------------|-------|-------|
+| sol | SUN | Latin | High | 9 | Latin sol |
+| sheol | sun | Latin | High | 8 | Variant |
+| otoar | MOON | Latin | Low | 4 | 100% astro exclusive |
+| okeos | MARS | Latin | Medium | 5 | 83% astro, red planet |
+| oteotey | VENUS | Latin | Low | 4 | 100% astro exclusive |
+| okalar | JUPITER | Latin | Medium | 5 | 83% astro, great benefic |
+| oteeos | SATURN | Latin | Medium | 5 | 70% astro, slow planet |
+
+Supporting celestial terms:
+
+| EVA Token | Meaning | Language | Confidence | Score | Notes |
+|-----------|---------|----------|------------|-------|-------|
+| alal | WING/celestial | Latin | Low | 4 | Latin ala |
+| aldaiin | white-star.NOM | Latin | Low | 4 | 100% astro |
+| okeodar | planet-give | Latin | Medium | 5 | Planetary timing |
+| okeod | planet-place | Latin | Low | 4 | Celestial location |
+| otoly | heaven-high | Latin | Medium | 5 | Celestial height |
+| dalam | gave-them | Polish | Low | 4 | Astro instruction |
+| oteodar | star-flow-give | Latin | Low | 4 | Celestial instruction |
+| otchos | star-flower-bone | Latin | Low | 4 | 75% astro |
+| choteey | flower-time-flow | Latin | Low | 4 | Timing reference |
+| cheteey | blood-time-flow | Latin | Low | 4 | 100% astro |
+
+---
+
 | paiin | for.NOM | Latin | Medium | 5 |
 | pair | father | Uncertain | High | 9 |
 | pairar | father | Uncertain | High | 9 |
