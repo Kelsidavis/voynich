@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.5 - Complete Vocabulary Mappings
+## Voynich Decoder v6.6 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,23 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 832
-- **Polish terms**: ~72
-- **Latin terms**: ~445
+- **Total entries**: 870
+- **Polish terms**: ~75
+- **Latin terms**: ~460
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~294
+- **Uncertain classification**: ~310
 
 - **High confidence (8-11)**: ~65
-- **Medium confidence (5-7)**: ~720
-- **Low confidence (3-4)**: ~47
+- **Medium confidence (5-7)**: ~750
+- **Low confidence (3-4)**: ~55
+
+### New in v6.6
+- **Disease/Symptoms**: 38 entries (afflictions, pain, fever, humoral conditions)
+  - AFFLICTION (ct-): cthor, cthar, dchor, kchor, okchor, cthy (80%+ herbal)
+  - PAIN (dol-): dol, dalor, shor, shory, dshor (Latin dolor)
+  - FEVER: keey, keedy, keeol (heat conditions)
+  - HUMORAL: otchol, kchol, qotchol, choiin (bile/choleric)
+  - AILMENTS: ytol, kshy, shos, tshol, kor (70%+ herbal)
 
 ### New in v6.5
 - **Body Parts**: 24 entries (HAND, EYE, LIVER, MOUTH, SKIN, FOOT, HEAD)
@@ -669,6 +677,80 @@ Body part vocabulary identified by 50%+ concentration in biological section (f75
 | ocholdy | of-head | 3/4 | 75% | Cephalic |
 
 **Note:** Some overlap with chol- (flower) meanings
+
+---
+
+### Disease and Symptom Vocabulary (Section 37)
+
+Disease terms identified by 60%+ concentration in herbal section (plants indexed by ailment treated).
+
+#### AFFLICTION/DISEASE (ct- prefix, 80%+ herbal)
+
+| EVA Token | Meaning | Herbal Count | Herbal % | Notes |
+|-----------|---------|--------------|----------|-------|
+| cthor | AFFLICTION | 15/17 | 88% | Disease term |
+| cthar | affliction | 11/13 | 85% | Disease variant |
+| dchor | disease-SICK | 10/12 | 83% | Compound |
+| kchor | ailment | 5/6 | 83% | Affliction |
+| okchor | vessel-ailment | 8/12 | 67% | Internal disease |
+| otchor | star-ailment | 4/6 | 67% | Celestial disease |
+| cthy | condition-ADJ | 36/44 | 82% | Condition |
+| kchy | ailment-ADJ | 9/11 | 82% | Ailment |
+| chotchy | flower-condition | 7/9 | 78% | Herbal condition |
+
+**Pattern:** `ct-` prefix indicates disease/affliction terms, highly concentrated in herbal section
+
+#### PAIN/SUFFERING (dol-/dal- pattern, Latin dolor)
+
+| EVA Token | Meaning | Herbal Count | Herbal % | Notes |
+|-----------|---------|--------------|----------|-------|
+| dol | PAIN | 17/66 | 26% | Latin dolor |
+| dalor | pain | 2/6 | 33% | Dolor variant |
+| shor | SUFFERING | 24/54 | 44% | Symptom/suffering |
+| shory | suffering-ADJ | 2/2 | 100% | Suffering |
+| dshor | pain-suffering | 3/7 | 43% | Compound |
+
+**Pattern:** `dol-` from Latin *dolor* (pain); `shor-` may indicate suffering/symptom
+
+#### FEVER/HEAT CONDITIONS
+
+| EVA Token | Meaning | Total Count | Notes |
+|-----------|---------|-------------|-------|
+| keey | HEAT/fever | 33x | Heat condition |
+| keedy | heating | 54x | Fever/warming |
+| keeol | heat-oil | 6x | Heating preparation |
+
+**Pattern:** `kee-` prefix indicates heat/fever conditions
+
+#### HUMORAL CONDITIONS (Four Humors)
+
+Medieval humoral medicine: blood, phlegm, yellow bile, black bile
+
+| EVA Token | Meaning | Herbal Count | Herbal % | Notes |
+|-----------|---------|--------------|----------|-------|
+| otchol | star-BILE | 12/15 | 80% | Choleric condition |
+| kchol | vessel-bile | 5/8 | 62% | Bile disorder |
+| qokchol | the-vessel-bile | 5/8 | 62% | Bile in vessel |
+| qotchol | the-star-bile | 7/7 | 100% | Celestial bile |
+| choiin | bile-NOM | 6/6 | 100% | Bilious |
+
+**Note:** Core humoral terms: chedy (BLOOD), chol (BILE), shedy (WATER/phlegm)
+
+#### SPECIFIC AILMENT TERMS (70%+ herbal)
+
+| EVA Token | Meaning | Herbal Count | Herbal % | Notes |
+|-----------|---------|--------------|----------|-------|
+| ytol | ailment | 6/7 | 86% | Disease |
+| kshy | condition | 5/5 | 100% | Illness |
+| shos | symptom | 4/5 | 80% | Symptom |
+| tshol | root-ailment | 4/5 | 80% | Root disease |
+| kor | affliction | 8/12 | 67% | Affliction |
+| ykor | afflict | 5/8 | 62% | Affliction |
+| ykchy | condition-with | 8/12 | 67% | Conditioned |
+| kchdy | ailment-ADJ | 7/11 | 64% | Ailment |
+| ckhy | illness-ADJ | 9/14 | 64% | Illness |
+
+**Methodology:** Disease terms identified by herbal concentration - plants indexed by ailments they treat
 
 ---
 

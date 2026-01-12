@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.5 - January 2026 (Body Parts, Days of Week, Temporal Terms)
+Version 6.6 - January 2026 (Disease/Symptoms, Body Parts, Temporal Terms)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 830+ (expanded with body parts, days, months, seasons, hours)
+Vocabulary entries: 870+ (expanded with disease/symptoms, body parts, temporal terms)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1357,6 +1357,62 @@ VOCAB = {
     # Head-related, some overlap with flower (chol)
     'cholkey': ('head-ADJ', 4),         # 4x/6x - 67% bio, head-related
     'ocholdy': ('of-head', 4),          # 3x/4x - 75% bio, cephalic
+
+    # =========================================================================
+    # SECTION 37: DISEASE/SYMPTOM VOCABULARY
+    # =========================================================================
+    # Disease terms identified by 60%+ herbal section concentration
+    # Pattern: Disease names indexed in herbal section (treatment by plant)
+
+    # --- AFFLICTION/DISEASE (ct- prefix, 80%+ herbal) ---
+    # Highest herbal concentration - disease index terms
+    'cthor': ('AFFLICTION', 5),         # 17x - 88% herbal, disease term
+    'cthar': ('affliction', 4),         # 13x - 85% herbal, disease variant
+    'dchor': ('disease-SICK', 4),       # 12x - 83% herbal, compound
+    'kchor': ('ailment', 4),            # 6x - 83% herbal
+    'okchor': ('vessel-ailment', 4),    # 12x - 67% herbal, internal disease
+    'otchor': ('star-ailment', 4),      # 6x - 67% herbal, celestial disease
+    'cthy': ('condition-ADJ', 4),       # 44x - 82% herbal, condition
+    'kchy': ('ailment-ADJ', 4),         # 11x - 82% herbal
+    'tchy': ('afflict-ADJ', 4),         # 13x - 62% herbal
+    'chotchy': ('flower-condition', 4), # 9x - 78% herbal
+    'qotchy': ('the-condition', 4),     # 21x - 62% herbal
+
+    # --- PAIN/SUFFERING (dol-/dal- pattern, Latin dolor) ---
+    'dol': ('PAIN', 5),                 # 66x - 26% herbal, Latin dolor
+    'dalor': ('pain', 4),               # 6x - 33% herbal, dolor variant
+    'doly': ('painful', 4),             # 3x, pain-ADJ
+    'shor': ('SUFFERING', 4),           # 54x - 44% herbal, symptom
+    'shory': ('suffering-ADJ', 4),      # 2x - 100% herbal
+    'dshor': ('pain-suffering', 4),     # 7x - 43% herbal
+
+    # --- FEVER/HEAT CONDITIONS ---
+    # Temperature-related ailments
+    'keey': ('HEAT/fever', 4),          # 33x - heat condition
+    'keedy': ('heating', 4),            # 54x - fever/warming
+    'keeol': ('heat-oil', 4),           # 6x - heating preparation
+    'paldy': ('burning-ADJ', 3),        # burning sensation
+
+    # --- HUMORAL CONDITIONS (Four Humors) ---
+    # Medieval humoral medicine: blood, phlegm, yellow bile, black bile
+    # Note: chedy (BLOOD), chol (BILE), shedy (WATER) already in core vocab
+    'otchol': ('star-BILE', 4),         # 15x - 80% herbal, choleric
+    'kchol': ('vessel-bile', 4),        # 8x - 62% herbal, bile disorder
+    'qokchol': ('the-vessel-bile', 4),  # 8x - 62% herbal
+    'qotchol': ('the-star-bile', 4),    # 7x - 100% herbal, celestial bile
+    'choiin': ('bile-NOM', 4),          # 6x - 100% herbal, bilious
+
+    # --- SPECIFIC AILMENT TERMS (70%+ herbal) ---
+    'ytol': ('ailment', 4),             # 7x - 86% herbal
+    'kshy': ('condition', 4),           # 5x - 100% herbal
+    'shos': ('symptom', 4),             # 5x - 80% herbal
+    'tshol': ('root-ailment', 4),       # 5x - 80% herbal
+    'kor': ('affliction', 4),           # 12x - 67% herbal
+    'ykor': ('afflict', 4),             # 8x - 62% herbal
+    'ykchy': ('condition-with', 4),     # 12x - 67% herbal, conditioned
+    'kchdy': ('ailment-ADJ', 4),        # 11x - 64% herbal
+    'ckhy': ('illness-ADJ', 4),         # 14x - 64% herbal
+    'cphy': ('condition', 3),           # 8x - 62% herbal
 }
 
 # =============================================================================
