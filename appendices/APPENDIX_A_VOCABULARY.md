@@ -472,8 +472,9 @@ Classical 7 planets identified in astronomical section (f67-73):
 | sol | SUN | Latin | High | 9 | Latin sol |
 | sheol | sun | Latin | High | 8 | Variant |
 | otoar | MOON | Latin | Low | 4 | 100% astro exclusive |
-| okeos | MARS | Latin | Medium | 5 | 83% astro, red planet |
+| okeo | MERCURY | Latin | Low | 4 | 67% astro, swift planet |
 | oteotey | VENUS | Latin | Low | 4 | 100% astro exclusive |
+| okeos | MARS | Latin | Medium | 5 | 83% astro, red planet |
 | okalar | JUPITER | Latin | Medium | 5 | 83% astro, great benefic |
 | oteeos | SATURN | Latin | Medium | 5 | 70% astro, slow planet |
 

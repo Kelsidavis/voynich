@@ -1219,7 +1219,9 @@ VOCAB = {
     'okalar': ('JUPITER', 5),            # 6x - 83% astro, great benefic
     'oteotey': ('VENUS', 4),             # 4x - 100% astro, morning/evening star
     'otoar': ('MOON', 4),                # 3x - 100% astro, lunar reference
+    'okeo': ('MERCURY', 4),              # 15x - 67% astro, swift/quick planet
     # Note: SUN already as 'sol'/'sheol' in vocab
+    # All 7 classical planets now identified!
 
     # --- CELESTIAL TERMS ---
     'alal': ('WING/celestial', 4),       # 10x - 70% astro, Latin ala
