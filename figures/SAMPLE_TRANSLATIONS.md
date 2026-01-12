@@ -1,5 +1,5 @@
 # Voynich Manuscript - Sample Decoded Passages
-## Polish-Latin Decoder v6.1
+## Polish-Latin Decoder v7.5
 
 This document presents representative decoded passages from each section of the Voynich manuscript, demonstrating the Polish-Latin bilingual hypothesis.
 

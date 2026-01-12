@@ -1882,6 +1882,6 @@ These sample translations demonstrate:
 
 ---
 
-*Generated from Voynich Decoder v6.3*
+*Generated from Voynich Decoder v7.5*
 *Sample translations selected for representativeness and coherence*
 *Complete folio translations: F1R, F67, F72, F75, F85-F86, F88R (January 2026)*

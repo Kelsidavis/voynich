@@ -26,8 +26,8 @@ The European Voynich Alphabet (EVA) is a standardized transcription system devel
 | Total words in corpus | ~36,000 |
 | Unique word forms | ~8,500 |
 | EVA characters used | 20 |
-| Decoder vocabulary entries | 713 |
-| Lexical coverage | 88.8% |
+| Decoder vocabulary entries | 1,012 |
+| Lexical coverage | 88.0% |
 
 ---
 
@@ -491,6 +491,6 @@ Mappings align with Latin grammar:
 
 ---
 
-*Generated from Voynich Decoder v6.1*
-*713 vocabulary entries mapped to Polish-Latin phonology*
+*Generated from Voynich Decoder v7.5*
+*1,012 vocabulary entries mapped to Polish-Latin phonology*
 *EVA transcription standard (Zandbergen/Landini)*

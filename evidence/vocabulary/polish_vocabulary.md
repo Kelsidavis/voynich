@@ -173,4 +173,4 @@ For each Polish term identification:
 3. **Distribution match** - Does the term appear where expected?
 4. **Grammar match** - Do conjugated forms follow Polish patterns?
 
-All 713 vocabulary entries have been verified against these criteria.
+All 1,012 vocabulary entries have been verified against these criteria.

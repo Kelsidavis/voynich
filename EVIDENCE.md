@@ -453,7 +453,7 @@ The evidence supports identification of the Voynich manuscript as a **Polish-Lat
 ### Confidence Level
 
 Based on:
-- 713-entry verified vocabulary
+- 1,012-entry verified vocabulary
 - 6 sections with matching vocabulary profiles
 - Consistent grammar patterns
 - Coherent translations

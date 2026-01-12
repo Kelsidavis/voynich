@@ -38,7 +38,7 @@ To address this concern, we designed a control test that:
 #### 2.1.1 Procedure
 
 For each control iteration:
-1. Take the list of 713 vocabulary entries from the actual decoder
+1. Take the list of 1,012 vocabulary entries from the actual decoder
 2. Shuffle the meaning assignments randomly (Fisher-Yates shuffle)
 3. Apply the randomized decoder to the corpus
 4. Measure vocabulary distribution metrics
@@ -46,7 +46,7 @@ For each control iteration:
 #### 2.1.2 Constraints Preserved
 
 The random mappings preserve:
-- Same number of vocabulary entries (713)
+- Same number of vocabulary entries (1,012)
 - Same set of source tokens
 - Same set of target meanings
 - Only the token-to-meaning assignments are randomized
@@ -403,7 +403,7 @@ def run_control_test(n_iterations=10000):
 
 - EVA transcription of Voynich manuscript (~36,000 words)
 - Section boundaries (Herbal, Astronomical, Biological, Rosettes, Recipe)
-- Vocabulary mappings (713 entries)
+- Vocabulary mappings (1,012 entries)
 - Key terms for testing (chor, otar, shedy, dar/dal)
 
 ### 9.3 Validation

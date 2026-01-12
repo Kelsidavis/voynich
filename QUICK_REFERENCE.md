@@ -166,4 +166,4 @@ Then check any translation for medical coherence.
 
 ---
 
-*January 2026 | Decoder v6.1 | 713 vocabulary entries*
+*January 2026 | Decoder v7.5 | 1,012 vocabulary entries*

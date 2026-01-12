@@ -14,7 +14,7 @@
 
 The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex written in an undeciphered script, has resisted cryptanalysis for over a century. Previous decoding attempts have universally assumed a monolingual source text, testing candidates including Latin, Italian, Hebrew, and constructed languages. This study proposes that prior failures stem from this fundamental assumption: the manuscript employs a bilingual Polish-Latin vocabulary system using a consistent phonetic cipher.
 
-We developed a 713-entry decoder mapping Voynichese tokens to Polish vernacular terms (for instructions and patient references) and Latin technical terminology (for botanical, pharmaceutical, and astronomical content). Computational analysis of approximately 36,000 words across 225 folios reveals statistically significant vocabulary distributions: the Herbal section contains the highest concentration of "chor" (Polish *chory*, "sick"; n=147), the Astronomical section shows peak "otar" (Latin *stella*, "star"; n=472), and the Recipe section demonstrates maximum instructional verb frequency ("dar/dal," Polish "give/gave"; n=428). Chi-square analysis confirms these distributions are non-random (p<0.001).
+We developed a 1,012-entry decoder mapping Voynichese tokens to Polish vernacular terms (for instructions and patient references) and Latin technical terminology (for botanical, pharmaceutical, and astronomical content). Computational analysis of approximately 36,000 words across 225 folios reveals statistically significant vocabulary distributions: the Herbal section contains the highest concentration of "chor" (Polish *chory*, "sick"; n=147), the Astronomical section shows peak "otar" (Latin *stella*, "star"; n=472), and the Recipe section demonstrates maximum instructional verb frequency ("dar/dal," Polish "give/gave"; n=428). Chi-square analysis confirms these distributions are non-random (p<0.001).
 
 Crucially, the manuscript displays six orthographic conventions specific to 15th-century Polish: (1) complete absence of the letter 'j' with systematic 'i' substitution; (2) double vowels marking vowel length, matching Jakub Parkoszowic's 1440 orthographic proposal; (3) Czech-influenced digraphs; (4) nasal vowels encoded without ogonek; (5) simplified 'ł' as 'l'; and (6) case distinctions via vowel length. These patterns converge on a date range of 1400-1500, consistent with radiocarbon dating (1404-1438 CE).
 
@@ -104,7 +104,7 @@ The study uses the EVA (European Voynich Alphabet) transcription, a standardized
 
 ### 3.2 Vocabulary Construction
 
-The 713-entry decoder was constructed through iterative analysis:
+The 1,012-entry decoder was constructed through iterative analysis:
 
 1. **Frequency analysis**: Identification of high-frequency tokens
 2. **Phonetic mapping**: Correspondence between EVA characters and Polish/Latin phonemes
@@ -330,7 +330,7 @@ The decoder and all analysis code are available for independent verification. We
 
 ## 7. Data Availability
 
-- **Decoder source code**: Python implementation (713 entries)
+- **Decoder source code**: Python implementation (1,012 entries)
 - **Transcription**: EVA standard transcription
 - **Analysis scripts**: Section-by-section vocabulary analysis
 - **Statistical tests**: Chi-square, regression, and control test implementations
@@ -413,7 +413,7 @@ All materials available at: [repository URL]
 
 ### Appendix A: Complete Vocabulary List
 
-[713 entries with confidence scores—to be included as supplementary material]
+[1,012 entries with confidence scores—to be included as supplementary material]
 
 ### Appendix B: EVA-to-Phoneme Mapping Table
 

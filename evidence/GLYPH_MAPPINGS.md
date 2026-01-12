@@ -318,5 +318,5 @@ Adjective:  -dy, -edy = "-ish, -like"
 
 ---
 
-*Document generated from Voynich Decoder v6.1 analysis*
-*713 vocabulary entries mapped to Polish-Latin phonology*
+*Document generated from Voynich Decoder v7.5 analysis*
+*1,012 vocabulary entries mapped to Polish-Latin phonology*

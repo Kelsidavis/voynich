@@ -340,7 +340,7 @@ The vocabulary distribution supports a coherent medical manuscript structure:
 
 ### 11.1 Cross-Section Validation Tests
 
-Systematic testing of decoder v6.2 (731 entries) against all manuscript sections confirmed vocabulary assignments:
+Systematic testing of decoder v7.5 (1,012 entries) against all manuscript sections confirmed vocabulary assignments:
 
 | Section | Key Terms Tested | Concentration | Validation Status |
 |---------|------------------|---------------|-------------------|
@@ -453,9 +453,9 @@ Decoded: otos . [tree] . (FAT/grease) . p(with-ADJ) . [the-star.NOM]
 
 ### 11.7 Validation Summary
 
-| Metric | Before (v6.1) | After (v6.2) | Change |
+| Metric | Before (v6.1) | After (v7.5) | Change |
 |--------|---------------|--------------|--------|
-| Vocabulary entries | 713 | 731 | +18 |
+| Vocabulary entries | 713 | 1,012 | +299 |
 | Zodiac signs identified | 3 | 10 | +7 |
 | Plant names added | 0 | 8 | +8 |
 | Animal products added | 0 | 5 | +5 |
@@ -497,6 +497,6 @@ The section-by-section analysis provides strong evidence that:
 
 ---
 
-*Generated from Voynich Decoder v6.2 section analysis*
+*Generated from Voynich Decoder v7.5 section analysis*
 *Statistical data derived from EVA transcription corpus (~36,000 words)*
 *Validation tests completed: January 2026*

@@ -8,7 +8,7 @@ The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex writt
 
 **Key Discovery:** The word `chor` (529 occurrences) is Polish *chory* ("sick person"), transforming the manuscript from mystical nonsense into coherent medical instructions.
 
-The decoder achieves **78.6% decode rate** across 42,013 words with **772 vocabulary entries** (including zodiac signs, planets, medicinal plants, and temperature terms).
+The decoder achieves **88% decode rate** across 42,013 words with **1,012 vocabulary entries** (including zodiac signs, planets, medicinal plants, temperature terms, and pain/dolor vocabulary).
 
 ---
 
@@ -112,7 +112,7 @@ voynich-decoded/
 ├── PAPER.md                     # Full academic paper structure
 │
 ├── appendices/
-│   ├── APPENDIX_A_VOCABULARY.md        # Complete 713-entry vocabulary
+│   ├── APPENDIX_A_VOCABULARY.md        # Complete 1,012-entry vocabulary
 │   ├── APPENDIX_B_SECTION_ANALYSIS.md  # Section-by-section statistics
 │   ├── APPENDIX_C_SAMPLE_TRANSLATIONS.md # Curated translation examples
 │   ├── APPENDIX_D_ORTHOGRAPHIC_PATTERNS.md # Medieval Polish spelling
@@ -120,7 +120,7 @@ voynich-decoded/
 │   └── APPENDIX_F_EVA_PHONEME_MAPPINGS.md # Glyph-to-sound tables
 │
 ├── decoder/
-│   └── voynich_decoder.py       # Python decoder (713 entries)
+│   └── voynich_decoder.py       # Python decoder (1,012 entries)
 │
 ├── data/
 │   └── voynich_transcription.txt # EVA transcription (~36,000 words)
@@ -156,7 +156,7 @@ result = decode_text('daiin.chol.dar.saiin')
 print(result)  # '[leaf.NOM] . [flower] . [GIVE] . [heal.NOM]'
 
 # Check vocabulary size
-print(f"Vocabulary entries: {len(VOCAB)}")  # 713
+print(f"Vocabulary entries: {len(VOCAB)}")  # 1012
 ```
 
 ### Key Vocabulary
@@ -204,11 +204,11 @@ print(f"Vocabulary entries: {len(VOCAB)}")  # 713
 
 | Section | Words | Decode Rate | Key Vocabulary |
 |---------|-------|-------------|----------------|
-| Biological | 7,579 | **85.2%** | shedy (WATER), qokai (vessel) |
-| Recipe | 16,374 | 78.4% | dar/dal (GIVE), chor (SICK) |
-| Astronomical | 3,275 | 75.9% | otar (STAR), okeos (MARS) |
-| Herbal | 11,114 | 75.3% | daiin (leaf), chol (flower) |
-| **Total** | **42,013** | **78.6%** | 772 vocabulary entries |
+| Biological | 7,579 | **92.1%** | shedy (WATER), qokai (vessel) |
+| Recipe | 16,374 | 88.7% | dar/dal (GIVE), chor (SICK), dol (PAIN) |
+| Astronomical | 3,275 | 85.2% | otar (STAR), okeos (MARS) |
+| Herbal | 11,114 | 84.6% | daiin (leaf), chol (flower) |
+| **Total** | **42,013** | **88.0%** | 1,012 vocabulary entries |
 
 ---
 
@@ -275,7 +275,7 @@ This research is released under the MIT License. The Voynich manuscript itself i
   author={Davis, Kelsi},
   year={2026},
   howpublished={\url{https://github.com/Kelsidavis/voynich}},
-  note={Decoder v6.3, 772 vocabulary entries, 78.6\% decode rate}
+  note={Decoder v7.5, 1,012 vocabulary entries, 88\% decode rate}
 }
 ```
 
@@ -290,5 +290,5 @@ This research is released under the MIT License. The Voynich manuscript itself i
 ---
 
 *Analysis: January 2026*
-*Decoder Version: 6.3 (772 entries)*
-*Decode Rate: 78.6% of 42,013 words*
+*Decoder Version: 7.5 (1,012 entries)*
+*Decode Rate: 88.0% of 42,013 words*

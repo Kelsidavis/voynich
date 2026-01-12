@@ -6,7 +6,7 @@
 
 The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex written in an undeciphered script, has resisted cryptanalysis for over a century. Previous decoding attempts have universally assumed a monolingual source text, testing candidates including Latin, Italian, Hebrew, and constructed languages. This study proposes that prior failures stem from this fundamental assumption: the manuscript employs a bilingual Polish-Latin vocabulary system using a consistent phonetic cipher.
 
-We developed a 713-entry decoder mapping Voynichese tokens to Polish vernacular terms (for instructions and patient references) and Latin technical terminology (for botanical, pharmaceutical, and astronomical content). Computational analysis of approximately 36,000 words across 225 folios reveals statistically significant vocabulary distributions: the Herbal section contains the highest concentration of "chor" (Polish *chory*, "sick"; n=147), the Astronomical section shows peak "otar" (Latin *stella*, "star"; n=472), and the Recipe section demonstrates maximum instructional verb frequency ("dar/dal," Polish "give/gave"; n=428). Chi-square analysis confirms these distributions are non-random (p<0.001).
+We developed a 1,012-entry decoder mapping Voynichese tokens to Polish vernacular terms (for instructions and patient references) and Latin technical terminology (for botanical, pharmaceutical, and astronomical content). Computational analysis of approximately 36,000 words across 225 folios reveals statistically significant vocabulary distributions: the Herbal section contains the highest concentration of "chor" (Polish *chory*, "sick"; n=147), the Astronomical section shows peak "otar" (Latin *stella*, "star"; n=472), and the Recipe section demonstrates maximum instructional verb frequency ("dar/dal," Polish "give/gave"; n=428). Chi-square analysis confirms these distributions are non-random (p<0.001).
 
 The decoder achieves 88.8% lexical coverage and explains previously anomalous statistical properties: the manuscript's elevated Index of Coincidence (0.077) reflects bilingual vocabulary overlap, while the 5-character word-length peak corresponds to Polish agglutinative morphology. Sample translations yield coherent medical instructions (e.g., "Give the flowing flower-oil to the sick patient") consistent with medieval pharmaceutical literature.
 
@@ -33,7 +33,7 @@ This study challenges the implicit assumption underlying all previous decoding a
 1. **Corpus preparation**: EVA (European Voynich Alphabet) transcription normalized to approximately 36,000 word-tokens
 2. **Vocabulary construction**: Iterative mapping of high-frequency tokens to Polish and Latin candidates based on phonetic correspondence and contextual coherence
 3. **Statistical validation**: Section-by-section vocabulary distribution analysis with chi-square testing
-4. **Decoder implementation**: Python-based tool achieving 88.8% coverage (713 entries)
+4. **Decoder implementation**: Python-based tool achieving 88% coverage (1,012 entries)
 
 ### Key Findings
 

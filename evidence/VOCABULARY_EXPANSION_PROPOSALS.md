@@ -3,7 +3,7 @@
 ## Research Focus: Zodiac Signs, Medicinal Plants, and Animals
 
 *Generated: January 2026*
-*Based on: Voynich Decoder v6.1 (Polish-Latin Hybrid)*
+*Based on: Voynich Decoder v7.5 (Polish-Latin Hybrid)*
 *Methodology: Phonetic analysis of f72 zodiac folios and herbal section patterns*
 
 ---
