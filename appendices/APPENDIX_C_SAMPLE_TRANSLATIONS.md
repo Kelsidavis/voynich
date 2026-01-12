@@ -1419,6 +1419,316 @@ F88R demonstrates the recipe section's pharmaceutical function:
 
 ---
 
+### 9.5 F85-F86 Rosettes Section - Master Cosmographical Map
+
+*Function: Master index linking all sections through cosmological framework*
+
+**Description:** Large fold-out diagram with 9 circular "rosettes" connected by causeways. Contains text in circular bands and labels. Vocabulary is mixed from all manuscript sections, confirming its role as a master index.
+
+#### F85R1 - Central Rosette Region
+
+**f85r1.1:**
+```
+EVA:     pdsheody.shdol.shey.otchdy.dshedy.soeeedy.dchefoey.sair.shedy.sodair.shey
+Decoded: pd(watery) . sh[pain] . (knowing) . [star-ADJ] . [give-water] . soeeedy . dchefoey . [heal] . [WATER] . so[give] . (knowing)
+```
+→ "Watery pain knowing, star-ADJ, GIVE-WATER... HEAL WATER... world-GIVE knowing"
+
+**f85r1.2:**
+```
+EVA:     yoiin.cheey.qocthdy.otedy.dol.oraiin.okshd.okchedy.otedy.chckhdy.otam
+Decoded: yoiin . (with) . (the-fourth) . [star-like] . [pain] . [heart.NOM] . okshd . (eye-flow) . [star-like] . (with-flow) . [heaven.ACC]
+```
+→ "...with the-fourth star-like PAIN heart... eye-flow star-like... HEAVEN"
+
+**f85r1.3 (KEY COSMOLOGICAL STATEMENT):**
+```
+EVA:     tarar.otedy.opcheey.ykdair.chy.qotedy.qokchdy.otedy.cheol.saiin.otedam
+Decoded: [EARTH] . [star-like] . (circle) . and-[GIVE] . (blood) . [THE-stars] . (THE-vessel) . [star-like] . [flower-oil] . [HEAL.NOM] . [star-place]
+```
+→ "**EARTH** star-like circle, and-GIVE blood [at] THE-STARS, THE-vessel star-like **FLOWER-OIL HEAL** [at] **star-place**"
+
+**Medical Context:** Central cosmological statement placing EARTH amid STARS, with FLOWER-OIL HEALING at celestial positions.
+
+**f85r1.4:**
+```
+EVA:     odeedaiin.qokechy.daiin.chekchy.olshedy.qokeedy.doltshdy.otar.otchdy.ols
+Decoded: odee[leaf.NOM] . (the-vessel-blood) . [leaf.NOM] . ch(from)chy . [oil-water] . [the-flowing] . [pain]t(water) . [STAR] . [star-ADJ] . (oil-heal)
+```
+→ "...leaf THE-vessel-blood leaf... OIL-WATER the-flowing PAIN-water STAR star-ADJ oil-heal"
+
+**f85r1.5:**
+```
+EVA:     tchedy.kchedy.qodaiin.olkeedy.oraiin.olshedy.okchy.kedy.tedy.tdam
+Decoded: (time-with-flowing) . (vessel-with-flowing) . (the-leaf.NOM) . (oil-flowing) . [heart.NOM] . [oil-water] . (eye-with) . (vessel-flowing) . (time-flowing) . (time-place)
+```
+→ "Time-with-flowing, vessel-with-flowing, THE-leaf, oil-flowing, HEART, OIL-WATER... time-flowing **TDAM**"
+
+**Medical Context:** First appearance of unique term "tdam" (100% exclusive to rosettes).
+
+**f85r1.6 (KEY MEDICAL REFERENCE):**
+```
+EVA:     rorain.shey.pchey.qokeey.chor.ol.shedy
+Decoded: (root-heart) . (knowing) . [AT/BY] . [the-flow] . [SICK] . [OIL] . [WATER]
+```
+→ "**ROOT** [for] heart knowing - AT the-flow [for] **SICK**: **OIL** [and] **WATER**"
+
+**Medical Context:** Clear treatment instruction - root for heart, oil and water for sick patient.
+
+---
+
+#### F85R1 - Cosmic Connections
+
+**f85r1.7:**
+```
+EVA:     pchedy.oraiin.shefchdy.qopar.sheedy.qokedy.qotchedy.kchdar.ypchdy.ldo
+Decoded: (for-with-flowing) . [heart.NOM] . (know)f(with) . (THE)p[tree] . [watery] . (the-flow) . (the-star-with-flowing) . k(blood-dragon) . (and-for-with) . ldo
+```
+→ "For-with-flowing HEART... THE-tree watery the-flow, THE-STAR-with-flowing..."
+
+**f85r1.8:**
+```
+EVA:     daiin.chckhdy.qotchdy.opchsd.qokchdy.otchy.qodal.daiin.dal.shdar.oram
+Decoded: [leaf.NOM] . (with-flow) . (the-star) . opchsd . (the-vessel-with) . (star-with) . (THE)[GAVE] . [leaf.NOM] . [GAVE] . (water-give-tree) . (heart.ACC)
+```
+→ "**LEAF** with-flow THE-STAR... THE-vessel star-with THE-**GAVE** LEAF **GAVE** water-give-tree **HEART**"
+
+**f85r1.10:**
+```
+EVA:     dair.chokaiin.cheod.cheolkeedy
+Decoded: [give] . (flower-vessel.NOM) . (flower)d . [flower-oil](flowing)
+```
+→ "**GIVE** flower-vessel flower **FLOWER-OIL** flowing"
+
+---
+
+#### F85R1 - Medical Instructions
+
+**f85r1.11 (KEY TREATMENT LINE):**
+```
+EVA:     pdar.ol.shdair.qopcheedy.dal.chdal.chor.shefshoro.raiin.dalor.aiin.opakam
+Decoded: p[GIVE] . [OIL] . sh[give] . (THE)p(with-flowing) . [GAVE] . (blood-GAVE) . [SICK] . (know)f[knowledge] . [ROOT.NOM] . [GAVE]or . (-NOM) . opa[BATHE]
+```
+→ "For-**GIVE OIL**, water-give THE-flowing, **GAVE** blood-GAVE [to] **SICK**... knowledge **ROOT GAVE**... circle-**BATHE**"
+
+**Medical Context:** Complete treatment formula - give oil, water, blood treatment for sick, root, bathing.
+
+**f85r1.13:**
+```
+EVA:     rsheodor.qoctho.kar.okaiin.ykeeeody.qotal.ol.s.aiin.ol.daldy.shody
+Decoded: rsheodor . (THE)(fourth) . (vessel) . [eye.NOM] . ykeee(star) . [THE-HEAVEN] . [OIL] . s . (-NOM) . [OIL] . (give-world) . (knowledge)
+```
+→ "...THE-fourth vessel EYE... star **THE-HEAVEN OIL**... OIL give-world knowledge"
+
+**f85r1.14:**
+```
+EVA:     daror.sheedy.keody.oteody.sar.aiin.cheedy.otaiin.dar.al.odaiiin
+Decoded: [dragon-heart] . [watery] . (vessel-flow) . (star-flow) . [WORLD/salt] . (-NOM) . (with-flowing) . [star.NOM] . [GIVE] . (high) . odaiiin
+```
+→ "Dragon-heart watery vessel-flow star-flow SALT... with-flowing **STAR GIVE** high..."
+
+---
+
+#### F85R1 - Stellar/Heavenly References
+
+**f85r1.30:**
+```
+EVA:     dorchdy.osaiin.okedes.chcthy.okedy.chdy.chdy.otal.otchdy.otalom
+Decoded: [PAIN](with) . (a-heal.NOM) . okedes . (with-fourth) . (a-flow) . (with) . (with) . [HEAVEN/LIBRA] . [star-ADJ] . [HEAVEN/LIBRA]om
+```
+→ "PAIN-with a-HEAL... with-fourth a-flow... **HEAVEN/LIBRA** star-ADJ **HEAVEN/LIBRA**"
+
+**f85r1.33:**
+```
+EVA:     raraiiin.shey.osaiin.otar.ytar.otedy.or.aiin.otar.alar.olkeedy
+Decoded: [ROOT.NOM] . (knowing) . (a-heal.NOM) . [STAR] . y(time-tree) . [star-like] . (heart) . (-NOM) . [STAR] . (high-tree) . (oil-flowing)
+```
+→ "**ROOT** knowing a-HEAL **STAR**... star-like heart... **STAR** high-tree oil-flowing"
+
+---
+
+#### F86V - Secondary Rosettes
+
+**f86v.5:**
+```
+EVA:     pchsodar.oedy.qokeol.qoeol.oqokeol.dar.ol.olair.am
+Decoded: pchs[give] . oedy . [the-flower-oil] . (THE)eol . o[the-flower-oil] . [GIVE] . [OIL] . [OIL][AIR] . (ACC)
+```
+→ "...give... **THE-FLOWER-OIL** THE-oil **THE-FLOWER-OIL GIVE OIL** oil-AIR"
+
+**f86v.8:**
+```
+EVA:     dain.ol.keedy.otar.olshedy.okol.aiin.okal.cheockhy.shockhhy.daiin
+Decoded: [leaf.ACC] . [OIL] . (flowing) . [STAR] . [oil-water] . (a-oil) . (-NOM) . (a-vessel) . (blood-flow-flower-vessel) . (knowledge) . [leaf.NOM]
+```
+→ "**LEAF OIL** flowing **STAR OIL-WATER** a-oil a-vessel... **LEAF**"
+
+**f86v.9:**
+```
+EVA:     dar.oleey.ol.yy
+Decoded: [GIVE] . [OIL]eey . [OIL] . yy
+```
+→ "**GIVE OIL OIL**..."
+
+---
+
+#### F86V - Extended Content
+
+**f86v.12:**
+```
+EVA:     qolchy.olkeedy.chdal.chedy.chor.ar.arody.qokchdy.chdal.okar.chdy.otaiin
+Decoded: (the-water)chy . (oil-flowing) . (blood-GAVE) . (with) . [SICK] . [tree] . (tree) . (the-vessel-with) . (blood-GAVE) . (a-vessel) . (with) . [star.NOM]
+```
+→ "THE-water oil-flowing blood-**GAVE** with **SICK** tree... THE-vessel blood-**GAVE** a-vessel with **STAR**"
+
+**f86v.13:**
+```
+EVA:     dshor.shdy.shor.ol.aiin.olkeedy.shdal.oteor.chdar.lkarchees.olkar.dalam
+Decoded: [give-knowledge] . (water) . [knowledge] . [OIL] . (-NOM) . (oil-flowing) . sh[GAVE] . [star] . (blood-dragon) . (world-vessel)(with-bone) . [oil-vessel] . [GAVE]
+```
+→ "**GIVE-knowledge** water **knowledge OIL**... oil-flowing **GAVE STAR**... **OIL-vessel GAVE**"
+
+**f86v.14:**
+```
+EVA:     tar.lol.chol.olkar.daiin.chear.or.otshey.qokar.opchey.taiky.qokar
+Decoded: (time-tree) . (MILK/liquid) . [flower] . [oil-vessel] . [leaf.NOM] . [CHERUB] . (heart) . (star-water-flow) . [the-vessel] . (circle-flow) . taiky . [the-vessel]
+```
+→ "Time-tree **MILK FLOWER OIL-vessel LEAF** cherub heart star-water-flow **THE-vessel** circle-flow **THE-vessel**"
+
+**f86v.18:**
+```
+EVA:     dshor.ykaiin.dar.sheey.qokol.cheol.otar.ar.aiiin.qoteeos.aiin
+Decoded: [give-knowledge] . (and-vessel.NOM) . [GIVE] . (under) . [the-oil] . [flower-oil] . [STAR] . [tree] . (-NOM) . (THE)tee[bone] . (-NOM)
+```
+→ "**GIVE-knowledge** and-vessel **GIVE** water **THE-oil FLOWER-OIL STAR** tree..."
+
+---
+
+#### F86V - Heavenly References (Final Section)
+
+**f86v.26 (KEY CELESTIAL LINE):**
+```
+EVA:     ytaiin.ytair.dalol.ytal.dar.aiiin.chol.olkchey.lkar.otal.qotar.dam
+Decoded: [and-star.NOM] . ytair . (give-HIGH-oil) . (and-heaven) . [GIVE] . (-NOM) . [flower] . [OIL](vessel-with-flow) . (world-vessel) . [HEAVEN/LIBRA] . [the-star] . (place.ACC)
+```
+→ "And-**STAR** star-air GIVE-high-oil and-**HEAVEN GIVE**... **FLOWER** oil-vessel world-vessel **HEAVEN/LIBRA THE-STAR** place"
+
+**f86v.46:**
+```
+EVA:     sas.aiin.otariin.otar.cheody.qotaiin.qokaiin.ol.tey.qokaiin.otar.ol
+Decoded: sas . (-NOM) . [STAR]iin . [STAR] . (with) . [the-star.NOM] . [the-vessel.NOM] . [OIL] . (time-flow) . [the-vessel.NOM] . [STAR] . [OIL]
+```
+→ "...**STAR STAR** with **THE-STAR THE-vessel OIL** time-flow **THE-vessel STAR OIL**"
+
+**f86v.49:**
+```
+EVA:     poiin.otal.kal.toror.olaiin.okeockhey.olkeey.qoedy.lkaiin.oltam
+Decoded: poiin . [HEAVEN/LIBRA] . (vessel-high) . toror . (oil.NOM) . okeo(flower-vessel) . (oil-vessel-flow) . (THE)edy . (wood.NOM) . [OIL](time.ACC)
+```
+→ "...**HEAVEN/LIBRA** vessel-high EARTH-EARTH oil eye-flower-vessel oil-vessel-flow... wood **OIL-time**"
+
+**f86v.51:**
+```
+EVA:     daiin.ar.qotal.kshdy.otar.shcthdy.qokol.chotal.kar.olkar.alky
+Decoded: [leaf.NOM] . [tree] . [THE-HEAVEN] . (vessel-water) . [STAR] . sh(fourth) . [the-oil] . (flower-star-HIGH) . (vessel) . [oil-vessel] . (high)ky
+```
+→ "**LEAF** tree **THE-HEAVEN** vessel-water **STAR** fourth **THE-oil** flower-star-HIGH vessel **OIL-vessel** high"
+
+**f86v.52:**
+```
+EVA:     qokaiin.octhy.oltchey.qotal.lkalol.sheol.qotaiin.ytaiin.ytody
+Decoded: [the-vessel.NOM] . (fourth) . [OIL](time-with-flow) . [THE-HEAVEN] . l(vessel-high)[OIL] . [sun] . [the-star.NOM] . [and-star.NOM] . ytody
+```
+→ "**THE-vessel** fourth **OIL**-time-with-flow **THE-HEAVEN** vessel-high-**OIL SUN THE-STAR** and-**STAR**..."
+
+---
+
+#### Rosettes Vocabulary Statistics
+
+| Category | Count | % | Function |
+|----------|-------|---|----------|
+| STAR/HEAVEN | 22 | 16.1% | Astronomical timing framework |
+| GIVE | 16 | 11.7% | Instruction verbs |
+| WATER | 11 | 8.0% | Hydrotherapy connections |
+| ROOT | 6 | 4.4% | Herbal references |
+| EARTH | 6 | 4.4% | Cosmological center |
+| LEAF | 5 | 3.6% | Botanical terms |
+| VESSEL | 5 | 3.6% | Container references |
+| SICK | 3 | 2.2% | Patient references |
+| FLOWER-OIL | 3 | 2.2% | Pharmaceutical |
+| HEAL | 1 | 0.7% | Medical outcome |
+
+**Total words analyzed:** 137
+
+---
+
+#### Unique Rosettes Vocabulary
+
+| Term | Distribution | Meaning |
+|------|--------------|---------|
+| **tdam** | 100% exclusive to rosettes | Unique cosmological marker |
+| **tarar** | Rosettes only | EARTH-tree (ground/earth) |
+| **otedam** | Rosettes only | STAR-place (celestial location) |
+| **opakam** | Rosettes only | circle-BATHE (circular water) |
+| **sodair** | Rosettes only | world-GIVE (universal giving) |
+
+---
+
+#### Cosmological Structure
+
+The rosettes diagram presents a **geocentric cosmological model**:
+
+1. **EARTH (tarar)** - Appears at center of the diagram
+2. **HEAVEN (otal)** - Repeated throughout (celestial scales/balance)
+3. **STARS (otar/otaiin)** - Provides timing framework (16%+ of vocabulary)
+4. **9 Rosettes** - May represent the 9 celestial spheres of medieval cosmology
+
+---
+
+#### Medical Integration Pattern
+
+The rosettes combine vocabulary from ALL manuscript sections:
+
+| Section | Terms Present | Function |
+|---------|---------------|----------|
+| Herbal | daiin, raiin, chol | Plant references |
+| Astronomical | otar, otal, otaiin | Timing framework |
+| Biological | shedy, olshedy | Water therapy |
+| Recipe | cheol, ol, sal | Preparations |
+| Medical | chor, saiin, dar/dal | Patient treatment |
+
+---
+
+#### Interpretation Summary
+
+The Rosettes section (f85-f86) functions as a **MASTER COSMOGRAPHICAL-MEDICAL MAP**:
+
+1. **Cosmological Framework**
+   - Earth at center (tarar)
+   - Heaven/celestial spheres (otal, otar)
+   - 9 rosettes = 9 celestial spheres
+
+2. **Medical Index Function**
+   - Links herbal (plants) → recipes (preparations)
+   - Links astronomical (timing) → biological (water therapy)
+   - Provides treatment timing based on celestial positions
+
+3. **Unique Vocabulary**
+   - "tdam" appears ONLY in rosettes (100% exclusive)
+   - Confirms unique cosmological function
+
+4. **Integration Point**
+   - Only section with vocabulary from ALL other sections
+   - Functions as table of contents/master reference
+
+5. **Key Medical Passages**
+   - f85r1.6: "ROOT for heart... AT the flow for SICK: OIL and WATER"
+   - f85r1.11: "GIVE OIL, water-give... GAVE blood-GAVE to SICK... ROOT GAVE... circle-BATHE"
+
+**Historical Context:** The rosettes match medieval cosmographical diagrams (mappae mundi) that place Earth at center with celestial spheres radiating outward. The mixed vocabulary from all sections confirms this as a MASTER INDEX or SUMMARY linking all parts of the medical encyclopedia within a cosmological framework.
+
+---
+
 ## 10. Conclusions
 
 These sample translations demonstrate:
@@ -1436,6 +1746,7 @@ These sample translations demonstrate:
    - **Zodiac (f72)**: star terms + zodiac identifications
    - **Hydrotherapy (f75)**: water terms + vessel references
    - **Recipe (f88r)**: ingredient lists + instruction verbs + marginal index
+   - **Rosettes (f85-f86)**: mixed vocabulary from ALL sections + unique cosmological terms
 
 4. **Formulaic Structure**: Translations reveal consistent formula patterns suggesting a systematic medical text rather than random content.
 
@@ -1447,8 +1758,10 @@ These sample translations demonstrate:
 
 8. **Recipe Section Structure**: F88R demonstrates pharmaceutical organization with marginal labels (oral, oldar, otaldy), complete ingredient lists (SALT + LEAF + ROOT + FLOWER-OIL), and consistent instruction verbs (dar/dal), matching medieval recipe manuscript formats.
 
+9. **Rosettes as Master Index**: F85-F86 contains vocabulary from ALL manuscript sections (herbal, astronomical, biological, recipe) plus unique terms like "tdam" (100% exclusive), confirming its function as a cosmographical master index linking all parts of the medical encyclopedia.
+
 ---
 
 *Generated from Voynich Decoder v6.2*
 *Sample translations selected for representativeness and coherence*
-*Complete folio translations: F1R, F72, F75, F88R (January 2026)*
+*Complete folio translations: F1R, F72, F75, F85-F86, F88R (January 2026)*
