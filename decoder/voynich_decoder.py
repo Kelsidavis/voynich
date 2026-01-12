@@ -1277,6 +1277,24 @@ VOCAB = {
     'soly': ('SOLAR', 4),                # 4x/8x - 50% astro, sun-related
     # Note: Zodiac signs (3 per season) also indicate seasonal timing
 
+    # --- HOURS/TIME OF DAY (ora- pattern, Latin hora) ---
+    # Pattern: ora + suffix for hour-related terms
+    'orary': ('HOUR/hourly', 4),         # 4x/5x - 80% astro, Latin horarius
+    'oran': ('HOUR', 4),                 # 3x/3x - 100% astro, Latin hora
+    'oraly': ('hourly', 4),              # 3x/7x - 43% astro, hour-related
+    'oram': ('hour-period', 4),          # 5x/29x - 17% astro, time period
+    'oraiiny': ('of-hours', 4),          # 3x/4x - 75% astro, genitive hours
+    # Time flow terms (-eey suffix = time/flow)
+    'choteey': ('flower-time', 4),       # 8x/14x - 57% astro, treatment timing
+    'cheteey': ('blood-time', 4),        # 5x/5x - 100% astro, bleeding hour
+    'chteey': ('time-flow', 4),          # 6x/8x - 75% astro, temporal flow
+    'ockheey': ('watch-time', 4),        # 5x/6x - 83% astro, vigil/watch
+    # Time of day (sun position variants)
+    'sheol': ('MORNING/sunrise', 5),     # 13x astro - sun rising (already SUN)
+    'otoshol': ('EVENING/sunset', 4),    # 3x/3x - 100% astro, star-sun
+    'ofsholdy': ('DUSK-day', 4),         # 3x/3x - 100% astro, of-sun-day
+    # Note: Complete temporal system now includes days, months, seasons, hours
+
     # =========================================================================
     # SECTION 35: HYDROTHERAPY TERMS (Bio section f75-84)
     # =========================================================================

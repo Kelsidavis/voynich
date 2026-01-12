@@ -9,7 +9,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 798
+- **Total entries**: 808
 - **Polish terms**: ~60
 - **Latin terms**: ~430
 - **Bilingual terms**: 0
@@ -23,6 +23,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 - **Days of the week**: 10 entries (all 7 days via planet + -ody suffix)
 - **Months**: 8 entries (month/calendar terms via planet + -am/-ary suffix)
 - **Seasons**: 7 entries (4 seasons via -lar suffix + solstice/equinox terms)
+- **Hours/Time of day**: 13 entries (ora- hour terms + time flow + sun positions)
 - **Planetary vocabulary**: All 7 classical planets (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn)
 - **Temperature terms**: keeo (WARM), rai (HEAT)
 - **Short base forms**: dai, kai, sai, tai, etc.
@@ -548,6 +549,37 @@ Supporting solstice/equinox terms:
 
 **Pattern:** root + `-lar` suffix (possibly from Latin *solaris* = solar)
 **Note:** The 4 `-lar` words appear exclusively in astronomical section, suggesting calendar/seasonal function. Zodiac signs (3 per season) also indicate seasonal timing.
+
+Hours/Time of Day (ora- pattern, Latin hora):
+
+| EVA Token | Meaning | Astro Count | Astro % | Notes |
+|-----------|---------|-------------|---------|-------|
+| orary | HOUR/hourly | 4/5 | 80% | Latin horarius |
+| oran | HOUR | 3/3 | 100% | Latin hora |
+| oraly | hourly | 3/7 | 43% | Hour-related |
+| oram | hour-period | 5/29 | 17% | Time period |
+| oraiiny | of-hours | 3/4 | 75% | Genitive hours |
+
+Time flow terms (-eey suffix):
+
+| EVA Token | Meaning | Astro Count | Astro % | Notes |
+|-----------|---------|-------------|---------|-------|
+| choteey | flower-time | 8/14 | 57% | Treatment timing |
+| cheteey | blood-time | 5/5 | 100% | Bleeding hour |
+| chteey | time-flow | 6/8 | 75% | Temporal flow |
+| ockheey | watch-time | 5/6 | 83% | Vigil/watch |
+
+Time of day (sun position):
+
+| EVA Token | Meaning | Astro Count | Astro % | Notes |
+|-----------|---------|-------------|---------|-------|
+| sheol | MORNING/sunrise | 13/311 | 4% | Sun rising |
+| sol | NOON/midday | 5/171 | 3% | Sun at peak |
+| otoshol | EVENING/sunset | 3/3 | 100% | Star-sun |
+| ofsholdy | DUSK-day | 3/3 | 100% | Of-sun-day |
+
+**Pattern:** `ora-` prefix from Latin *hora* (hour); `-eey` suffix indicates time/flow
+**Note:** Complete temporal system: days (-ody), months (-am), seasons (-lar), hours (ora-)
 
 ---
 
