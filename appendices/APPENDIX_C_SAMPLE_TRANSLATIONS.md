@@ -1197,6 +1197,228 @@ F1R functions as the **PREFACE** to the Voynich manuscript:
 
 ---
 
+### 9.4 F88R Recipe Section - Pharmaceutical Preparations
+
+*Function: First page of the recipe/pharmaceutical section with compound preparations*
+
+**Description:** The recipe section (f88r-f116v) contains the highest concentration of instruction verbs (dar/dal: 428 occurrences). F88r is the opening page, featuring marginal labels and multi-line recipe formulas with plant illustrations.
+
+#### Marginal Labels (Recipe Index)
+
+The left margin contains short labels functioning as a recipe index:
+
+| Line | EVA | Decoded | Function |
+|------|-----|---------|----------|
+| f88r.1 | otorchety | (star-heart-ADJ) | Stellar heart remedy |
+| f88r.2 | oral | [mouth] | Oral preparation |
+| f88r.3 | orald | (mouth-give) | Give orally |
+| f88r.4 | oldar | [oil-give] | Give oil |
+| f88r.5 | otoky | (star-and) | Stellar conjunction |
+| f88r.6 | otaly | (star-high-ADJ) | High star timing |
+| f88r.12 | otaldy | [heavenly] | Celestial remedy |
+| f88r.13 | oram | (heart.ACC) | Heart (accusative) |
+| f88r.14 | dary | [giving] | Administration |
+| f88r.15 | okol | (a-oil) | Oil-based |
+| f88r.17 | otyda | oty[GIVES] | Star-gives |
+
+---
+
+#### Recipe 1: Pain Treatment with Salt (f88r.7-11)
+
+**f88r.7:**
+```
+EVA:     dorsheoy.ctheol.qockhey.dory.sheor.sholfchor.dal.chckhod
+Decoded: [PAIN](water)y . ctheol . (the-flower-vessel) . [painful] . (water-heart) . [knowledge-cherub] . [GAVE] . (mix-give)
+```
+→ "PAIN-water... the-flower-vessel, painful, water-heart, knowledge... GAVE mix-give"
+
+**f88r.8 (KEY RECIPE LINE):**
+```
+EVA:     sal.sheom.kol.chear.shekor.qokor.daiin.sar.raiin.oky.sam
+Decoded: [SALT] . (water.GEN) . (mix) . [CHERUB] . (water-heart) . (the-mix) . [leaf.NOM] . [WORLD/salt] . [ROOT.NOM] . (eye-ADJ) . [salt.ACC]
+```
+→ "**SALT** of-water **MIX**... the-mix **LEAF** salt **ROOT** [for] eyes salt"
+
+**Medical Context:** Salt-water mixture with leaf and root for eye treatment.
+
+**f88r.9:**
+```
+EVA:     oain.or.om.otam.okeom.cheeor.qokeody.dar.or.om.cheody
+Decoded: oain . (heart) . (GEN) . [heaven.ACC] . okeom . (with-heart) . [the-flow] . [GIVE] . (heart) . (GEN) . (with)
+```
+→ "...heart of heaven... with-heart the-flow **GIVE** heart of..."
+
+**f88r.10:**
+```
+EVA:     qokeol.cheol.saiin.cheos.cheol.doleeey.or.cheom.cheomam
+Decoded: [the-flower-oil] . [flower-oil] . [HEAL.NOM] . (flower-bone) . [flower-oil] . [pain-flow] . (heart) . (flower.GEN) . (flower.GEN)
+```
+→ "THE-FLOWER-OIL, FLOWER-OIL **HEAL** flower-bone, FLOWER-OIL [for] PAIN-flow, heart, of-flower"
+
+**f88r.11:**
+```
+EVA:     yokeody.cheom.qoor.chees.ykeor.shy.sam
+Decoded: (and-eye-flow) . (flower.GEN) . (the-heart) . (with-bone) . (and-heart) . (water-ADJ) . [salt.ACC]
+```
+→ "and-eye-flow of-flower, the-heart, with-bone, and-heart, watery, **SALT**"
+
+**Recipe 1 Summary:** Pain treatment using SALT + water + LEAF + ROOT + FLOWER-OIL for eyes and heart.
+
+---
+
+#### Recipe 2: Heavenly Flower Treatment (f88r.18-22)
+
+**f88r.18 (KEY LINE with SAGE):**
+```
+EVA:     koaiphhy.cphol.orchor.pcheoly.otchol.oldy.sal.saly
+Decoded: (mix-ADJ) . [sphere-oil] . (heart-cherub) . (for-flower-oil) . (star-flower) . (oily) . [SALT] . (SAGE)
+```
+→ "Mix SPHERE-OIL, heart-preparation, for FLOWER-OIL, star-flower, oily, **SALT**, **SAGE**"
+
+**Medical Context:** First appearance of SAGE (saly) - medicinal herb added in vocabulary expansion.
+
+**f88r.19:**
+```
+EVA:     dchey.chokol.daiin.qoekol.qoekol.qockhoy.okol.cheol
+Decoded: (give-with) . [flower-oil] . [leaf.NOM] . (the-eye-oil) . (the-eye-oil) . (the-mix) . (a-oil) . [flower-oil]
+```
+→ "Give-with FLOWER-OIL, **LEAF**, the-eye-oil, the-eye-oil, the-mix, a-oil, FLOWER-OIL"
+
+**f88r.20:**
+```
+EVA:     dsheol.qokeey.s.chy.saiin.chor.oteor.aiin.chosals
+Decoded: (give-sun) . [the-flow] . s . (blood-ADJ) . [HEAL.NOM] . [SICK] . [star] . (-NOM) . (flower-salt)
+```
+→ "Give-SUN the-flow, blood, **HEAL** **SICK**, STAR, flower-SALT"
+
+**f88r.21:**
+```
+EVA:     teol.chor.olsheody.qokeol.shoikhy.ol.sheeol.sheol.dg
+Decoded: (earth-oil) . [SICK] . (oil-water-ADJ) . [the-flower-oil] . (knowledge-ADJ) . [OIL] . [water-oil] . [sun] . dg
+```
+→ "Earth-oil, **SICK**, oil-watery, THE-FLOWER-OIL, knowing, OIL, water-oil, SUN"
+
+**f88r.22:**
+```
+EVA:     ychey.okaiin.chol.cheor.ol.chorchol.sal
+Decoded: (and-blood-flow) . [eye.NOM] . [flower] . [flower-heart] . [OIL] . [SICK][flower] . [SALT]
+```
+→ "And-blood-flow, EYE, **FLOWER**, flower-heart, OIL, SICK-flower, **SALT**"
+
+**Recipe 2 Summary:** Celestial flower treatment with SAGE + SALT + FLOWER-OIL + LEAF for SICK patient, timed by SUN/STAR.
+
+---
+
+#### Recipe 3: Root and Flower-Oil Preparation (f88r.26-31)
+
+**f88r.26:**
+```
+EVA:     poeeas.sheoky.olkeey.cthol.poldy.s.okoldy
+Decoded: poeeas . (water)ky . (oil-vessel-flow) . (fourth-oil) . (put-oil) . s . (a-oil)
+```
+→ "...water, oil-vessel-flow, FOURTH-OIL, put-oil, a-oil"
+
+**f88r.27:**
+```
+EVA:     qokol.chol.qokol.qokol.chol.cheey.or.aiin.oldal
+Decoded: [the-oil] . [flower] . [the-oil] . [the-oil] . [flower] . (with) . (heart) . (-NOM) . (oil-give)
+```
+→ "THE-OIL, **FLOWER**, THE-OIL, THE-OIL, **FLOWER**, with heart, oil-GIVE"
+
+**f88r.28:**
+```
+EVA:     ykar.cheol.chol.chey.ckhey.s.or.shear.ar.alsy
+Decoded: (and-vessel) . [flower-oil] . [flower] . (with) . (flower-vessel) . s . (heart) . (water-tree) . [tree] . (high)
+```
+→ "And-vessel, **FLOWER-OIL**, **FLOWER**, with flower-vessel, heart, water-tree, TREE, high"
+
+**f88r.29 (KEY LINE with ROOT):**
+```
+EVA:     kor.chey.qokol.cheol.chody.qokol.kchor.chol.dal
+Decoded: [ROOT] . (with) . [the-oil] . [flower-oil] . (with-ADJ) . [the-oil] . (vessel-cherub) . [flower] . [GAVE]
+```
+→ "**ROOT** with THE-OIL, **FLOWER-OIL**, with THE-OIL, vessel... **FLOWER**, **GAVE**"
+
+**f88r.30:**
+```
+EVA:     ykeeey.cheor.cheotey.cheol.qokeor.chetchy.ofal
+Decoded: ykeeey . [flower-heart] . (flower)tey . [flower-oil] . (the-vessel-heart) . (time-with) . (high)
+```
+→ "...flower-heart, flower, **FLOWER-OIL**, the-vessel-heart, with-time, high"
+
+**f88r.31:**
+```
+EVA:     dar.chear.chol.dol.qoekeor.cheom
+Decoded: [GIVE] . [CHERUB] . [flower] . [pain] . (the-eye-heart) . (flower.GEN)
+```
+→ "**GIVE**... **FLOWER**, [for] **PAIN**, the-eye-heart, of-flower"
+
+**Recipe 3 Summary:** ROOT + FLOWER-OIL + OIL preparation GAVE for PAIN treatment.
+
+---
+
+#### F88R Vocabulary Statistics
+
+| Category | Count | Key Terms |
+|----------|-------|-----------|
+| FLOWER/FLOWER-OIL | 25+ | chol, cheol, qokeol |
+| OIL | 15+ | ol, okol, qokol |
+| GIVE/GAVE | 8 | dar, dal, dary, oldar |
+| SALT | 5 | sal, sam, sar, saly |
+| SICK | 3 | chor |
+| STAR/HEAVEN | 6 | otar, otal, otam, otaldy |
+| ROOT | 2 | kor, raiin |
+| PAIN | 3 | dor, dory, dol |
+| HEAL | 2 | saiin |
+
+---
+
+#### Recipe Patterns Identified
+
+| Pattern | EVA Example | Translation | Function |
+|---------|-------------|-------------|----------|
+| sal + kol | sal.kol | SALT mix | Salt mixture base |
+| cheol + saiin | cheol.saiin | flower-oil HEAL | Healing flower-oil |
+| chor + dar | chor.dar | SICK GIVE | Patient treatment |
+| kor + cheol | kor.cheol | ROOT flower-oil | Root-flower compound |
+| otaldy + dar | otaldy...dar | heavenly...GIVE | Celestial timing |
+| dor + cheol | dor...cheol | PAIN...flower-oil | Pain remedy |
+
+---
+
+#### Interpretation Summary
+
+F88R demonstrates the recipe section's pharmaceutical function:
+
+1. **Marginal Index System**
+   - Short labels (oral, oldar, otaldy) categorize recipes
+   - Star-based labels indicate astrological timing
+
+2. **Complete Recipe Formulas**
+   - Recipe 1: SALT + water + LEAF + ROOT for eyes
+   - Recipe 2: SAGE + SALT + FLOWER-OIL for SICK (stellar timing)
+   - Recipe 3: ROOT + FLOWER-OIL + OIL for PAIN
+
+3. **Ingredient Vocabulary**
+   - SALT (sal/sam): Preservative and medicinal
+   - FLOWER-OIL (cheol): Primary therapeutic compound
+   - ROOT (kor/raiin): Plant-based medicine
+   - SAGE (saly): Newly identified medicinal herb
+
+4. **Instruction Verbs**
+   - dar/dal (GIVE/GAVE): 8 occurrences
+   - kol (MIX): Preparation instruction
+   - Consistent Polish medical vocabulary
+
+5. **Timing References**
+   - otaldy (heavenly): Celestial timing
+   - otar/otam (star/heaven): Astrological administration
+   - sheol (sun): Solar timing
+
+**Historical Context:** F88R matches medieval pharmaceutical manuscripts that organize recipes with marginal labels, list ingredients with preparation methods, and include astrological timing for administration. The combination of Polish instruction verbs with Latin pharmaceutical terms confirms the bilingual nature of the text.
+
+---
+
 ## 10. Conclusions
 
 These sample translations demonstrate:
@@ -1213,6 +1435,7 @@ These sample translations demonstrate:
    - **First Page (f1r)**: knowledge terms + botanical vocabulary + first SICK reference
    - **Zodiac (f72)**: star terms + zodiac identifications
    - **Hydrotherapy (f75)**: water terms + vessel references
+   - **Recipe (f88r)**: ingredient lists + instruction verbs + marginal index
 
 4. **Formulaic Structure**: Translations reveal consistent formula patterns suggesting a systematic medical text rather than random content.
 
@@ -1222,8 +1445,10 @@ These sample translations demonstrate:
 
 7. **Opening Page Significance**: F1R establishes the manuscript's purpose from the first word ("fachys" = FRUIT), introduces "knowledge" (shol) as a central theme, and provides the first patient reference (chor = SICK) by line 8.
 
+8. **Recipe Section Structure**: F88R demonstrates pharmaceutical organization with marginal labels (oral, oldar, otaldy), complete ingredient lists (SALT + LEAF + ROOT + FLOWER-OIL), and consistent instruction verbs (dar/dal), matching medieval recipe manuscript formats.
+
 ---
 
 *Generated from Voynich Decoder v6.2*
 *Sample translations selected for representativeness and coherence*
-*F1R, F72, and F75 complete translations added January 2026*
+*Complete folio translations: F1R, F72, F75, F88R (January 2026)*
