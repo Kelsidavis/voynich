@@ -8,7 +8,7 @@ The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex writt
 
 **Key Discovery:** The word `chor` (529 occurrences) is Polish *chory* ("sick person"), transforming the manuscript from mystical nonsense into coherent medical instructions.
 
-The decoder achieves **88.8% lexical coverage** across 225 folios with **731 vocabulary entries** (including zodiac signs, medicinal plants, and animal products).
+The decoder achieves **78.6% decode rate** across 42,013 words with **772 vocabulary entries** (including zodiac signs, planets, medicinal plants, and temperature terms).
 
 ---
 
@@ -200,6 +200,16 @@ print(f"Vocabulary entries: {len(VOCAB)}")  # 713
 | Control test percentile | 94.5% | Approaches significance |
 | Combined probability | 1 in 70 million | Highly significant |
 
+### Decode Rate by Section
+
+| Section | Words | Decode Rate | Key Vocabulary |
+|---------|-------|-------------|----------------|
+| Biological | 7,579 | **85.2%** | shedy (WATER), qokai (vessel) |
+| Recipe | 16,374 | 78.4% | dar/dal (GIVE), chor (SICK) |
+| Astronomical | 3,275 | 75.9% | otar (STAR), okeos (MARS) |
+| Herbal | 11,114 | 75.3% | daiin (leaf), chol (flower) |
+| **Total** | **42,013** | **78.6%** | 772 vocabulary entries |
+
 ---
 
 ## Academic Paper
@@ -265,7 +275,7 @@ This research is released under the MIT License. The Voynich manuscript itself i
   author={Davis, Kelsi},
   year={2026},
   howpublished={\url{https://github.com/Kelsidavis/voynich}},
-  note={Decoder v6.2, 731 vocabulary entries, 88.8\% coverage}
+  note={Decoder v6.3, 772 vocabulary entries, 78.6\% decode rate}
 }
 ```
 
@@ -280,5 +290,5 @@ This research is released under the MIT License. The Voynich manuscript itself i
 ---
 
 *Analysis: January 2026*
-*Decoder Version: 6.2 (731 entries)*
-*Coverage: 88.8% of ~36,000 word corpus*
+*Decoder Version: 6.3 (772 entries)*
+*Decode Rate: 78.6% of 42,013 words*
