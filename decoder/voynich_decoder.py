@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.9 - January 2026 (Colors, Quantities, Botanical, Preparation)
+Version 7.0 - January 2026 (Time, Duration, Calendar)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 1020+ (expanded with colors, quantities, botanical, preparation)
+Vocabulary entries: 902 (expanded with time/duration vocabulary)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1645,6 +1645,98 @@ VOCAB = {
     # --- PART/PORTION (par- pattern) ---
     'par': ('PART/portion', 4),          # 4x - Latin pars
     'parair': ('part-air', 4),           # 2x
+
+    # =========================================================================
+    # SECTION 41: TIME AND DURATION TERMS
+    # =========================================================================
+    # Calendar, timing, and duration vocabulary for medical scheduling
+    # Discovered via astro/recipe section concentration analysis
+
+    # --- HOUR (Latin hora) ---
+    # Recipe-concentrated (65-85%) - dosing schedules
+    'orar': ('HOUR', 6),                 # 37x - 65% recipe, Latin hora
+    'orai': ('hour.ACC', 5),             # 34x - 71% recipe, accusative
+    'oraiin': ('hour.NOM', 5),           # 111x - nominative form
+    'oral': ('hour', 5),                 # 31x - 55% recipe
+    'oram': ('hour.GEN', 5),             # 31x - genitive (of the hour)
+    'orair': ('hour-time', 4),           # 15x - hour period
+    'oror': ('every-hour', 5),           # 13x - 85% recipe, hourly dosing
+    'orary': ('hourly', 4),              # 8x - 50% astro, hourly ADJ
+
+    # --- TIME (core -air suffix) ---
+    # Temporal marker concentrated in recipe+astro sections
+    'air': ('TIME', 6),                  # 266x - 45% recipe, 24% astro
+    'airy': ('time-ADJ', 4),             # variant
+    'airol': ('time-oil', 4),            # infusion duration
+
+    # --- DAY-TIME compound (dair) ---
+    'dair': ('DAY-TIME', 6),             # 361x - 40% recipe, 14% astro
+    'dairal': ('day-time-of', 4),        # 12x - 33% astro
+    'dairo': ('day-ADJ', 4),             # 9x - daily
+    'dairody': ('day-water', 4),         # 8x - daily bath
+    'dairy': ('daily', 4),               # 8x - 100% recipe, daily dosing
+    'dairin': ('day-in', 4),             # 6x - during day
+
+    # --- STAR-TIME (otair) ---
+    # Astrological timing for treatments
+    'otair': ('STAR-TIME', 6),           # 75x - 76% recipe, 9% astro
+    'otairal': ('star-time-of', 4),      # astrological hour
+    'otairy': ('star-timed', 4),         # timed by stars
+
+    # --- HEAL-TIME (sair) ---
+    'sair': ('HEAL-TIME', 5),            # 80x - 45% recipe, healing duration
+    'sairal': ('heal-time-of', 4),       # recovery period
+    'sairy': ('healing-period', 4),      # recovery ADJ
+
+    # --- FLOW-TIME (kair) ---
+    'kair': ('FLOW-TIME', 5),            # 64x - 66% recipe, infusion time
+    'kairal': ('flow-time-of', 4),       # infusion duration
+    'kairy': ('flow-timed', 4),          # time for flow
+
+    # --- MOMENT/INSTANT (tair) ---
+    'tair': ('MOMENT', 5),               # 33x - 76% recipe, instant/moment
+    'tairal': ('moment-of', 4),          # at the moment
+    'tairy': ('momentary', 4),           # brief
+
+    # --- BATH-TIME (qokair) ---
+    'qokair': ('BATH-TIME', 5),          # 52x - 71% recipe, bath duration
+    'qokairal': ('bath-time-of', 4),     # duration of bath
+    'qokairy': ('bath-timed', 4),        # timed bath
+
+    # --- INFUSION-TIME (okair) ---
+    'okair': ('INFUSION-TIME', 5),       # 72x - 40% recipe, 15% astro
+    'okairal': ('infusion-time-of', 4),  # steeping duration
+    'okairy': ('infusion-timed', 4),     # timed infusion
+
+    # --- VESSEL-TIME (qotair) ---
+    'qotair': ('VESSEL-TIME', 4),        # 17x - 41% recipe, 18% astro
+    'qotairal': ('vessel-time-of', 4),   # vessel preparation time
+
+    # --- PERIOD (kee-) ---
+    # Duration markers, recipe-concentrated
+    'keey': ('PERIOD', 6),               # 201x - 49% recipe, 10% astro
+    'keeol': ('period-oil', 5),          # 46x - 65% recipe, infusion period
+    'keeo': ('period-of', 5),            # 43x - 67% recipe
+    'keeody': ('period-water', 5),       # 29x - 76% recipe, bath period
+    'keeedy': ('period-flowing', 4),     # flowing period
+    'keeal': ('period-high', 4),         # extended period
+    'keear': ('period-mix', 4),          # mixing period
+
+    # --- TWICE/DOUBLE TIME (pair) ---
+    'pair': ('TWICE/two-times', 5),      # 22x - 55% recipe, twice daily
+    'pairal': ('twice-of', 4),           # two times of
+    'pairy': ('doubled', 4),             # doubled dosing
+
+    # --- MORNING/DAWN (man-) ---
+    # Latin mane = morning
+    'many': ('MORNING', 4),              # 43x - 37% recipe, morning dose
+    'manar': ('morning-mix', 4),         # morning preparation
+    'manair': ('morning-time', 4),       # morning hour
+
+    # --- SEQUENCE MARKERS ---
+    'por': ('THEN/after', 5),            # 25x - 76% recipe, sequence word
+    'poral': ('then-high', 4),           # afterward
+    'porain': ('then.ACC', 4),           # sequence marker
 }
 
 # =============================================================================

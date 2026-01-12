@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.9 - Complete Vocabulary Mappings
+## Voynich Decoder v7.0 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,30 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 1020
-- **Polish terms**: ~88
-- **Latin terms**: ~555
+- **Total entries**: 902
+- **Polish terms**: ~90
+- **Latin terms**: ~560
 - **Bilingual terms**: 0
 - **Uncertain classification**: ~355
 
 - **High confidence (8-11)**: ~80
-- **Medium confidence (5-7)**: ~875
+- **Medium confidence (5-7)**: ~880
 - **Low confidence (3-4)**: ~65
+
+### New in v7.0
+- **Time/Duration Terms**: 45 entries (hours, periods, timing, calendar)
+  - HOUR (orar): orar (37x, 65% recipe), orai, oraiin, oral, oram (Latin hora)
+  - TIME (-air suffix): air (266x), dair (361x day-time), otair (star-time)
+  - PERIOD (kee-): keey (201x, 49% recipe), keeol, keeo, keeody
+  - STAR-TIME: otair (75x, 76% recipe) - astrological timing
+  - HEAL-TIME: sair (80x) - healing duration
+  - FLOW-TIME: kair (64x) - infusion time
+  - MOMENT: tair (33x) - instant/moment
+  - BATH-TIME: qokair (52x, 71% recipe) - bath duration
+  - INFUSION-TIME: okair (72x) - steeping duration
+  - MORNING: many (43x, 37% recipe) - morning dose
+  - TWICE: pair (22x) - twice daily dosing
+  - SEQUENCE: por (25x, 76% recipe) - then/after
 
 ### New in v6.9
 - **Color/Quantity Terms**: 50 entries (colors, measurements, quantities)
@@ -1398,4 +1413,4 @@ Color and measurement vocabulary for pharmaceutical preparations.
 
 ---
 
-*Generated from voynich_decoder.py v6.1*
+*Generated from voynich_decoder.py v7.0*
