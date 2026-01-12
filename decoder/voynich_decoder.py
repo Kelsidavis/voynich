@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.8 - January 2026 (Botanical, Preparation, Disease, Body Parts)
+Version 6.9 - January 2026 (Colors, Quantities, Botanical, Preparation)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 970+ (expanded with botanical terms, preparation, disease, body parts)
+Vocabulary entries: 1020+ (expanded with colors, quantities, botanical, preparation)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1579,6 +1579,72 @@ VOCAB = {
     'chty': ('flower-ADJ', 4),           # 10x - 50% herbal
     'okam': ('vessel-bathe', 4),         # 23x - 48% herbal, infusion
     'dan': ('leaf-ACC', 4),              # 11x - 45% herbal
+
+    # =========================================================================
+    # SECTION 40: COLOR AND QUANTITY TERMS
+    # =========================================================================
+    # Color and measurement vocabulary for pharmaceutical preparations
+
+    # --- WHITE (alk- pattern, Latin albus) ---
+    # Recipe-concentrated - white preparations/powders
+    'alk': ('WHITE', 5),                 # Latin albus base
+    'alkaiin': ('white.NOM', 4),         # 7x - recipe concentrated
+    'alkain': ('white.ACC', 4),          # 7x - 100% recipe
+    'alkar': ('white-tree', 4),          # 5x - white wood/bark
+    'alky': ('white-ADJ', 4),            # 5x - whitened
+    'alkeedy': ('white-flowing', 4),     # 5x - white liquid
+    'alkedy': ('whitening', 4),          # 3x
+    'alkair': ('white-air', 4),          # 2x - white vapor
+    'alkal': ('white-high', 4),          # 2x - pure white
+
+    # --- GOLD/SUN (sol pattern) ---
+    # Note: sol also means SUN - dual meaning gold/sun
+    'sol': ('GOLD/sun', 5),              # 41x - gold color or sun
+    'solchedy': ('gold-blood', 4),       # 6x - golden liquid
+    'solkeedy': ('gold-flowing', 4),     # 6x
+    'solkain': ('gold.ACC', 4),          # 4x
+    'solkeey': ('gold-flow', 4),         # 3x
+    'solol': ('gold-oil', 4),            # 2x - golden oil
+    'soly': ('golden', 4),               # 1x - golden ADJ
+
+    # --- HIGH/TALL (al- pattern, Latin altus) ---
+    'al': ('HIGH', 5),                   # Latin altus base
+    'aly': ('high-ADJ', 4),              # 24x - tall/high
+    'aldy': ('height', 4),               # 12x - 25% herbal
+    'alol': ('high-oil', 4),             # 9x - elevated oil
+    'alar': ('high-tree', 4),            # 7x - tall tree/plant
+    'alody': ('high-day', 4),            # 5x
+    'alain': ('high.ACC', 4),            # 4x
+
+    # --- HALF (pol pattern, Polish pół) ---
+    # Measurement term - half portion
+    'pol': ('HALF', 5),                  # 17x - Polish pół
+    'polaiin': ('half.NOM', 4),          # 9x - 89% recipe
+    'polchedy': ('half-blood', 4),       # 7x - half measure liquid
+    'polar': ('half-tree', 4),           # 4x
+    'polchey': ('half-flow', 4),         # 3x
+    'polchdy': ('half-ADJ', 4),          # 3x
+    'polshy': ('half-water', 4),         # 3x - half water
+    'polor': ('half-heart', 4),          # 3x
+    'poly': ('halved', 4),               # 2x
+
+    # --- WHOLE/ALL (kal pattern) ---
+    'kal': ('WHOLE/all', 5),             # 26x - complete/whole
+    'kalkal': ('whole-whole', 4),        # 4x - entirely
+    'kaldy': ('whole-ADJ', 4),           # 3x - complete
+    'kaly': ('wholly', 4),               # 2x - completely
+    'kalchedy': ('whole-blood', 4),      # 2x
+
+    # --- QUANTITY MODIFIERS ---
+    'oto': ('each/every', 4),            # 7x - distributive
+    'oly': ('all-ADJ', 4),               # 40x - oil-related or all
+    'oty': ('each-ADJ', 4),              # 93x - each/every
+    'oky': ('vessel-ADJ', 4),            # 65x - vessel measure
+    'oko': ('around/about', 4),          # 4x - approximately
+
+    # --- PART/PORTION (par- pattern) ---
+    'par': ('PART/portion', 4),          # 4x - Latin pars
+    'parair': ('part-air', 4),           # 2x
 }
 
 # =============================================================================

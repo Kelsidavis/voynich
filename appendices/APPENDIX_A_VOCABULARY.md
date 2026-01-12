@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.8 - Complete Vocabulary Mappings
+## Voynich Decoder v6.9 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,25 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 970
-- **Polish terms**: ~82
-- **Latin terms**: ~520
+- **Total entries**: 1020
+- **Polish terms**: ~88
+- **Latin terms**: ~555
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~345
+- **Uncertain classification**: ~355
 
-- **High confidence (8-11)**: ~75
-- **Medium confidence (5-7)**: ~835
-- **Low confidence (3-4)**: ~60
+- **High confidence (8-11)**: ~80
+- **Medium confidence (5-7)**: ~875
+- **Low confidence (3-4)**: ~65
+
+### New in v6.9
+- **Color/Quantity Terms**: 50 entries (colors, measurements, quantities)
+  - WHITE (alk-): alkaiin, alkain, alkar, alky, alkeedy (Latin albus)
+  - GOLD/SUN (sol): sol (41x), solchedy, solkeedy, soly
+  - HIGH (al-): aly (24x), aldy, alol, alar (Latin altus)
+  - HALF (pol): pol (17x), polaiin, polchedy, polshy (Polish pół)
+  - WHOLE (kal): kal (26x), kalkal, kaldy, kaly
+  - QUANTITY: oty (93x each), oky (65x vessel), oly, oto
+  - PART (par): par, parair (Latin pars)
 
 ### New in v6.8
 - **Botanical/Plant Terms**: 50 entries (plant parts, compounds, herbal terms)
@@ -988,6 +998,97 @@ Plant terminology supplementing core vocabulary (daiin=LEAF, chol=FLOWER, shol=R
 | chochy | flower-flower | 3x | Double flower |
 
 **Pattern:** 100% herbal concentration indicates plant-specific terminology
+
+---
+
+### Color and Quantity Terms (Section 40)
+
+Color and measurement vocabulary for pharmaceutical preparations.
+
+#### WHITE (alk- pattern, Latin albus)
+
+| EVA Token | Meaning | Total | Recipe % | Notes |
+|-----------|---------|-------|----------|-------|
+| alk | WHITE | base | - | Latin albus |
+| alkaiin | white.NOM | 7x | 86% | Nominative |
+| alkain | white.ACC | 7x | 100% | Accusative |
+| alkar | white-tree | 5x | 80% | White wood/bark |
+| alky | white-ADJ | 5x | 80% | Whitened |
+| alkeedy | white-flowing | 5x | 100% | White liquid |
+
+**Pattern:** `alk-` = Latin *albus* (white) - pharmaceutical preparations
+
+#### GOLD/SUN (sol pattern)
+
+| EVA Token | Meaning | Total | Notes |
+|-----------|---------|-------|-------|
+| sol | GOLD/sun | 41x | Dual meaning: gold color or sun |
+| solchedy | gold-blood | 6x | Golden liquid |
+| solkeedy | gold-flowing | 6x | Golden flow |
+| solkain | gold.ACC | 4x | Accusative |
+| solol | gold-oil | 2x | Golden oil |
+| soly | golden | 1x | Adjective |
+
+**Pattern:** `sol-` = Latin *sol* (sun) or gold color - overlaps with SUN vocabulary
+
+#### HIGH/TALL (al- pattern, Latin altus)
+
+| EVA Token | Meaning | Total | Herbal % | Notes |
+|-----------|---------|-------|----------|-------|
+| al | HIGH | base | - | Latin altus |
+| aly | high-ADJ | 24x | 8% | Tall/high |
+| aldy | height | 12x | 25% | Height |
+| alol | high-oil | 9x | 22% | Elevated oil |
+| alar | high-tree | 7x | 0% | Tall tree/plant |
+| alody | high-day | 5x | 0% | Height-day |
+
+**Pattern:** `al-` = Latin *altus* (high/tall) - size descriptor
+
+#### HALF (pol pattern, Polish pół)
+
+| EVA Token | Meaning | Total | Recipe % | Notes |
+|-----------|---------|-------|----------|-------|
+| pol | HALF | 17x | 47% | Polish pół |
+| polaiin | half.NOM | 9x | 89% | Nominative |
+| polchedy | half-blood | 7x | 86% | Half measure liquid |
+| polar | half-tree | 4x | 100% | Half portion |
+| polchey | half-flow | 3x | 67% | Half flowing |
+| polshy | half-water | 3x | 67% | Half water |
+
+**Pattern:** `pol-` = Polish *pół* (half) - measurement term
+
+#### WHOLE/ALL (kal pattern)
+
+| EVA Token | Meaning | Total | Notes |
+|-----------|---------|-------|-------|
+| kal | WHOLE/all | 26x | Complete/whole |
+| kalkal | whole-whole | 4x | Entirely |
+| kaldy | whole-ADJ | 3x | Complete |
+| kaly | wholly | 2x | Completely |
+| kalchedy | whole-blood | 2x | Full blood measure |
+
+**Pattern:** `kal-` indicates whole/complete quantity
+
+#### QUANTITY MODIFIERS
+
+| EVA Token | Meaning | Total | Notes |
+|-----------|---------|-------|-------|
+| oty | each-ADJ | 93x | Each/every |
+| oky | vessel-ADJ | 65x | Vessel measure |
+| oly | all-ADJ | 40x | Oil-related or all |
+| oto | each/every | 7x | Distributive |
+| oko | around/about | 4x | Approximately |
+
+#### PART/PORTION (par- pattern)
+
+| EVA Token | Meaning | Total | Notes |
+|-----------|---------|-------|-------|
+| par | PART/portion | 4x | Latin pars |
+| parair | part-air | 2x | Portion of vapor |
+
+**Pattern:** `par-` = Latin *pars* (part/portion)
+
+**Key Discovery:** Color terms (alk- = WHITE, sol = GOLD) are recipe-concentrated, used for describing pharmaceutical preparations.
 
 ---
 
