@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v7.0 - Complete Vocabulary Mappings
+## Voynich Decoder v7.1 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,29 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 902
-- **Polish terms**: ~90
-- **Latin terms**: ~560
+- **Total entries**: 916
+- **Polish terms**: ~92
+- **Latin terms**: ~565
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~355
+- **Uncertain classification**: ~360
 
-- **High confidence (8-11)**: ~80
-- **Medium confidence (5-7)**: ~880
-- **Low confidence (3-4)**: ~65
+- **High confidence (8-11)**: ~82
+- **Medium confidence (5-7)**: ~890
+- **Low confidence (3-4)**: ~68
+
+### New in v7.1
+- **Temperature/Heat Terms**: 50 entries (hot, warm, cool, hydrotherapy)
+  - HOT (kal): kal (150x, Latin calidus), kaly, kaldy, kalchdy
+  - VESSEL-HOT (qokal): qokal (723x, 64% bio) - hot bath vessel
+  - OIL-HOT (okal): okal (508x, 37% recipe) - heated oil preparations
+  - OIL-VESSEL-HOT: olkal (42x, 57% bio) - heated oil bath
+  - FLOWER-HOT: chkal (45x), chokal, chekal - heated infusions
+  - COOK-HOT: lkal (16x, 100% recipe) - cooking heat
+  - WATER-HOT: shekal (12x), shokal - heated water
+  - WARM (qol): qol (672x, 84% bio) - warm bath/hydrotherapy
+  - WARM variants: qoly, qolchey, qolchedy, qolky (all 90%+ bio)
+  - COOL (chl): chl (97x), chlar, chlal, chlol - cooling
+  - HEATED OIL BATH: oly, olchedy, olkedy, olkai (60-87% bio)
 
 ### New in v7.0
 - **Time/Duration Terms**: 45 entries (hours, periods, timing, calendar)
@@ -1413,4 +1427,4 @@ Color and measurement vocabulary for pharmaceutical preparations.
 
 ---
 
-*Generated from voynich_decoder.py v7.0*
+*Generated from voynich_decoder.py v7.1*

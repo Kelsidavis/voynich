@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 7.0 - January 2026 (Time, Duration, Calendar)
+Version 7.1 - January 2026 (Temperature, Heat, Hydrotherapy)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 902 (expanded with time/duration vocabulary)
+Vocabulary entries: 916 (expanded with temperature/heat vocabulary)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1737,6 +1737,85 @@ VOCAB = {
     'por': ('THEN/after', 5),            # 25x - 76% recipe, sequence word
     'poral': ('then-high', 4),           # afterward
     'porain': ('then.ACC', 4),           # sequence marker
+
+    # =========================================================================
+    # SECTION 42: TEMPERATURE AND HEAT TERMS
+    # =========================================================================
+    # Temperature vocabulary for pharmaceutical preparations and hydrotherapy
+    # Discovered via bio/recipe section concentration analysis
+
+    # --- HOT (kal = Latin calidus) ---
+    # Bio+recipe concentrated - heating for preparations and baths
+    'kal': ('HOT', 6),                   # 150x - 39% recipe, 31% bio, Latin calidus
+    'kaly': ('hot-ADJ', 5),              # 10x - heated
+    'kaldy': ('hotness', 4),             # 12x - heat quality
+    'kalchdy': ('hot-with', 4),          # 7x - with heat
+
+    # --- VESSEL-HOT (qokal = hot bath) ---
+    # Bio-concentrated (64%) - hot bath/heated vessel
+    'qokal': ('HOT-BATH', 7),            # 723x - 64% bio, heated bath vessel
+    'qokaly': ('hot-bath-ADJ', 5),       # 45x - 40% bio, bath temperature
+    'qokaldy': ('hot-bath-ness', 4),     # 31x - bath heat level
+
+    # --- OIL-HOT (okal = heated oil) ---
+    # Recipe+bio distributed - heated oil preparations
+    'okal': ('OIL-HOT', 6),              # 508x - 37% recipe, 21% bio
+    'okaly': ('oil-hot-ADJ', 5),         # 64x - heated oil
+    'okaldy': ('oil-heat', 4),           # 27x - oil temperature
+    'okalal': ('oil-hot-high', 4),       # 15x - very hot oil
+    'okalor': ('oil-hot-heart', 4),      # 9x - heated core
+    'okalchy': ('oil-hot-flow', 4),      # 9x - heated oil flow
+    'okalol': ('oil-hot-oil', 4),        # 9x - double-heated oil
+    'okalo': ('oil-heat', 4),            # 6x - oil warming
+    'okalchedy': ('oil-hot-blood', 4),   # 6x - hot oil infusion
+
+    # --- OIL-VESSEL-HOT (olkal) ---
+    'olkal': ('OIL-VESSEL-HOT', 5),      # 42x - 57% bio, heated oil bath
+    'olkalol': ('oil-vessel-hot-oil', 4), # 4x - heated oil vessel
+
+    # --- FLOWER-HOT (chkal, chokal, chekal) ---
+    # Recipe-concentrated - heated flower infusions
+    'chkal': ('FLOWER-HOT', 5),          # 45x - 53% recipe, heated flower
+    'chokal': ('flower-hot', 5),         # 29x - 48% recipe, hot flower
+    'chekal': ('flower-hot', 5),         # 27x - 48% recipe, heated bloom
+
+    # --- COOK-HOT (lkal) ---
+    'lkal': ('COOK-HOT', 5),             # 16x - 100% recipe, cooking heat
+
+    # --- WATER-HOT (shekal, shokal) ---
+    'shekal': ('WATER-HOT', 4),          # 12x - 33% bio, heated water
+    'shokal': ('water-hot', 4),          # 10x - 40% recipe, hot water
+
+    # --- WARM/BATH (qol = warm water) ---
+    # Bio-concentrated (83%+) - warm bath/hydrotherapy
+    'qol': ('WARM', 7),                  # 672x - 84% bio, warm water/bath
+    'qoly': ('warm-ADJ', 5),             # 25x - 100% bio, warmed
+    'qolchey': ('warm-flow', 5),         # 26x - 92% bio, warm flowing
+    'qolchedy': ('warm-blood', 5),       # 22x - 100% bio, warm blood-temp
+    'qolky': ('warm-vessel', 5),         # 16x - 100% bio, warm bath vessel
+    'qolkeey': ('warm-flowing', 4),      # 21x - 57% bio, warm stream
+    'qolkeedy': ('warm-flow-ADJ', 4),    # 11x - 100% bio, warmed flow
+
+    # --- COOL/COLD (chl) ---
+    # Recipe+bio distributed - cooling preparations
+    'chl': ('COOL', 5),                  # 97x - 44% recipe, 26% bio
+    'chlar': ('cooled', 4),              # 5x - 100% recipe, cooled down
+    'chlal': ('cool-high', 4),           # 5x - 100% recipe, very cool
+    'chlol': ('cool-oil', 4),            # 4x - cooled oil
+    'chly': ('cooling', 4),              # 4x - to cool
+
+    # --- HEATED OIL BATH (ol- bio-concentrated) ---
+    # Bio-concentrated (60-87%) - heated oil bath preparations
+    'oly': ('OILY/heated', 5),           # 220x - 60% bio, oily/heated
+    'olchedy': ('oil-blood', 5),         # 134x - 77% bio, oil infusion
+    'olkedy': ('oil-flowing', 5),        # 104x - 82% bio, oil flow
+    'olchey': ('oil-flow', 5),           # 93x - 65% bio, oil stream
+    'olky': ('oil-vessel', 5),           # 88x - 68% bio, oil bath
+    'olshedy': ('oil-water', 5),         # 77x - 70% bio, oil-water mix
+    'olkai': ('oil-vessel.ACC', 5),      # 77x - 87% bio, heated vessel
+    'olol': ('oil-oil', 4),              # 73x - 66% bio, double oil
+    'olshey': ('oil-water-flow', 4),     # 36x - 78% bio, oil-water flow
+    'olchy': ('oil-with', 4),            # 35x - 66% bio, with oil
 }
 
 # =============================================================================
