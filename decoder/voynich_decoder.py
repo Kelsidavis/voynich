@@ -1210,14 +1210,28 @@ VOCAB = {
     # SECTION 34: ASTRONOMICAL/PLANETARY TERMS
     # =========================================================================
     # Celestial bodies concentrated in f67-73 astronomical section
+    # Classical 7 planets: Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn
+    # Polish: Słońce, Księżyc, Merkury, Wenus, Mars, Jowisz, Saturn
 
-    'oteeos': ('SATURN', 5),             # 14x - 86% astro, slow planet
+    # --- PLANETS (high astro concentration) ---
+    'oteeos': ('SATURN', 5),             # 10x - 70% astro, slow/enduring planet
+    'okeos': ('MARS', 5),                # 12x - 83% astro, red planet
+    'okalar': ('JUPITER', 5),            # 6x - 83% astro, great benefic
+    'oteotey': ('VENUS', 4),             # 4x - 100% astro, morning/evening star
+    'otoar': ('MOON', 4),                # 3x - 100% astro, lunar reference
+    # Note: SUN already as 'sol'/'sheol' in vocab
+
+    # --- CELESTIAL TERMS ---
     'alal': ('WING/celestial', 4),       # 10x - 70% astro, Latin ala
     'aldaiin': ('white-star.NOM', 4),    # 6x - 100% astro
-    'okeodar': ('eye-place-give', 4),    # 9x - 78% astro, timing instruction
-    'okeod': ('eye-place', 4),           # 7x - 100% astro, celestial location
+    'okeodar': ('planet-give', 5),       # 3x - 100% astro, planetary timing
+    'okeod': ('planet-place', 4),        # 7x - 100% astro, celestial location
     'otoly': ('heaven-high', 5),         # 20x - Celestial height
     'dalam': ('gave-them', 4),           # 7x - 100% astro, instruction
+    'oteodar': ('star-flow-give', 4),    # 7x - 71% astro, celestial instruction
+    'otchos': ('star-flower-bone', 4),   # 4x - 75% astro
+    'choteey': ('flower-time-flow', 4),  # 7x - 71% astro, timing reference
+    'cheteey': ('blood-time-flow', 4),   # 3x - 100% astro
 
     # =========================================================================
     # SECTION 35: HYDROTHERAPY TERMS (Bio section f75-84)
