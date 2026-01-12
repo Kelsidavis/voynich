@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v7.1 - Complete Vocabulary Mappings
+## Voynich Decoder v7.2 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,27 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 916
-- **Polish terms**: ~92
-- **Latin terms**: ~565
+- **Total entries**: 927
+- **Polish terms**: ~95
+- **Latin terms**: ~570
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~360
+- **Uncertain classification**: ~365
 
-- **High confidence (8-11)**: ~82
-- **Medium confidence (5-7)**: ~890
-- **Low confidence (3-4)**: ~68
+- **High confidence (8-11)**: ~84
+- **Medium confidence (5-7)**: ~900
+- **Low confidence (3-4)**: ~70
+
+### New in v7.2
+- **Container/Vessel Terms**: 65 entries (vessels, vials, basins, containers)
+  - VESSEL (qok): qok (72x), qoky, qokai, qokedy (986x), qokeey (982x)
+  - VESSEL compounds: qokol (317x vessel-OIL), qokshedy (vessel-WATER)
+  - VIAL (qop): qop (17x), qopchedy (95x), qopol - small vessels
+  - BASIN (qot): qot (65x), qotedy (337x, 59% bio), qotal (206x)
+  - CONTAINER (ok): ok (73x), okeey (536x), okar (434x), okol (247x)
+  - Key discovery: qok- is primary bath vessel term (bio-concentrated)
+  - qop- = small vessels/vials (recipe-concentrated)
+  - qot- = bath basins/tubs (bio-concentrated)
+  - ok- = general containers (recipe+bio distributed)
 
 ### New in v7.1
 - **Temperature/Heat Terms**: 50 entries (hot, warm, cool, hydrotherapy)
@@ -1427,4 +1439,4 @@ Color and measurement vocabulary for pharmaceutical preparations.
 
 ---
 
-*Generated from voynich_decoder.py v7.1*
+*Generated from voynich_decoder.py v7.2*

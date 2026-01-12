@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 7.1 - January 2026 (Temperature, Heat, Hydrotherapy)
+Version 7.2 - January 2026 (Containers, Vessels, Bath Equipment)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 916 (expanded with temperature/heat vocabulary)
+Vocabulary entries: 927 (expanded with container/vessel vocabulary)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1816,6 +1816,86 @@ VOCAB = {
     'olol': ('oil-oil', 4),              # 73x - 66% bio, double oil
     'olshey': ('oil-water-flow', 4),     # 36x - 78% bio, oil-water flow
     'olchy': ('oil-with', 4),            # 35x - 66% bio, with oil
+
+    # =========================================================================
+    # SECTION 43: CONTAINER AND VESSEL TERMS
+    # =========================================================================
+    # Vessel vocabulary for pharmaceutical preparations and hydrotherapy
+    # Discovered via bio/recipe section concentration analysis
+
+    # --- VESSEL (qok = primary bath/preparation vessel) ---
+    # Bio+recipe concentrated - main vessel term
+    'qok': ('VESSEL', 7),                # 72x - 46% recipe, 35% bio
+    'qoky': ('vessel-ADJ', 6),           # 496x - 51% bio, vessel-related
+    'qokai': ('vessel.ACC', 6),          # 505x - 64% bio, vessel accusative
+    'qokedy': ('vessel-flowing', 6),     # 986x - 67% bio, vessel with flow
+    'qokeey': ('vessel-flow', 6),        # 982x - 55% recipe, vessel flow
+    'qokeedy': ('vessel-flowing', 6),    # 1051x - 58% bio, vessel flowing
+    'qokar': ('vessel-MIX', 5),          # 494x - 38% bio, mixing vessel
+    'qokey': ('vessel-flow', 5),         # 357x - 49% bio, vessel stream
+    'qokol': ('vessel-OIL', 6),          # 317x - 34% recipe, oil vessel
+    'qokeol': ('vessel-flow-OIL', 5),    # 155x - 76% recipe, oil vessel
+    'qokchol': ('vessel-FLOWER', 5),     # 51x - flower vessel
+    'qokshedy': ('vessel-WATER', 6),     # 38x - 82% bio, water bath vessel
+    'qokor': ('vessel-heart', 4),        # 109x - vessel core
+    'qokchedy': ('vessel-blood', 5),     # 109x - 67% recipe, blood vessel
+    'qokeody': ('vessel-flow-ADJ', 4),   # 101x - vessel flow
+    'qokchey': ('vessel-blood-flow', 4), # 89x - blood flow vessel
+    'qokeeo': ('vessel-flow-of', 4),     # 83x - 86% recipe
+    'qokeeey': ('vessel-flowing', 4),    # 81x - 73% recipe
+    'qokeor': ('vessel-flow-heart', 4),  # 65x - vessel center
+    'qokeed': ('vessel-flow-ADJ', 4),    # 52x - vessel flowing
+    'qokchdy': ('vessel-with-ADJ', 4),   # 172x - with vessel
+    'qokchy': ('vessel-with', 4),        # 234x - with vessel
+
+    # --- VIAL (qop = small vessel, recipe concentrated) ---
+    'qop': ('VIAL', 5),                  # 17x - small vessel
+    'qopchedy': ('vial-blood', 5),       # 95x - 61% recipe, blood vial
+    'qopchdy': ('vial-with', 4),         # 54x - 78% recipe, with vial
+    'qopchy': ('vial-ADJ', 4),           # 38x - vial related
+    'qopchey': ('vial-flow', 4),         # 28x - vial flow
+    'qopol': ('vial-OIL', 4),            # 19x - oil vial
+    'qopchol': ('vial-FLOWER', 4),       # 18x - flower vial
+    'qopshedy': ('vial-WATER', 4),       # 16x - 75% bio, water vial
+    'qopy': ('vial-ADJ', 4),             # 17x - vial related
+    'qopar': ('vial-MIX', 4),            # 12x - mixing vial
+    'qopal': ('vial-HIGH', 4),           # 10x - tall vial
+    'qopor': ('vial-heart', 4),          # 10x - vial core
+
+    # --- BASIN/TUB (qot = bath basin) ---
+    # Bio-concentrated - bathing vessel
+    'qot': ('BASIN', 6),                 # 65x - bath basin
+    'qoty': ('basin-ADJ', 5),            # 295x - 38% bio, basin related
+    'qotedy': ('basin-flowing', 6),      # 337x - 59% bio, basin flow
+    'qoteedy': ('basin-flowing', 6),     # 254x - 62% bio, basin flowing
+    'qotal': ('basin-HIGH', 5),          # 206x - 50% bio, deep basin
+    'qotar': ('basin-MIX', 5),           # 190x - 47% recipe, mixing basin
+    'qotol': ('basin-OIL', 5),           # 146x - oil basin
+    'qoteey': ('basin-flow', 5),         # 123x - 46% recipe, basin stream
+    'qotai': ('basin.ACC', 5),           # 114x - 51% bio, basin accusative
+    'qotor': ('basin-heart', 4),         # 83x - basin center
+    'qotey': ('basin-flow', 4),          # 74x - basin stream
+    'qotchdy': ('basin-with-ADJ', 4),    # 62x - 53% recipe
+    'qotchey': ('basin-blood-flow', 4),  # 61x - basin blood flow
+    'qotchedy': ('basin-blood', 4),      # 56x - 66% recipe
+
+    # --- CONTAINER (ok = general container) ---
+    # Recipe+bio distributed - general container term
+    'ok': ('CONTAINER', 5),              # 73x - general container
+    'oky': ('container-ADJ', 5),         # 344x - container related
+    'okai': ('container.ACC', 5),        # 235x - 55% recipe, container acc
+    'okedy': ('container-flowing', 5),   # 417x - 45% bio, container flow
+    'okeey': ('container-flow', 6),      # 536x - 64% recipe, container stream
+    'okeedy': ('container-flowing', 5),  # 381x - container flowing
+    'okar': ('container-MIX', 5),        # 434x - 37% recipe, mixing container
+    'okol': ('container-OIL', 5),        # 247x - 36% recipe, oil container
+    'okey': ('container-flow', 4),       # container stream
+    'okchedy': ('container-blood', 4),   # 73x - 68% recipe
+    'okchey': ('container-blood-flow', 4), # container blood
+    'okchdy': ('container-with', 4),     # with container
+    'okeol': ('container-flow-OIL', 5),  # 184x - 66% recipe
+    'okor': ('container-heart', 4),      # container core
+    'okeeey': ('container-flowing', 4),  # 76x - 74% recipe
 }
 
 # =============================================================================
