@@ -9,7 +9,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 784
+- **Total entries**: 792
 - **Polish terms**: ~60
 - **Latin terms**: ~430
 - **Bilingual terms**: 0
@@ -20,8 +20,9 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 - **Low confidence (3-4)**: ~29
 
 ### New in v6.4
-- **Days of the week**: 10 entries (all 7 days identified via planet + -ody suffix)
-- **Planetary vocabulary**: 7 planets + Mercury (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn)
+- **Days of the week**: 10 entries (all 7 days via planet + -ody suffix)
+- **Months**: 8 entries (month/calendar terms via planet + -am/-ary suffix)
+- **Planetary vocabulary**: All 7 classical planets (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn)
 - **Temperature terms**: keeo (WARM), rai (HEAT)
 - **Short base forms**: dai, kai, sai, tai, etc.
 - **Herbal ingredients**: sos (SALT), far (GRAIN)
@@ -510,6 +511,22 @@ Days of the Week (planet + -ody suffix):
 
 **Pattern:** planetary root + `-ody` suffix (from Latin *dies* or Polish *dzień*)
 **Function:** Iatromathematical timing - medieval medicine assigned optimal treatment days based on ruling planets
+
+Months (planet/zodiac root + -am/-ary suffix):
+
+| EVA Token | Meaning | Astro Count | Astro % | Notes |
+|-----------|---------|-------------|---------|-------|
+| okaram | MONTH/calendar | 8/11 | 73% | Planet-month, general marker |
+| otolam | MONTH/celestial | 5/5 | 100% | Heaven-month |
+| okalam | OCTOBER? | 3/6 | 50% | Jupiter-month |
+| cholam | APRIL? | 3/3 | 100% | Flower-month (spring) |
+| okeoram | SEPTEMBER? | 3/3 | 100% | Mercury-month |
+| otoloaram | MONTH/period | 3/3 | 100% | Complex celestial-month |
+| oteeary | MONTH/Saturn | 3/3 | 100% | Saturn-month (Latin -arius) |
+| sary | MONTH/time | 9/18 | 50% | Time period marker |
+
+**Pattern:** root + `-am` suffix (possibly from Latin *mensis* = month)
+**Note:** Zodiac signs (Section 34) also function as month markers, since each sign covers ~30 days
 
 ---
 
