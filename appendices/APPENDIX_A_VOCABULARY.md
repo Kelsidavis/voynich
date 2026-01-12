@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.6 - Complete Vocabulary Mappings
+## Voynich Decoder v6.7 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,27 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 870
-- **Polish terms**: ~75
-- **Latin terms**: ~460
+- **Total entries**: 920
+- **Polish terms**: ~78
+- **Latin terms**: ~490
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~310
+- **Uncertain classification**: ~330
 
-- **High confidence (8-11)**: ~65
-- **Medium confidence (5-7)**: ~750
+- **High confidence (8-11)**: ~70
+- **Medium confidence (5-7)**: ~795
 - **Low confidence (3-4)**: ~55
+
+### New in v6.7
+- **Preparation Methods**: 50 entries (cooking, pouring, washing, applying, straining)
+  - COOK (lk-): lkeey, lkeedy, lkaiin, lkain, lkedy, lkar (538x, ~90% recipe)
+  - POUR (por-): por, porain, poral, porol (Latin potio)
+  - WASH (rain-): rain, rair (rinsing)
+  - APPLY (opal-): opal, opchedy, opchey (application)
+  - STRAIN (chl-): chl, chla (filtering)
+  - BLEND (alom-): alom, alam (mixing)
+  - EXTRACT (lc-): lchedy, lchey, lcheol (wood extraction)
+  - HEAT (tc-): tchedy, tcheol, tchar (decoction)
+  - DOSAGE (-dam): shedain, chedam, tedam (quantity)
 
 ### New in v6.6
 - **Disease/Symptoms**: 38 entries (afflictions, pain, fever, humoral conditions)
@@ -751,6 +763,119 @@ Medieval humoral medicine: blood, phlegm, yellow bile, black bile
 | ckhy | illness-ADJ | 9/14 | 64% | Illness |
 
 **Methodology:** Disease terms identified by herbal concentration - plants indexed by ailments they treat
+
+---
+
+### Preparation and Treatment Methods (Section 38)
+
+Preparation vocabulary identified by 60%+ concentration in recipe section (f88-f116).
+
+#### LK- prefix (COOK/PREPARE - 538x total, ~90% recipe)
+
+Major preparation verb in recipe section - likely "COOK" or "PREPARE"
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| lkeey | cook-flow | 54/56 | 96% | Cooking liquid |
+| lkeedy | cooking-ADJ | 49/55 | 89% | Cooking |
+| lkaiin | cook.NOM | 45/53 | 85% | Nominative |
+| lkain | cook.ACC | 39/43 | 91% | Accusative |
+| lkedy | cooking | 30/38 | 79% | Cooking action |
+| lkar | cook-tree | 26/33 | 79% | Herbal cooking |
+| lky | cooked | 21/24 | 88% | Cooked |
+| lkam | cook-bathe | 10/10 | 100% | Cook in bath |
+| lkal | cook-high | 9/9 | 100% | High heat |
+
+**Pattern:** `lk-` prefix indicates cooking/preparation, massively concentrated in recipe section
+
+#### POUR (por- pattern, Latin potio)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| por | POUR | 7/8 | 88% | Pour out |
+| porain | pour.ACC | 2/2 | 100% | Accusative |
+| poral | pour-high | 2/2 | 100% | Pour fully |
+| poraiin | pour.NOM | 3/4 | 75% | Nominative |
+
+**Pattern:** `por-` from Latin *potio* (drink/pour)
+
+#### WASH/RINSE (rain- pattern)
+
+| EVA Token | Meaning | Recipe+Bio Count | Combined % | Notes |
+|-----------|---------|------------------|------------|-------|
+| rain | WASH/rinse | 25/25 | 100% | Washing action |
+| rair | rinse-air | 7/8 | 88% | Air rinse |
+
+**Pattern:** `rain-` indicates washing/rinsing action
+
+#### APPLY (opal-/op- pattern)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| opal | APPLY | 10/13 | 77% | Application |
+| opchedy | apply-blood | 36/57 | 63% | Apply to blood |
+| opchey | apply-flow | 18/29 | 62% | Apply flowing |
+| opchdy | apply-ADJ | 17/25 | 68% | Applied |
+| opchy | applied | 11/15 | 73% | Applied |
+| opary | application | 5/5 | 100% | Application |
+
+**Pattern:** `op-` prefix indicates application/treatment
+
+#### STRAIN/FILTER (chl- pattern)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| chl | STRAIN/filter | 18/21 | 86% | Straining |
+
+**Pattern:** `chl-` indicates straining or filtering
+
+#### BLEND/MIX (alom-/alam- pattern)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| alom | BLEND | 6/7 | 86% | Blending |
+| alam | blending | 9/12 | 75% | Blend action |
+| alky | blend-ADJ | 4/5 | 80% | Blended |
+
+**Pattern:** `alom-`/`alam-` indicates blending or mixing (supplements sar/sal = MIX)
+
+#### EXTRACTION (lc- pattern)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| lchedy | wood-EXTRACT | 69/114 | 61% | Herbal extraction |
+| lchey | wood-flow | 22/39 | 56% | Wood flowing |
+| lcheey | wood-flowing | 10/13 | 77% | Extraction |
+| lcheol | wood-oil | 6/8 | 75% | Wood oil |
+| lchdy | wood-ADJ | 14/20 | 70% | Wood-related |
+| lchal | wood-high | 8/8 | 100% | Full extraction |
+
+**Pattern:** `lc-` prefix = wood/plant extraction process
+
+#### HEATING/DECOCTION (tc- pattern)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| tchedy | heat-blood | 15/29 | 52% | Heating blood |
+| tcheol | heat-oil | 2/2 | 100% | Heat oil |
+| tchar | heat-tree | 4/4 | 100% | Heat herbs |
+| tchey | heating | 6/13 | 46% | Heating |
+
+**Pattern:** `tc-` prefix indicates heating/decoction
+
+#### DOSAGE/QUANTITY (am-/ain- suffixes)
+
+| EVA Token | Meaning | Recipe Count | Recipe % | Notes |
+|-----------|---------|--------------|----------|-------|
+| shedain | water-dose | 10/10 | 100% | Water dosage |
+| chedam | blood-amount | 6/6 | 100% | Blood amount |
+| okedain | flow-dose | 6/6 | 100% | Flow dosage |
+| cheodain | flower-dose | 6/6 | 100% | Flower dosage |
+| tedam | heat-amount | 6/6 | 100% | Heat amount |
+
+**Pattern:** `-dam`/`-dain` suffix indicates dosage or quantity
+
+**Key Discovery:** The `lk-` prefix (538 occurrences, ~90% recipe) is the dominant preparation verb, likely meaning "COOK" or "PREPARE" - essential for understanding recipe instructions.
 
 ---
 

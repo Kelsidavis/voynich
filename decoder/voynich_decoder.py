@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.6 - January 2026 (Disease/Symptoms, Body Parts, Temporal Terms)
+Version 6.7 - January 2026 (Preparation Methods, Disease, Body Parts)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 870+ (expanded with disease/symptoms, body parts, temporal terms)
+Vocabulary entries: 920+ (expanded with preparation methods, disease, body parts)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1413,6 +1413,95 @@ VOCAB = {
     'kchdy': ('ailment-ADJ', 4),        # 11x - 64% herbal
     'ckhy': ('illness-ADJ', 4),         # 14x - 64% herbal
     'cphy': ('condition', 3),           # 8x - 62% herbal
+
+    # =========================================================================
+    # SECTION 38: PREPARATION/TREATMENT METHODS
+    # =========================================================================
+    # Preparation vocabulary identified by 60%+ recipe section concentration
+    # Pattern: Recipe instructions for medicinal preparations
+
+    # --- LK- prefix (COOK/PREPARE - 538x total, ~90% recipe) ---
+    # Major preparation verb in recipe section
+    'lk': ('COOK/prepare', 5),           # Base form
+    'lkeey': ('cook-flow', 5),           # 56x - 96% recipe
+    'lkeedy': ('cooking-ADJ', 5),        # 55x - 89% recipe
+    'lkaiin': ('cook.NOM', 5),           # 53x - 85% recipe
+    'lkain': ('cook.ACC', 5),            # 43x - 91% recipe
+    'lkedy': ('cooking', 5),             # 38x - 79% recipe
+    'lkar': ('cook-tree', 4),            # 33x - 79% recipe, herbal cooking
+    'lky': ('cooked', 4),                # 24x - 88% recipe
+    'lkam': ('cook-bathe', 4),           # 10x - 100% recipe
+    'lkal': ('cook-high', 4),            # 9x - 100% recipe
+    'lkchedy': ('cook-blood', 4),        # 11x - 73% recipe
+    'lkchey': ('cook-flow', 4),          # 10x - 100% recipe
+    'lkeeey': ('cook-flowing', 4),       # 9x - 100% recipe
+    'lkair': ('cook-air', 4),            # 7x - 100% recipe
+    'lkshedy': ('cook-water', 4),        # 7x - 100% recipe
+    'lkeeol': ('cook-oil', 4),           # 6x - 100% recipe
+
+    # --- POUR/POUR OUT (por- pattern, Latin potio) ---
+    'por': ('POUR', 5),                  # 8x - 88% recipe
+    'porain': ('pour.ACC', 4),           # 2x - 100% recipe
+    'poral': ('pour-high', 4),           # 2x - 100% recipe
+    'porol': ('pour-oil', 4),            # 2x - 100% recipe
+    'poraiin': ('pour.NOM', 4),          # 4x - 75% recipe
+
+    # --- WASH/RINSE (rain- pattern) ---
+    'rain': ('WASH/rinse', 5),           # 25x - 76% recipe+bio
+    'rair': ('rinse-air', 4),            # 8x - 88% recipe
+    'raiin': ('wash.NOM', 4),            # washing
+
+    # --- APPLY/APPLICATION (opal-/op- pattern) ---
+    'opal': ('APPLY', 5),                # 13x - 77% recipe
+    'opchedy': ('apply-blood', 4),       # 57x - 63% recipe
+    'opchey': ('apply-flow', 4),         # 29x - 62% recipe
+    'opchdy': ('apply-ADJ', 4),          # 25x - 68% recipe
+    'opchy': ('applied', 4),             # 15x - 73% recipe
+    'opary': ('application', 4),         # 5x - 100% recipe
+
+    # --- STRAIN/FILTER (chl- pattern) ---
+    'chl': ('STRAIN/filter', 5),         # 21x - 86% recipe
+    'chla': ('strain', 4),               # straining action
+    'chly': ('strained', 4),             # strained
+
+    # --- BLEND/MIX (alom-/alam- pattern) ---
+    'alom': ('BLEND', 4),                # 7x - 86% recipe
+    'alam': ('blending', 4),             # 12x - 75% recipe
+    'alky': ('blend-ADJ', 4),            # 5x - 80% recipe
+
+    # --- FLOWER PREPARATION (cheo- pattern) ---
+    'cheo': ('flower-prep', 5),          # 44x - 80% recipe
+    'cheoar': ('flower-tree-prep', 4),   # 7x - 100% recipe
+    'cheokeey': ('flower-flow-prep', 4), # 6x - 100% recipe
+
+    # --- EXTRACTION (lc-/tc- patterns) ---
+    'lchedy': ('wood-EXTRACT', 5),       # 114x - 61% recipe, herbal extraction
+    'lchey': ('wood-flow', 4),           # 39x - 56% recipe
+    'lcheey': ('wood-flowing', 4),       # 13x - 77% recipe
+    'lcheol': ('wood-oil', 4),           # 8x - 75% recipe
+    'lchdy': ('wood-ADJ', 4),            # 20x - 70% recipe
+    'lchal': ('wood-high', 4),           # 8x - 100% recipe
+
+    # --- HEATING/DECOCTION (tc- pattern) ---
+    'tchedy': ('heat-blood', 4),         # 29x - 52% recipe
+    'tcheol': ('heat-oil', 4),           # 2x - 100% recipe
+    'tchar': ('heat-tree', 4),           # 4x - 100% recipe
+    'tchey': ('heating', 4),             # 13x - 46% recipe
+
+    # --- DOSAGE/QUANTITY (am-/ain- suffixes) ---
+    'shedain': ('water-dose', 4),        # 10x - 100% recipe
+    'chedam': ('blood-amount', 4),       # 6x - 100% recipe
+    'okedain': ('flow-dose', 4),         # 6x - 100% recipe
+    'cheodain': ('flower-dose', 4),      # 6x - 100% recipe
+    'tedam': ('heat-amount', 4),         # 6x - 100% recipe
+
+    # --- COMPOUND PREPARATIONS ---
+    'chkal': ('flower-vessel-high', 4),  # 12x - 100% recipe
+    'qokeeor': ('the-flow-heart', 4),    # 11x - 100% recipe
+    'oteal': ('star-high', 4),           # 8x - 100% recipe
+    'sheeo': ('water-flow', 4),          # 8x - 100% recipe
+    'sheed': ('water-give', 4),          # 6x - 100% recipe
+    'alkain': ('white-ACC', 4),          # 7x - 100% recipe
 }
 
 # =============================================================================
