@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.4 - January 2026 (Days of the Week, Planets, Temperature)
+Version 6.5 - January 2026 (Body Parts, Days of Week, Temporal Terms)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 780+ (expanded with days of week, planets, temperature terms)
+Vocabulary entries: 830+ (expanded with body parts, days, months, seasons, hours)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1306,6 +1306,57 @@ VOCAB = {
     'qolky': ('the-oil-ADJ', 4),         # 12x - 100% bio, oil treatment
     'rshedy': ('rinse-water', 4),        # 11x - 100% bio, washing
     'shckhedy': ('water-vessel-ADJ', 4), # 12x - 100% bio
+
+    # =========================================================================
+    # SECTION 36: BODY PARTS (High bio-section concentration)
+    # =========================================================================
+    # Body part vocabulary identified by 50%+ concentration in biological section
+    # Pattern: Latin/Polish roots for anatomical terms
+
+    # --- HAND (Polish ręka, rch- pattern) ---
+    # 88-100% bio concentration - hands in hydrotherapy illustrations
+    'rchey': ('HAND', 5),               # 14x/15x - 93% bio, Polish ręka
+    'rchy': ('hand-ADJ', 4),            # 7x/8x - 88% bio, hand-related
+    'rches': ('hands', 4),              # 4x/4x - 100% bio, plural hands
+    'orchey': ('of-hand', 4),           # 5x/6x - 83% bio, genitive
+    'archal': ('arm-ADJ', 4),           # 3x/3x - 100% bio, arm/hand
+
+    # --- EYE/SIGHT (qok- prefix, Latin oculus) ---
+    # 55-81% bio concentration - possibly eye treatment or vessels
+    'qokedy': ('EYE/vessel', 4),        # 8x/12x - 67% bio, Latin oculus?
+    'qokeedy': ('the-eye', 4),          # 6x/11x - 55% bio
+    'qokain': ('eye-ACC', 4),           # 10x/13x - 76% bio, accusative
+    'qokshedy': ('eye-water', 4),       # 13x/16x - 81% bio, eye-wash
+    'qokal': ('of-eye', 4),             # 5x/8x - 63% bio, genitive
+
+    # --- LIVER/BILE (chep- pattern, Latin hepar) ---
+    # 100% bio concentration - hepatic treatment terms
+    'shepchedy': ('LIVER-water', 4),    # 4x/4x - 100% bio, liver treatment
+    'chep': ('liver/bile', 3),          # 3x/9x - 33% bio, Latin hepar
+    'chepey': ('of-liver', 4),          # 3x/3x - 100% bio, hepatic
+
+    # --- MOUTH/ORAL (or- pattern, Latin os/oris) ---
+    # Oral/mouth related terms
+    'olor': ('mouth-oil', 4),           # 10x/17x - 59% bio, oral ointment
+    'oror': ('of-mouth', 4),            # 3x/4x - 75% bio, oral
+    'orory': ('oral-ADJ', 4),           # 4x/5x - 80% bio, by mouth
+
+    # --- SKIN/FLESH (ol- bio-concentrated variants) ---
+    # High bio concentration - skin treatment terms
+    'olchedy': ('skin-blood', 4),       # 9x/12x - 75% bio, skin bleeding
+    'olkedy': ('skin-water', 4),        # 13x/16x - 81% bio, skin wash
+    'olkain': ('skin-ACC', 4),          # 10x/11x - 91% bio, skin treatment
+
+    # --- FOOT (nok- pattern, Polish noga) ---
+    # Foot/leg terms in hydrotherapy
+    'nokey': ('FOOT', 4),               # 5x/7x - 71% bio, Polish noga
+    'nokedy': ('foot-water', 4),        # 6x/8x - 75% bio, foot bath
+    'nokain': ('foot-ACC', 4),          # 4x/5x - 80% bio, accusative
+
+    # --- HEAD (glowy/chol patterns) ---
+    # Head-related, some overlap with flower (chol)
+    'cholkey': ('head-ADJ', 4),         # 4x/6x - 67% bio, head-related
+    'ocholdy': ('of-head', 4),          # 3x/4x - 75% bio, cephalic
 }
 
 # =============================================================================

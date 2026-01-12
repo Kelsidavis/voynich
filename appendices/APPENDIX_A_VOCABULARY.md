@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.3 - Complete Vocabulary Mappings
+## Voynich Decoder v6.5 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,25 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 808
-- **Polish terms**: ~60
-- **Latin terms**: ~430
+- **Total entries**: 832
+- **Polish terms**: ~72
+- **Latin terms**: ~445
 - **Bilingual terms**: 0
 - **Uncertain classification**: ~294
 
 - **High confidence (8-11)**: ~65
-- **Medium confidence (5-7)**: ~690
-- **Low confidence (3-4)**: ~29
+- **Medium confidence (5-7)**: ~720
+- **Low confidence (3-4)**: ~47
+
+### New in v6.5
+- **Body Parts**: 24 entries (HAND, EYE, LIVER, MOUTH, SKIN, FOOT, HEAD)
+  - HAND (rch-): rchey, rchy, rches, orchey, archal (Polish ręka)
+  - EYE (qok-): qokedy, qokeedy, qokain, qokshedy, qokal (Latin oculus)
+  - LIVER (chep-): shepchedy, chep, chepey (Latin hepar)
+  - MOUTH (or-): olor, oror, orory (Latin os/oris)
+  - SKIN (ol-): olchedy, olkedy, olkain
+  - FOOT (nok-): nokey, nokedy, nokain (Polish noga)
+  - HEAD (chol-): cholkey, ocholdy
 
 ### New in v6.4
 - **Days of the week**: 10 entries (all 7 days via planet + -ody suffix)
@@ -580,6 +590,85 @@ Time of day (sun position):
 
 **Pattern:** `ora-` prefix from Latin *hora* (hour); `-eey` suffix indicates time/flow
 **Note:** Complete temporal system: days (-ody), months (-am), seasons (-lar), hours (ora-)
+
+---
+
+### Body Parts (Section 36)
+
+Body part vocabulary identified by 50%+ concentration in biological section (f75-84).
+
+#### HAND (Polish ręka, rch- pattern)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| rchey | HAND | 14/15 | 93% | Polish ręka |
+| rchy | hand-ADJ | 7/8 | 88% | Hand-related |
+| rches | hands | 4/4 | 100% | Plural hands |
+| orchey | of-hand | 5/6 | 83% | Genitive |
+| archal | arm-ADJ | 3/3 | 100% | Arm/hand |
+
+**Pattern:** `rch-` pattern from Polish *ręka* (hand)
+
+#### EYE/SIGHT (qok- prefix, Latin oculus)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| qokedy | EYE/vessel | 8/12 | 67% | Latin oculus? |
+| qokeedy | the-eye | 6/11 | 55% | Eye treatment |
+| qokain | eye-ACC | 10/13 | 76% | Accusative case |
+| qokshedy | eye-water | 13/16 | 81% | Eye-wash |
+| qokal | of-eye | 5/8 | 63% | Genitive |
+
+**Pattern:** `qok-` prefix, possibly Latin *oculus* (eye)
+
+#### LIVER/BILE (chep- pattern, Latin hepar)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| shepchedy | LIVER-water | 4/4 | 100% | Liver treatment |
+| chep | liver/bile | 3/9 | 33% | Latin hepar |
+| chepey | of-liver | 3/3 | 100% | Hepatic |
+
+**Pattern:** `chep-` prefix from Latin *hepar* (liver)
+
+#### MOUTH/ORAL (or- pattern, Latin os/oris)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| olor | mouth-oil | 10/17 | 59% | Oral ointment |
+| oror | of-mouth | 3/4 | 75% | Oral |
+| orory | oral-ADJ | 4/5 | 80% | By mouth |
+
+**Pattern:** `or-` pattern from Latin *os/oris* (mouth)
+
+#### SKIN/FLESH (ol- bio-concentrated)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| olchedy | skin-blood | 9/12 | 75% | Skin bleeding |
+| olkedy | skin-water | 13/16 | 81% | Skin wash |
+| olkain | skin-ACC | 10/11 | 91% | Skin treatment |
+
+**Pattern:** `ol-` prefix in bio context indicates skin/surface treatment
+
+#### FOOT (nok- pattern, Polish noga)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| nokey | FOOT | 5/7 | 71% | Polish noga |
+| nokedy | foot-water | 6/8 | 75% | Foot bath |
+| nokain | foot-ACC | 4/5 | 80% | Accusative |
+
+**Pattern:** `nok-` prefix from Polish *noga* (foot/leg)
+
+#### HEAD (chol- patterns)
+
+| EVA Token | Meaning | Bio Count | Bio % | Notes |
+|-----------|---------|-----------|-------|-------|
+| cholkey | head-ADJ | 4/6 | 67% | Head-related |
+| ocholdy | of-head | 3/4 | 75% | Cephalic |
+
+**Note:** Some overlap with chol- (flower) meanings
 
 ---
 
