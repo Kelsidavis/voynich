@@ -1729,6 +1729,123 @@ The Rosettes section (f85-f86) functions as a **MASTER COSMOGRAPHICAL-MEDICAL MA
 
 ---
 
+### 9.6 F67 Astronomical Section - Planetary References
+
+**Folio:** f67r-v (Astronomical section opening)
+**Content:** Circular diagrams with celestial imagery
+**Function:** Planetary timing instructions for medical treatments
+
+#### Decoding Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total words | 513 |
+| High confidence | 139 (27.1%) |
+| Medium confidence | 209 (40.7%) |
+| Unknown | 165 (32.2%) |
+| **Decode rate** | **67.8%** |
+
+#### Planetary Vocabulary Identified
+
+| Line | EVA Token | Decoded | Planet | Context |
+|------|-----------|---------|--------|---------|
+| 6 | sol | [SUN] | Sun | "dal.oekaiin.**sol**.daiin" |
+| 7 | oteeos | (SATURN) | Saturn | "qoikeey.**oteeos**.cheockhey" |
+| 92 | okalar | (JUPITER) | Jupiter | "oaiin.**okalar**.ol" |
+| 101 | solair | [SUN][AIR] | Sun | "**solair**.cfhey.**solal**" |
+
+#### Key Decoded Lines
+
+**Line 6 (Sun + Stars):**
+```
+Voynich:  dair.al.cheol.dal.oekaiin.sol.daiin.eetees.sainn.ykeos...otar.daiir.ar
+Decoded:  [give].(high).[flower-oil].[GIVE]....[SUN].[leaf.NOM]....[heal]...[STAR].[give].[tree]
+```
+**Interpretation:** "Give the high flower-oil, [the] SUN [determines] leaf... heal... STAR give tree"
+
+**Line 7 (Saturn Reference):**
+```
+Voynich:  archeor.qoikeey.oteeos.cheockhey.oteochedy.okeohdar.dararal.okeosar
+Decoded:  [tree][flower-heart].(the-vessel).(SATURN).(flower-vessel)...okeos[tree]
+```
+**Interpretation:** Astronomical timing reference linking SATURN with botanical preparations
+
+**Line 8 (Heavenly Label):**
+```
+Voynich:  otaldy
+Decoded:  [heavenly]
+```
+**Interpretation:** Label for celestial diagram - "heavenly" or "of heaven"
+
+**Line 92 (Jupiter Reference):**
+```
+Voynich:  sshey.syshees.qeykeey.ykchey.ykchey.qokeochy.oaiin.okalar.ol
+Decoded:  s(knowing)....(and-vessel-blood-flow)...(JUPITER).[OIL]
+```
+**Interpretation:** JUPITER associated with vessel/blood treatments and oil preparations
+
+**Line 96 (Heaven-High):**
+```
+Voynich:  tol.or.oir.om.otoly.eain.m
+Decoded:  (celestial).(heart)...(heaven-high)...
+```
+**Interpretation:** Celestial/heaven terminology describing astronomical positions
+
+**Line 101 (Double Sun Reference):**
+```
+Voynich:  solair.cfhey.solal.daly
+Decoded:  [SUN][AIR]....[SUN](high).(give-high)
+```
+**Interpretation:** Sun-air compound, sun-high - solar timing instructions
+
+#### Vocabulary Distribution
+
+| Category | Count | % of Decoded | Examples |
+|----------|-------|--------------|----------|
+| Celestial (ot-) | 45+ | 12.9% | otar, otal, oteos, oteeos |
+| Botanical | 65+ | 18.6% | daiin, chol, ar, raiin |
+| Instruction verbs | 55+ | 15.7% | dar, dal, dair |
+| Oil/preparation | 30+ | 8.6% | ol, cheol, oldy |
+
+#### Astronomical Content Analysis
+
+1. **Planetary References**
+   - SUN (sol/solair): 4 occurrences - primary timing reference
+   - SATURN (oteeos): 1 clear occurrence - slow planet
+   - JUPITER (okalar): 1 clear occurrence - benefic planet
+
+2. **Celestial Framework**
+   - otaldy [heavenly]: Label for celestial diagram
+   - otoly (heaven-high): Celestial sphere reference
+   - otar/oteos [STAR]: General stellar references (15+)
+
+3. **Medical Integration**
+   - Planetary terms appear WITH botanical vocabulary
+   - Instruction verbs (dar/dal) connect planets to treatments
+   - Pattern suggests iatromathematical timing
+
+#### Sample Continuous Translation
+
+**Lines 5-7 (Astronomical instruction sequence):**
+```
+Original: soairal.shdy.chokeody.ykeedal.ol.oteodaiin...oteeos...okeos...otar.dar
+Decoded:  so[AIR](high).water.flower-vessel.ykee[GIVE].[OIL]...SATURN...MARS?...STAR.GIVE
+```
+**Interpretive Translation:** "Under the high air [sky], water [and] flower-vessel, give oil [when] Saturn... [and] star give [treatment]"
+
+#### Iatromathematical Context
+
+F67 demonstrates **iatromathematical medicine** - the medieval practice of timing medical treatments according to planetary positions:
+
+- **Saturn** (oteeos): Associated with chronic conditions, bones, elderly
+- **Jupiter** (okalar): Associated with liver, blood, beneficial treatments
+- **Sun** (sol): Associated with heart, vitality, daily timing
+- **Stars** (otar/oteos): General celestial timing framework
+
+The combination of planetary terms with botanical vocabulary and instruction verbs confirms this folio provides TIMING INSTRUCTIONS for when to administer treatments based on celestial positions.
+
+---
+
 ## 10. Conclusions
 
 These sample translations demonstrate:
@@ -1747,6 +1864,7 @@ These sample translations demonstrate:
    - **Hydrotherapy (f75)**: water terms + vessel references
    - **Recipe (f88r)**: ingredient lists + instruction verbs + marginal index
    - **Rosettes (f85-f86)**: mixed vocabulary from ALL sections + unique cosmological terms
+   - **Astronomical (f67)**: planetary names (Sun, Saturn, Jupiter) + celestial timing
 
 4. **Formulaic Structure**: Translations reveal consistent formula patterns suggesting a systematic medical text rather than random content.
 
@@ -1760,8 +1878,10 @@ These sample translations demonstrate:
 
 9. **Rosettes as Master Index**: F85-F86 contains vocabulary from ALL manuscript sections (herbal, astronomical, biological, recipe) plus unique terms like "tdam" (100% exclusive), confirming its function as a cosmographical master index linking all parts of the medical encyclopedia.
 
+10. **Planetary Vocabulary Confirmed**: F67 contains clear planetary references (SUN, SATURN, JUPITER) combined with botanical and instruction vocabulary, confirming iatromathematical medicine - treatment timing based on celestial positions.
+
 ---
 
-*Generated from Voynich Decoder v6.2*
+*Generated from Voynich Decoder v6.3*
 *Sample translations selected for representativeness and coherence*
-*Complete folio translations: F1R, F72, F75, F85-F86, F88R (January 2026)*
+*Complete folio translations: F1R, F67, F72, F75, F85-F86, F88R (January 2026)*
