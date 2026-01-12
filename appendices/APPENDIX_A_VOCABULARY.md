@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v6.7 - Complete Vocabulary Mappings
+## Voynich Decoder v6.8 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,25 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 920
-- **Polish terms**: ~78
-- **Latin terms**: ~490
+- **Total entries**: 970
+- **Polish terms**: ~82
+- **Latin terms**: ~520
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~330
+- **Uncertain classification**: ~345
 
-- **High confidence (8-11)**: ~70
-- **Medium confidence (5-7)**: ~795
-- **Low confidence (3-4)**: ~55
+- **High confidence (8-11)**: ~75
+- **Medium confidence (5-7)**: ~835
+- **Low confidence (3-4)**: ~60
+
+### New in v6.8
+- **Botanical/Plant Terms**: 50 entries (plant parts, compounds, herbal terms)
+  - LEAF (daiin): dain, dair, odaiin, chodaiin, daim (case variants)
+  - FLOWER (chol): otchol, dchol, kchol, qotchol, tchol (preparation variants)
+  - ROOT (shol): tshol, otshol, okshol (dried/prepared)
+  - FLOWER-OIL (cheol): cheol (133x), pcheol, lcheol, opcheol
+  - WATER-OIL (sheol): sheol (84x), dsheol (emulsions)
+  - GRAIN/FRUIT: far (seed), fachys (FRUIT - first word of MS!)
+  - Herbal-exclusive terms: qotchol, choiin, shoiin
 
 ### New in v6.7
 - **Preparation Methods**: 50 entries (cooking, pouring, washing, applying, straining)
@@ -876,6 +886,108 @@ Major preparation verb in recipe section - likely "COOK" or "PREPARE"
 **Pattern:** `-dam`/`-dain` suffix indicates dosage or quantity
 
 **Key Discovery:** The `lk-` prefix (538 occurrences, ~90% recipe) is the dominant preparation verb, likely meaning "COOK" or "PREPARE" - essential for understanding recipe instructions.
+
+---
+
+### Botanical/Plant Vocabulary (Section 39)
+
+Plant terminology supplementing core vocabulary (daiin=LEAF, chol=FLOWER, shol=ROOT, ar=TREE, ol=OIL).
+
+#### LEAF (daiin) Variants
+
+| EVA Token | Meaning | Total | Herbal % | Notes |
+|-----------|---------|-------|----------|-------|
+| daiin | LEAF | 500x | 37% | Core term (Latin folium) |
+| dain | leaf.ACC | 132x | 27% | Accusative form |
+| dair | leaf-air | 68x | 25% | Dried leaf |
+| odaiin | of-leaf.NOM | 36x | 28% | Genitive |
+| chodaiin | flower-leaf | 20x | 35% | Petal? |
+| ydaiin | the-leaf.NOM | 13x | 23% | Definite |
+| daim | leaf.GEN | 7x | 43% | Genitive |
+
+**Pattern:** `daiin` base with case/compound suffixes
+
+#### FLOWER (chol) Variants
+
+| EVA Token | Meaning | Total | Herbal % | Notes |
+|-----------|---------|-------|----------|-------|
+| chol | FLOWER | 198x | 36% | Core term (Latin flos) |
+| otchol | star-FLOWER | 15x | 80% | Celestial flower |
+| dchol | give-flower | 14x | 50% | Flower preparation |
+| kchol | vessel-flower | 8x | 62% | Flower vessel |
+| qotchol | the-star-flower | 7x | 100% | Herbal exclusive |
+| tchol | heat-flower | 7x | 57% | Dried flower |
+| choly | flower-ADJ | 7x | 29% | Flowery |
+
+**Pattern:** `chol` base with prefix modifiers indicating preparation
+
+#### ROOT (shol) Variants
+
+| EVA Token | Meaning | Total | Herbal % | Notes |
+|-----------|---------|-------|----------|-------|
+| shol | ROOT | 112x | 41% | Core term (Latin radix) |
+| tshol | heat-ROOT | 5x | 80% | Dried root |
+| otshol | star-root | 1x | 100% | Herbal exclusive |
+| okshol | vessel-root | 1x | 100% | Root vessel |
+
+**Pattern:** `shol` base - root/radix
+
+#### FLOWER-OIL Compound (cheol)
+
+| EVA Token | Meaning | Total | Recipe % | Notes |
+|-----------|---------|-------|----------|-------|
+| cheol | FLOWER-OIL | 133x | 65% | Floral oil preparation |
+| pcheol | for-flower-oil | 9x | 67% | Recipe use |
+| ycheol | the-flower-oil | 9x | 89% | Definite |
+| lcheol | wood-flower-oil | 8x | 75% | Herbal oil |
+| opcheol | apply-flower-oil | 6x | 100% | Application |
+| cheoly | flower-oil-ADJ | 7x | 57% | Adjective |
+
+**Pattern:** `cheol` = chol (flower) + ol (oil) - major pharmaceutical compound
+
+#### WATER-OIL Compound (sheol)
+
+| EVA Token | Meaning | Total | Notes |
+|-----------|---------|-------|-------|
+| sheol | WATER-OIL | 84x | Aqueous oil/emulsion |
+| dsheol | give-water-oil | 8x | Administer |
+| sheols | water-oils | 3x | Plural |
+
+**Pattern:** `sheol` = she (water) + ol (oil) - emulsion preparation
+
+#### SHORT BOTANICAL BASES (herbal concentrated)
+
+| EVA Token | Meaning | Total | Herbal % | Notes |
+|-----------|---------|-------|----------|-------|
+| sho | PLANT/short | 58x | 53% | Plant base |
+| she | WATER/plant | 22x | 55% | Water/plant |
+| kol | vessel-OIL | 23x | 43% | Oil vessel |
+| shy | water-ADJ | 57x | 44% | Watery |
+| dor | give-HEART | 42x | 43% | Heart/core |
+
+**Pattern:** Short bases frequently combined with suffixes
+
+#### GRAIN/SEED and FRUIT
+
+| EVA Token | Meaning | Total | Herbal % | Notes |
+|-----------|---------|-------|----------|-------|
+| far | GRAIN/seed | 3x | 67% | Latin far |
+| fardam | grain-amount | 1x | 100% | Grain dosage |
+| fachys | FRUIT | 1x | 100% | **First word of manuscript!** |
+
+**Note:** `fachys` appears only once as the opening word of the manuscript
+
+#### Unique Herbal Terms (100% herbal exclusive)
+
+| EVA Token | Meaning | Total | Notes |
+|-----------|---------|-------|-------|
+| qotchol | the-star-flower | 7x | Celestial flower |
+| choiin | flower-NOM | 6x | Flower nominative |
+| cthaiin | condition-NOM | 4x | Condition term |
+| shoiin | root-NOM | 3x | Root nominative |
+| chochy | flower-flower | 3x | Double flower |
+
+**Pattern:** 100% herbal concentration indicates plant-specific terminology
 
 ---
 

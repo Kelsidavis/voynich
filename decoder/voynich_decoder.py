@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 6.7 - January 2026 (Preparation Methods, Disease, Body Parts)
+Version 6.8 - January 2026 (Botanical, Preparation, Disease, Body Parts)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 920+ (expanded with preparation methods, disease, body parts)
+Vocabulary entries: 970+ (expanded with botanical terms, preparation, disease, body parts)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1502,6 +1502,83 @@ VOCAB = {
     'sheeo': ('water-flow', 4),          # 8x - 100% recipe
     'sheed': ('water-give', 4),          # 6x - 100% recipe
     'alkain': ('white-ACC', 4),          # 7x - 100% recipe
+
+    # =========================================================================
+    # SECTION 39: BOTANICAL/PLANT VOCABULARY
+    # =========================================================================
+    # Plant terminology - supplements core vocab (daiin, chol, shol, ar, ol)
+    # Includes plant compounds and herbal-concentrated terms
+
+    # --- LEAF (daiin) variants ---
+    # Note: daiin (LEAF) already in core vocabulary
+    'dain': ('leaf.ACC', 5),             # 132x - accusative form
+    'dair': ('leaf-air', 4),             # 68x - dried leaf
+    'odaiin': ('of-leaf.NOM', 4),        # 36x - genitive
+    'chodaiin': ('flower-leaf', 4),      # 20x - petal?
+    'daiir': ('leaf-air', 4),            # 15x - dried/aired leaf
+    'ydaiin': ('the-leaf.NOM', 4),       # 13x
+    'daim': ('leaf.GEN', 4),             # 7x - genitive
+    'daiiin': ('leaf.NOM.intensive', 4), # 8x - intensive form
+
+    # --- FLOWER (chol) variants ---
+    # Note: chol (FLOWER) already in core vocabulary
+    'otchol': ('star-FLOWER', 5),        # 15x - 80% herbal, celestial flower
+    'dchol': ('give-flower', 4),         # 14x - 50% herbal
+    'kchol': ('vessel-flower', 4),       # 8x - 62% herbal
+    'qokchol': ('the-vessel-flower', 4), # 8x - 62% herbal
+    'tchol': ('heat-flower', 4),         # 7x - 57% herbal, dried flower
+    'qotchol': ('the-star-flower', 5),   # 7x - 100% herbal
+    'choly': ('flower-ADJ', 4),          # 7x - flowery
+    'choldy': ('flower-day', 4),         # 4x - flowering
+    'cholal': ('flower-high', 4),        # 4x - tall flower
+
+    # --- ROOT (shol) variants ---
+    # Note: shol (ROOT) already in core vocabulary
+    'tshol': ('heat-ROOT', 4),           # 5x - 80% herbal, dried root
+    'otshol': ('star-root', 4),          # 1x - 100% herbal
+    'okshol': ('vessel-root', 4),        # 1x - 100% herbal
+    'kshol': ('vessel-root', 4),         # 2x - root vessel
+
+    # --- FLOWER-OIL compound (cheol) ---
+    'cheol': ('FLOWER-OIL', 6),          # 133x - floral oil preparation
+    'pcheol': ('for-flower-oil', 4),     # 9x - recipe
+    'ycheol': ('the-flower-oil', 4),     # 9x - recipe
+    'lcheol': ('wood-flower-oil', 4),    # 8x - herbal oil
+    'dcheol': ('give-flower-oil', 4),    # 6x
+    'opcheol': ('apply-flower-oil', 4),  # 6x - 100% recipe
+    'cheoly': ('flower-oil-ADJ', 4),     # 7x
+
+    # --- WATER/ROOT-OIL compound (sheol) ---
+    'sheol': ('WATER-OIL', 5),           # 84x - aqueous oil/emulsion
+    'dsheol': ('give-water-oil', 4),     # 8x
+    'sheols': ('water-oils', 4),         # 3x - plural
+
+    # --- SHORT BOTANICAL BASES (herbal concentrated) ---
+    'sho': ('PLANT/short', 5),           # 58x - 53% herbal, plant base
+    'she': ('WATER/plant', 4),           # 22x - 55% herbal
+    'kol': ('vessel-OIL', 4),            # 23x - 43% herbal, oil vessel
+    'shy': ('water-ADJ', 4),             # 57x - 44% herbal, watery
+    'dor': ('give-HEART', 4),            # 42x - 43% herbal
+    'chky': ('flower-vessel-ADJ', 4),    # 14x - 43% herbal
+
+    # --- GRAIN/SEED (far- pattern, Latin far) ---
+    'far': ('GRAIN/seed', 4),            # 3x - 67% herbal, Latin far
+    'fardam': ('grain-amount', 4),       # 1x - 100% herbal
+
+    # --- FRUIT (fach- pattern) ---
+    'fachys': ('FRUIT', 5),              # 1x - 100% herbal, first word of MS!
+
+    # --- UNIQUE HERBAL TERMS (potential plant names) ---
+    'choiin': ('flower-NOM', 4),         # 6x - 100% herbal
+    'cthaiin': ('condition-NOM', 4),     # 4x - 100% herbal
+    'shoiin': ('root-NOM', 4),           # 3x - 100% herbal
+    'qotshy': ('the-star-water', 4),     # 3x - 100% herbal
+    'chochy': ('flower-flower', 4),      # 3x - 100% herbal, double flower
+
+    # --- BOTANICAL ADJECTIVES ---
+    'chty': ('flower-ADJ', 4),           # 10x - 50% herbal
+    'okam': ('vessel-bathe', 4),         # 23x - 48% herbal, infusion
+    'dan': ('leaf-ACC', 4),              # 11x - 45% herbal
 }
 
 # =============================================================================
