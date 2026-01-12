@@ -1114,7 +1114,7 @@ VOCAB = {
     'lol': ('MILK/liquid', 5),         # Lac - milk (l-ol = liquid-oil)
     'adal': ('FAT/grease', 4),         # Adeps - animal fat
     'oam': ('EGG', 4),                 # Ovum - medicinal egg
-    'shar': ('SERPENT/share', 4),      # Serpens venom (or share/divide)
+    'shar': ('SHARE/divide', 6),        # Recipe portioning - "share" more likely than serpent
 
     # =========================================================================
     # SECTION 30: DATA-DRIVEN EXPANSION BATCH 5 (10+ occurrences)
