@@ -1264,6 +1264,19 @@ VOCAB = {
     # Note: Zodiac signs (Section 33) also function as month markers
     # -am suffix appears to indicate monthly/temporal periods
 
+    # --- SEASONS (celestial root + -lar suffix) ---
+    # Pattern: 4 words with -lar ending, all 100% astro-exclusive
+    # -lar suffix may derive from Latin 'solaris' (solar) or indicate quarter/season
+    'okolar': ('SPRING', 4),             # 6x/6x - 100% astro, planet-season
+    'opalar': ('SUMMER', 4),             # 6x/6x - 100% astro, ?-season
+    'okalar': ('AUTUMN', 4),             # 6x/6x - 100% astro, Jupiter-season
+    'alar': ('WINTER', 4),               # 4x/12x - 33% astro, base season form
+    # Supporting solstice/equinox terms
+    'solal': ('SUMMER-SOLSTICE', 4),     # 4x/4x - 100% astro, sun-marker
+    'solair': ('SOLAR-POINT', 4),        # 3x/3x - 100% astro, sun-position
+    'soly': ('SOLAR', 4),                # 4x/8x - 50% astro, sun-related
+    # Note: Zodiac signs (3 per season) also indicate seasonal timing
+
     # =========================================================================
     # SECTION 35: HYDROTHERAPY TERMS (Bio section f75-84)
     # =========================================================================

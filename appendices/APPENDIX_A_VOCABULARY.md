@@ -9,7 +9,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 792
+- **Total entries**: 798
 - **Polish terms**: ~60
 - **Latin terms**: ~430
 - **Bilingual terms**: 0
@@ -22,6 +22,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 ### New in v6.4
 - **Days of the week**: 10 entries (all 7 days via planet + -ody suffix)
 - **Months**: 8 entries (month/calendar terms via planet + -am/-ary suffix)
+- **Seasons**: 7 entries (4 seasons via -lar suffix + solstice/equinox terms)
 - **Planetary vocabulary**: All 7 classical planets (Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn)
 - **Temperature terms**: keeo (WARM), rai (HEAT)
 - **Short base forms**: dai, kai, sai, tai, etc.
@@ -527,6 +528,26 @@ Months (planet/zodiac root + -am/-ary suffix):
 
 **Pattern:** root + `-am` suffix (possibly from Latin *mensis* = month)
 **Note:** Zodiac signs (Section 34) also function as month markers, since each sign covers ~30 days
+
+Seasons (celestial root + -lar suffix):
+
+| EVA Token | Season | Astro Count | Astro % | Notes |
+|-----------|--------|-------------|---------|-------|
+| okolar | SPRING | 6/6 | 100% | Planet-season |
+| opalar | SUMMER | 6/6 | 100% | ?-season |
+| okalar | AUTUMN | 6/6 | 100% | Jupiter-season |
+| alar | WINTER | 4/12 | 33% | Base season form |
+
+Supporting solstice/equinox terms:
+
+| EVA Token | Meaning | Astro Count | Astro % | Notes |
+|-----------|---------|-------------|---------|-------|
+| solal | SUMMER-SOLSTICE | 4/4 | 100% | Sun-marker |
+| solair | SOLAR-POINT | 3/3 | 100% | Sun-position |
+| soly | SOLAR | 4/8 | 50% | Sun-related |
+
+**Pattern:** root + `-lar` suffix (possibly from Latin *solaris* = solar)
+**Note:** The 4 `-lar` words appear exclusively in astronomical section, suggesting calendar/seasonal function. Zodiac signs (3 per season) also indicate seasonal timing.
 
 ---
 
