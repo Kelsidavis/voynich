@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v7.3 - Complete Vocabulary Mappings
+## Voynich Decoder v7.5 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,40 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 951
-- **Polish terms**: ~98
-- **Latin terms**: ~580
+- **Total entries**: 1,012
+- **Polish terms**: ~110
+- **Latin terms**: ~620
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~375
+- **Uncertain classification**: ~390
 
-- **High confidence (8-11)**: ~86
-- **Medium confidence (5-7)**: ~920
-- **Low confidence (3-4)**: ~75
+- **High confidence (8-11)**: ~95
+- **Medium confidence (5-7)**: ~980
+- **Low confidence (3-4)**: ~85
+
+- **Corpus coverage**: 88.0% of word tokens (3+ characters)
+
+### New in v7.5
+- **High-Frequency Compound Forms**: 45 entries (previously untranslated compounds)
+  - Coverage improved from 80.7% to 88.0%
+  - **Herbal compounds**: qotchor (the-star-SICK), doiin (leaf.NOM), shocthy, ksho, ykol, dsho
+  - **Bio/hydrotherapy**: sheety (water-flowing), sheey, okoiin, koiin
+  - **Recipe compounds**: ctheol (condition-OIL), keeor (heat-HEART), tcheo, cheeey
+  - **Grammatical forms**: soiin (root.NOM), oiiin (of.NOM), todaiin, aim (water.ACC)
+  - **Sensory terms**: odor (SMELL - Latin odor)
+  - **Plant variants**: eees, oees, oeees, eey (FLOW)
+  - **Additional**: schey, opy, ykey, ytai, ochy, cheod, oro, chee, chetey, ytody
+
+### New in v7.4
+- **Pain/Dolor Vocabulary**: 18 entries (dolor compound forms)
+  - Major discovery: dol (439x) = Latin dolor (pain)
+  - Section distribution: herbal 39%, bio 31%, recipe 24%, astro 2%
+  - **Primary**: dol (PAIN), dolor (PAIN - literal Latin in text)
+  - **Adjectives**: doly (painful), doldy (painful-ADJ)
+  - **Compounds**: dolol (pain-oil), dolar (pain-star), doldam (pain.GEN)
+  - **Body pain**: dolds (pain-bone), dolchey (pain-blood), dolchedy (pain-bleeding)
+  - **Treatment**: dolchl (pain-cool), dolshy (pain-root)
+  - **Flow patterns**: doleeey (pain-flow), dolcheedy (pain-blood-flow)
+  - Confirms medical focus - pain terms concentrated in treatment sections
 
 ### New in v7.3
 - **Action/Verb Terms**: 55 entries (mixing, extracting, soaking, healing)
@@ -143,6 +168,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | aiiin | -inus.NOM | Latin | Medium | 5 |
 | aiin | -inus/NOM | Latin | Medium | 5 |
 | aiir | AIR.intensive | Uncertain | Medium | 6 |
+| aim | water.ACC | Latin | Medium | 5 |
 | ain | -anum/ACC | Latin | Medium | 5 |
 | air | AIR | Polish | Medium | 7 |
 | airol | air-oil | Latin | Medium | 6 |
@@ -172,6 +198,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | cham | blood.ACC | Latin | Medium | 6 |
 | chan | blood.ACC | Latin | Medium | 5 |
 | char | cherub | Uncertain | High | 9 |
+| chckh | flower-condition | Uncertain | Low | 4 |
 | chckhdy | with-flow-ADJ | Uncertain | Medium | 6 |
 | chckhedy | blood-flower-vessel-flowing | Latin | Medium | 5 |
 | chckhey | with-flower-vessel | Latin | Medium | 6 |
@@ -186,6 +213,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | chdam | blood-give.ACC | Latin | Medium | 5 |
 | chdar | blood-dragon | Uncertain | Medium | 6 |
 | chdy | with | Uncertain | Medium | 6 |
+| chee | flower-flow | Uncertain | Medium | 5 |
 | cheal | blood-high | Uncertain | Medium | 6 |
 | chear | CHERUB | Polish | High | 9 |
 | checkhey | blood-flower-vessel-flow | Latin | Medium | 5 |
@@ -193,12 +221,14 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | checphey | with-circle | Uncertain | Medium | 6 |
 | checthy | blood-fourth-ADJ | Latin | Medium | 6 |
 | ched | blood-give | Uncertain | Medium | 5 |
+| chedai | blood-leaf | Latin | Medium | 5 |
 | chedaiin | blood-leaf.NOM | Latin | Medium | 6 |
 | chedain | blood-give.ACC | Latin | Medium | 5 |
 | chedal | blood-GIVE | Polish | Medium | 6 |
 | chedar | blood-give | Uncertain | Medium | 6 |
 | chedy | with | Uncertain | Medium | 6 |
 | cheedy | with-flowing | Uncertain | Medium | 6 |
+| cheeey | flower-FLOW | Uncertain | Medium | 5 |
 | cheeky | with-from | Uncertain | Medium | 6 |
 | cheeo | blood-flow | Uncertain | Medium | 5 |
 | cheeody | blood-flow-ADJ | Uncertain | Medium | 5 |
@@ -212,6 +242,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | chekeey | blood-vessel-flow | Latin | Medium | 5 |
 | cheky | blood-from-ADJ | Uncertain | Medium | 6 |
 | cheo | flower | Latin | Medium | 6 |
+| cheod | flower-of-leaf | Uncertain | Low | 4 |
 | cheockhy | blood-flow-flower-vessel-ADJ | Latin | Medium | 5 |
 | cheodaiin | blood-flow-give.NOM | Latin | Medium | 5 |
 | cheody | with-ADJ | Uncertain | Medium | 6 |
@@ -225,6 +256,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | cheoy | with-and | Uncertain | Medium | 5 |
 | ches | blood-bone | Uncertain | Medium | 6 |
 | chety | blood-time | Uncertain | Medium | 6 |
+| chetey | blood-flow-ADJ | Uncertain | Low | 4 |
 | chey | with | Uncertain | Medium | 5 |
 | chkaiin | blood-vessel.NOM | Latin | Medium | 6 |
 | chkal | blood-vessel-HIGH | Latin | Medium | 5 |
@@ -269,6 +301,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | chty | blood-time-ADJ | Uncertain | Medium | 5 |
 | chy | blood-ADJ | Uncertain | Medium | 5 |
 | ckheey | flower-vessel-flow | Latin | Medium | 5 |
+| ckheol | vessel-heat-oil | Latin | Medium | 5 |
 | ckhey | flower-vessel-ADJ | Latin | Medium | 6 |
 | ckho | flower-vessel | Latin | Medium | 6 |
 | ckhol | flower-vessel-oil | Latin | Medium | 6 |
@@ -287,6 +320,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | cthdy | fourth-ADJ | Latin | Medium | 6 |
 | cthedy | fourth-flowing | Latin | Medium | 5 |
 | ctheey | fourth-flow | Latin | Medium | 5 |
+| ctheol | condition-OIL | Latin | Medium | 5 |
 | cthey | fourth-ADJ | Latin | Medium | 6 |
 | ctho | fourth | Latin | Medium | 6 |
 | cthody | fourth-flow-ADJ | Latin | Medium | 6 |
@@ -326,11 +360,31 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | deey | GIVE! | Polish | Medium | 7 |
 | dl | give-world | Uncertain | Medium | 5 |
 | do | give-a | Uncertain | Medium | 5 |
-| dol | pain | Uncertain | High | 8 |
-| doleeey | pain-flow | Uncertain | Medium | 7 |
-| dolor | pain | Uncertain | High | 10 |
-| dor | PAIN | Polish | High | 10 |
-| dory | painful | Uncertain | Medium | 7 |
+| dody | leaf-star-ADJ | Uncertain | Low | 4 |
+| doiin | leaf.NOM | Latin | Medium | 6 |
+| dol | PAIN | Latin | High | 8 |
+| dolar | pain-star | Latin | Medium | 6 |
+| dolara | pain-star.ACC | Latin | Medium | 5 |
+| dolcheedy | pain-blood-flow | Latin | Medium | 5 |
+| dolchedy | pain-bleeding | Latin | Medium | 6 |
+| dolchey | pain-blood | Latin | Medium | 6 |
+| dolchl | pain-cool | Latin | Medium | 5 |
+| dold | pain-leaf | Latin | Medium | 5 |
+| doldam | pain.GEN | Latin | Medium | 6 |
+| doldy | painful-ADJ | Latin | Medium | 6 |
+| doleeey | pain-flow | Latin | Medium | 5 |
+| dolfchedy | pain-?-blood | Latin | Low | 4 |
+| dolkedy | pain-vessel-flow | Latin | Medium | 5 |
+| dolo | pain | Latin | Medium | 6 |
+| dolody | pain-water-ADJ | Latin | Medium | 5 |
+| dolol | pain-oil | Latin | Medium | 6 |
+| dolor | PAIN | Latin | High | 9 |
+| dolds | pain-bone | Latin | Medium | 5 |
+| dolshy | pain-root | Latin | Medium | 5 |
+| doly | painful | Latin | Medium | 7 |
+| dor | PAIN | Latin | High | 8 |
+| dory | painful | Latin | Medium | 7 |
+| dsho | leaf-root | Uncertain | Medium | 5 |
 | dshedy | give-water | Uncertain | Medium | 7 |
 | dsheol | give-sun | Uncertain | Medium | 6 |
 | dshey | give-water-flow | Uncertain | Medium | 5 |
@@ -339,7 +393,10 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | dy | -is/ADJ | Uncertain | Medium | 5 |
 | edy | -ensis/ADJ | Uncertain | Medium | 5 |
 | eeedy | flow-flowing | Uncertain | Medium | 5 |
+| eees | flow-flow | Uncertain | Low | 4 |
 | ees | flow-bone | Uncertain | Medium | 5 |
+| eey | FLOW | Uncertain | Medium | 5 |
+| ety | flow-ADJ | Uncertain | Low | 4 |
 | ek | from/out | Uncertain | Medium | 6 |
 | eky | from-ADJ | Uncertain | Medium | 6 |
 | eol | flow-oil | Latin | Medium | 5 |
@@ -366,14 +423,17 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | keedy | flowing | Uncertain | Medium | 6 |
 | keeody | flow-ADJ | Uncertain | Medium | 6 |
 | keeol | vessel-flow-oil | Latin | Medium | 5 |
+| keeor | heat-HEART | Latin | Medium | 5 |
 | keey | vessel-flow | Latin | Medium | 6 |
 | keody | vessel-flow-ADJ | Latin | Medium | 6 |
 | keol | vessel-oil | Latin | Medium | 6 |
 | keor | BLOOD | Polish | Medium | 7 |
 | key | vessel-flow | Latin | Medium | 5 |
 | koaiphhy | mix-ADJ | Uncertain | Medium | 6 |
+| koiin | vessel.NOM | Latin | Medium | 5 |
 | kol | mix | Uncertain | Medium | 6 |
 | kor | ROOT | Polish | Medium | 7 |
+| ksho | vessel-root | Uncertain | Medium | 5 |
 | kshdy | vessel-water-ADJ | Latin | Medium | 5 |
 | kshedy | vessel-water-flowing | Latin | Medium | 5 |
 | kshy | vessel-water-ADJ | Latin | Medium | 5 |
@@ -398,6 +458,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | lkedy | world-flowing | Uncertain | Medium | 6 |
 | lkeedy | sap-flowing | Uncertain | Medium | 6 |
 | lkeey | SAP/resin | Uncertain | Medium | 6 |
+| lkey | cook-flow | Uncertain | Medium | 5 |
 | lkeo | wood-o | Uncertain | Medium | 5 |
 | lky | world-vessel | Latin | Medium | 5 |
 | lo | world-a | Uncertain | Medium | 5 |
@@ -414,6 +475,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | oar | a-tree | Latin | Medium | 5 |
 | ochedy | a-with-flowing | Uncertain | Medium | 5 |
 | ochey | EYES | Polish | Medium | 7 |
+| ochy | container-ADJ | Uncertain | Medium | 5 |
 | ockhy | eye-flower-vessel-ADJ | Latin | Medium | 5 |
 | octhy | a-fourth-ADJ | Latin | Medium | 5 |
 | odaiin | a-leaf.NOM | Latin | Medium | 6 |
@@ -421,10 +483,14 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | odal | a-give-HIGH | Uncertain | Medium | 5 |
 | odam | ADAM | Polish | Medium | 6 |
 | odar | give | Uncertain | Medium | 7 |
+| odor | SMELL | Latin | High | 7 |
 | ody | star-is | Latin | Medium | 6 |
 | oeedy | a-flow-flowing | Uncertain | Medium | 5 |
+| oees | of-flow | Uncertain | Low | 4 |
+| oeees | of-flow-flow | Uncertain | Low | 4 |
 | oeeseary | world-ADJ | Uncertain | Medium | 6 |
 | oiin | eye.NOM | Latin | Medium | 5 |
+| oiiin | of.NOM | Uncertain | Medium | 5 |
 | okaiin | eye.NOM | Latin | Medium | 7 |
 | okain | a-vessel | Latin | Medium | 6 |
 | okair | eye | Uncertain | Medium | 6 |
@@ -434,6 +500,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | okam | eye.ACC | Latin | Medium | 6 |
 | okan | a-vessel.ACC | Latin | Medium | 5 |
 | okar | a-vessel | Latin | Medium | 6 |
+| okary | container-MIX-ADJ | Uncertain | Medium | 5 |
 | okchd | eye-flower-give | Latin | Medium | 5 |
 | okchdy | eastern | Uncertain | Medium | 6 |
 | okchedy | eye-flow | Uncertain | Medium | 6 |
@@ -465,6 +532,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | okeos | eye-flow-bone | Uncertain | Medium | 5 |
 | okey | a-flow | Uncertain | Medium | 6 |
 | oko | EYE | Polish | High | 8 |
+| okoiin | container-of.NOM | Uncertain | Medium | 5 |
 | okody | eye-vessel-ADJ | Latin | Medium | 5 |
 | okol | a-oil | Latin | Medium | 6 |
 | okor | eye-heart | Latin | Medium | 6 |
@@ -513,6 +581,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | opcheey | a-circle | Uncertain | Medium | 6 |
 | opchey | a-circle-flow | Uncertain | Medium | 6 |
 | opchy | a-circle-ADJ | Uncertain | Medium | 6 |
+| opy | of-AT-ADJ | Uncertain | Low | 4 |
 | or | heart | Latin | Medium | 5 |
 | oraiin | heart.NOM | Latin | Medium | 7 |
 | orain | a-root.ACC | Latin | Medium | 5 |
@@ -522,6 +591,7 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 | orar | a-root-tree | Latin | Medium | 5 |
 | orchor | heart-cherub | Latin | Medium | 6 |
 | orchy | northern | Uncertain | Medium | 6 |
+| oro | heart-of | Uncertain | Low | 4 |
 | orol | heart-oil | Latin | Medium | 6 |
 | ory | heart-ADJ | Latin | Medium | 6 |
 | os | bone/mouth | Uncertain | High | 9 |
@@ -1287,6 +1357,7 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | sam | salt.ACC | Latin | Medium | 7 |
 | sar | WORLD/salt | Uncertain | High | 8 |
 | sarar | worlds | Uncertain | Medium | 7 |
+| schey | root-blood-flow | Uncertain | Low | 4 |
 | schy | TO-DRY | Polish | Medium | 6 |
 | seary | worldly | Uncertain | Medium | 7 |
 | sh | water | Uncertain | Medium | 5 |
@@ -1300,6 +1371,7 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | shdar | water-give-tree | Latin | Medium | 5 |
 | shdy | water-is | Uncertain | Medium | 6 |
 | she | know | Uncertain | Medium | 6 |
+| sheaiin | water-leaf.NOM | Uncertain | Medium | 6 |
 | sheal | water-high | Uncertain | Medium | 6 |
 | shear | water-tree | Latin | Medium | 6 |
 | sheckhy | water-flower-vessel | Latin | Medium | 6 |
@@ -1315,7 +1387,8 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | sheeol | water-oil | Latin | Medium | 7 |
 | sheeor | water-flow-heart | Latin | Medium | 5 |
 | shees | water-flow-bone | Uncertain | Medium | 5 |
-| sheey | under | Uncertain | Medium | 6 |
+| sheety | water-flowing | Uncertain | Medium | 6 |
+| sheey | water-flow | Uncertain | Medium | 6 |
 | shek | water-vessel | Latin | Medium | 5 |
 | shekor | water-heart | Latin | Medium | 6 |
 | sheky | water-from-ADJ | Uncertain | Medium | 6 |
@@ -1338,6 +1411,8 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | shoiin | water-a.NOM | Latin | Medium | 5 |
 | shoikhy | knowledge-ADJ | Uncertain | Medium | 6 |
 | shok | water-a-vessel | Latin | Medium | 5 |
+| shockhy | root-vessel-ADJ | Uncertain | Low | 4 |
+| shocthy | root-condition | Uncertain | Medium | 5 |
 | shoky | JUICES | Polish | Medium | 7 |
 | shol | knowledge/sun | Uncertain | Medium | 7 |
 | sholdy | knowledge-GEN | Latin | Medium | 7 |
@@ -1346,6 +1421,7 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | shory | knowledge-ADJ | Uncertain | Medium | 7 |
 | shos | knowledge | Uncertain | Medium | 6 |
 | shy | water-ADJ | Uncertain | Medium | 5 |
+| soiin | root.NOM | Uncertain | Medium | 5 |
 | sokoldy | world-oil | Latin | Medium | 6 |
 | sol | SUN | Polish | High | 10 |
 | soldy | sun-ADJ | Uncertain | Medium | 7 |
@@ -1365,6 +1441,7 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | tarar | earth-earth | Uncertain | Medium | 7 |
 | tchdy | time-with-ADJ | Uncertain | Medium | 5 |
 | tchedy | time-with-flowing | Uncertain | Medium | 5 |
+| tcheo | celestial-flower-oil | Uncertain | Medium | 5 |
 | tchey | time-with-ADJ | Uncertain | Medium | 6 |
 | tchol | time-flower | Latin | Medium | 5 |
 | tchor | time-CHERUB | Uncertain | Medium | 5 |
@@ -1385,6 +1462,7 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | tshey | time-water-flow | Uncertain | Medium | 5 |
 | tshol | time-water-oil | Latin | Medium | 5 |
 | ty | thing/time | Uncertain | Medium | 5 |
+| todaiin | celestial-leaf.NOM | Latin | Medium | 5 |
 | y | and | Uncertain | Low | 3 |
 | ychedy | and-with-flowing | Uncertain | Medium | 5 |
 | ycheedy | and-blood-flowing | Uncertain | Medium | 5 |
@@ -1393,11 +1471,15 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | ycheol | and-blood-oil | Latin | Medium | 5 |
 | ychey | and-blood-flow | Uncertain | Medium | 5 |
 | ychor | and-CHERUB | Uncertain | Medium | 5 |
+| ycheor | and-flower-heart | Latin | Medium | 5 |
 | ydaiin | and-give.NOM | Latin | Medium | 5 |
 | ykaiin | and-vessel.NOM | Latin | Medium | 6 |
 | ykal | and-vessel-HIGH | Latin | Medium | 5 |
 | ykar | and-vessel | Latin | Medium | 6 |
+| ykair | and-flow-TIME | Latin | Medium | 5 |
+| ykchdy | and-vessel-ADJ | Latin | Medium | 5 |
 | ykchey | and-vessel-blood-flow | Latin | Medium | 5 |
+| ykchol | and-vessel-flower | Latin | Medium | 5 |
 | ykchy | and-vessel-with-ADJ | Latin | Medium | 5 |
 | ykedy | and-vessel-flow | Latin | Medium | 6 |
 | ykeedy | and-vessel-flowing | Latin | Medium | 6 |
@@ -1406,14 +1488,17 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | ykeey | and-flow | Uncertain | Medium | 6 |
 | ykeody | and-vessel-flow-ADJ | Latin | Medium | 5 |
 | ykeol | and-vessel-oil | Latin | Medium | 5 |
+| ykey | and-vessel-flow | Latin | Low | 4 |
 | ykeor | and-heart | Latin | Medium | 6 |
 | ykor | and-vessel-heart | Latin | Medium | 5 |
+| ykol | and-mix | Polish | Medium | 5 |
 | yky | and-vessel | Latin | Medium | 5 |
 | yokeody | and-eye-flow | Uncertain | Medium | 6 |
 | ypchdy | and-for-with-ADJ | Uncertain | Medium | 5 |
 | ypchedy | and-for-with-flowing | Uncertain | Medium | 5 |
 | yshey | and-water-flow | Uncertain | Medium | 5 |
 | ytaiin | and-star.NOM | Latin | Medium | 7 |
+| ytai | and-celestial | Latin | Low | 4 |
 | ytal | and-heaven | Uncertain | Medium | 5 |
 | ytam | and-time.ACC | Latin | Medium | 5 |
 | ytar | and-star | Latin | Medium | 7 |
@@ -1426,6 +1511,7 @@ Color and measurement vocabulary for pharmaceutical preparations.
 | yteedy | and-time-flowing | Uncertain | Medium | 6 |
 | yteey | and-stars | Latin | Medium | 7 |
 | yteody | and-stellar | Latin | Medium | 7 |
+| ytody | and-celestial-ADJ | Latin | Low | 4 |
 | ytol | and-time-oil | Latin | Medium | 5 |
 | ytor | and-time-heart | Latin | Medium | 5 |
 | yty | and-thing | Uncertain | Medium | 5 |
@@ -1452,4 +1538,4 @@ Color and measurement vocabulary for pharmaceutical preparations.
 
 ---
 
-*Generated from voynich_decoder.py v7.3*
+*Generated from voynich_decoder.py v7.5*
