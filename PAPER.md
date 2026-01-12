@@ -1,10 +1,10 @@
 # A Bilingual Polish-Latin Solution to the Voynich Manuscript
 
-**Authors:** [To be added]
+**Authors:** Kelsi Davis
 
-**Affiliation:** [To be added]
+**Affiliation:** Independent Researcher
 
-**Correspondence:** [To be added]
+**Correspondence:** kelsihates2fa@gmail.com
 
 **Word count:** [Approximately 8,000-10,000 words excluding references]
 

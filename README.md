@@ -262,10 +262,10 @@ This research is released under the MIT License. The Voynich manuscript itself i
 ```bibtex
 @misc{voynich_polish_latin_2026,
   title={A Bilingual Polish-Latin Solution to the Voynich Manuscript},
-  author={[Author]},
+  author={Davis, Kelsi},
   year={2026},
   howpublished={\url{https://github.com/Kelsidavis/voynich}},
-  note={Decoder v6.1, 713 vocabulary entries, 88.8\% coverage}
+  note={Decoder v6.2, 731 vocabulary entries, 88.8\% coverage}
 }
 ```
 

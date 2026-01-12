@@ -1,5 +1,7 @@
 # A Bilingual Polish-Latin Solution to the Voynich Manuscript
 
+**Author:** Kelsi Davis | Independent Researcher | kelsihates2fa@gmail.com
+
 ## Abstract
 
 The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex written in an undeciphered script, has resisted cryptanalysis for over a century. Previous decoding attempts have universally assumed a monolingual source text, testing candidates including Latin, Italian, Hebrew, and constructed languages. This study proposes that prior failures stem from this fundamental assumption: the manuscript employs a bilingual Polish-Latin vocabulary system using a consistent phonetic cipher.
