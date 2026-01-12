@@ -1,6 +1,6 @@
 # Appendix A: Complete Vocabulary List
 
-## Voynich Decoder v7.2 - Complete Vocabulary Mappings
+## Voynich Decoder v7.3 - Complete Vocabulary Mappings
 
 This appendix contains all vocabulary mappings used in the Polish-Latin decoder.
 Each entry shows the EVA token, proposed meaning, source language, confidence level, and numeric score.
@@ -9,15 +9,28 @@ Each entry shows the EVA token, proposed meaning, source language, confidence le
 
 ## Summary Statistics
 
-- **Total entries**: 927
-- **Polish terms**: ~95
-- **Latin terms**: ~570
+- **Total entries**: 951
+- **Polish terms**: ~98
+- **Latin terms**: ~580
 - **Bilingual terms**: 0
-- **Uncertain classification**: ~365
+- **Uncertain classification**: ~375
 
-- **High confidence (8-11)**: ~84
-- **Medium confidence (5-7)**: ~900
-- **Low confidence (3-4)**: ~70
+- **High confidence (8-11)**: ~86
+- **Medium confidence (5-7)**: ~920
+- **Low confidence (3-4)**: ~75
+
+### New in v7.3
+- **Action/Verb Terms**: 55 entries (mixing, extracting, soaking, healing)
+  - MIX (sar): sar (257x, 35% recipe), sary, sarol - mixing action
+  - MIX variant (kar): kar (219x, 44% recipe), kary - mixing
+  - EXTRACT (lc): lc (121x, 100% recipe) - extraction/distillation
+  - EXTRACT compounds: lchedy (371x), lchey (145x), lcheol
+  - SOAK (lt): lt (167x, 96% bio) - soaking/immersion
+  - SOAK compounds: lshedy (125x), lsheedy (86% bio) - water soaking
+  - HEAL (sai): sai (132x), saiin, sain - Latin sanare
+  - CARRY (tar): tar (169x, 42% recipe) - carrying/bringing
+  - WORK (rar): rar (82x, 46% recipe) - working/doing
+  - Compound verbs: chedar (flower-GIVE), odar (oil-GIVE), chodar
 
 ### New in v7.2
 - **Container/Vessel Terms**: 65 entries (vessels, vials, basins, containers)
@@ -1439,4 +1452,4 @@ Color and measurement vocabulary for pharmaceutical preparations.
 
 ---
 
-*Generated from voynich_decoder.py v7.2*
+*Generated from voynich_decoder.py v7.3*

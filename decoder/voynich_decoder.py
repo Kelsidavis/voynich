@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 7.2 - January 2026 (Containers, Vessels, Bath Equipment)
+Version 7.3 - January 2026 (Actions, Verbs, Instructions)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 927 (expanded with container/vessel vocabulary)
+Vocabulary entries: 951 (expanded with action/verb vocabulary)
 Direct vocabulary coverage: ~71% of corpus
 
 POLISH-LATIN HYBRID HYPOTHESIS:
@@ -1896,6 +1896,91 @@ VOCAB = {
     'okeol': ('container-flow-OIL', 5),  # 184x - 66% recipe
     'okor': ('container-heart', 4),      # container core
     'okeeey': ('container-flowing', 4),  # 76x - 74% recipe
+
+    # =========================================================================
+    # SECTION 44: ACTION AND VERB TERMS
+    # =========================================================================
+    # Verb vocabulary for medical instructions and preparations
+    # Discovered via recipe/bio section concentration analysis
+
+    # --- MIX (sar = Latin miscere) ---
+    # Recipe-concentrated - mixing instructions
+    'sar': ('MIX', 6),                   # 257x - 35% recipe, mixing action
+    'sary': ('mixing', 5),               # 28x - mixing ADJ
+    'sarol': ('mix-oil', 4),             # 14x - mix with oil
+    'saral': ('mix-high', 4),            # intense mixing
+    'sardy': ('mixed', 4),               # mixed result
+    'saredy': ('mix-flowing', 4),        # mix with flow
+
+    # --- MIX variant (kar) ---
+    'kar': ('MIX', 6),                   # 219x - 44% recipe, mixing variant
+    'kary': ('mixing', 5),               # 19x - mixing ADJ
+    'karol': ('mix-oil', 4),             # mix with oil
+    'karal': ('mix-high', 4),            # intense mixing
+
+    # --- EXTRACT (lc = 100% recipe) ---
+    # Extraction/distillation action
+    'lc': ('EXTRACT', 7),                # 121x - 100% recipe, extraction
+    'lchedy': ('extract-flowing', 5),    # 371x - 56% bio, extracted liquid
+    'lchey': ('extracting', 5),          # 145x - 52% bio, extracting
+    'lchdy': ('extract-with', 4),        # 51x - with extraction
+    'lcheey': ('extract-flow', 4),       # 37x - 68% recipe
+    'lcheedy': ('extract-flowing', 4),   # 26x - 69% recipe
+    'lchy': ('HEALS', 5),                # 23x - 83% bio, healing (Polish leczyć)
+    'lcheol': ('extract-oil', 4),        # 23x - 61% recipe, oil extraction
+    'lchal': ('extract-high', 4),        # 22x - 86% recipe, strong extract
+    'lchol': ('extract-flower', 4),      # 18x - flower extraction
+    'lched': ('extracted', 4),           # 18x - 67% bio
+    'lchor': ('extract-heart', 4),       # 17x - core extraction
+
+    # --- SOAK/IMMERSE (lt = 96% bio) ---
+    # Bathing/soaking action
+    'lt': ('SOAK', 7),                   # 167x - 96% bio, soaking action
+    'lshedy': ('soak-water', 6),         # 125x - 65% bio, water soaking
+    'lshey': ('soaking', 5),             # 52x - 52% bio, soaking
+    'lsheey': ('soak-flow', 5),          # 25x - 72% bio, soaking flow
+    'lsheedy': ('soak-water-flowing', 5), # 22x - 86% bio, water soak
+    'lteedy': ('soak-flowing', 4),       # 22x - 55% bio
+    'ltedy': ('soaked', 4),              # 18x - soaked result
+    'lshed': ('soaked', 4),              # 14x - 57% bio
+    'lshdy': ('soak-with', 4),           # 13x - 100% bio
+    'lshy': ('soaking-ADJ', 4),          # 11x - soaking related
+
+    # --- HEAL (sai = Latin sanare) ---
+    # Healing action
+    'sai': ('HEAL', 6),                  # 132x - 45% recipe, 48% bio
+    'saiin': ('heal.NOM', 5),            # healing nominative
+    'sain': ('heal.ACC', 5),             # healing accusative
+    'sairy': ('healing', 4),             # 11x - 100% recipe, healing ADJ
+
+    # --- TAR (action verb) ---
+    'tar': ('CARRY/BRING', 5),           # 169x - 42% recipe, carrying
+    'taral': ('carry-high', 4),          # 8x - 62% bio
+    'tarol': ('carry-oil', 4),           # 6x - 100% recipe
+    'tary': ('carrying', 4),             # carrying ADJ
+
+    # --- RAR (action verb) ---
+    'rar': ('WORK/DO', 5),               # 82x - 46% recipe, action
+    'rary': ('working', 4),              # 15x - 53% recipe
+    'raral': ('work-high', 4),           # 9x - 56% recipe
+
+    # --- CHEAR (flower-action) ---
+    'chear': ('FLOWER-MIX', 5),          # 173x - 43% recipe, flower mixing
+    'chedar': ('flower-GIVE', 6),        # 108x - 58% recipe, flower giving
+    'cheary': ('flower-mixing', 4),      # 5x - 60% recipe
+
+    # --- ODAR/OAR (oil-action) ---
+    'odar': ('OIL-GIVE', 5),             # 82x - 43% recipe, oil giving
+    'oar': ('OIL-MIX', 5),               # 57x - 49% recipe, oil mixing
+    'odary': ('oil-giving', 4),          # oil action
+
+    # --- CHODAR (flower-give compound) ---
+    'chodar': ('flower-GIVE', 5),        # 43x - 63% recipe, give flower
+    'chodary': ('flower-giving', 4),     # flower giving ADJ
+
+    # --- OTEDAR (star-give) ---
+    'otedar': ('star-GIVE', 5),          # 38x - 66% recipe, astrological giving
+    'otedary': ('star-giving', 4),       # timed giving
 }
 
 # =============================================================================
