@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 Voynich Manuscript Decoder Module
-Version 7.5 - January 2026 (High-Frequency Compounds)
+Version 7.6 - January 2026 (Expanded Morphological Analysis)
 
 Complete vocabulary dictionary based on computational analysis of 78,619 words.
-Vocabulary entries: 1,012 (added 45 high-frequency untranslated compounds)
-Direct vocabulary coverage: 88% of corpus
+Vocabulary entries: 1,159 (added 147 morphological compounds in v7.6)
+Direct vocabulary coverage: 71.6% of corpus (34,206 words)
 
 POLISH-LATIN HYBRID HYPOTHESIS:
   Key discovery: 'chor' = Polish 'chory' (sick), NOT Latin 'cherub'
@@ -2067,6 +2067,178 @@ VOCAB = {
     'chee': ('flower-flow', 5),          # 18x - flower flowing
     'chetey': ('blood-flow-ADJ', 4),     # 18x - blood flow quality
     'ytody': ('and-celestial-ADJ', 4),   # 18x - celestial quality
+
+    # =========================================================================
+    # SECTION 46: EXPANDED VOCABULARY (Morphological Analysis)
+    # High-frequency untranslated words - January 2026
+    # =========================================================================
+
+    # y- prefix compounds (and/the)
+    'ytain': ('and-time.ACC', 5),        # 12x
+    'ychol': ('and-flower', 5),          # 12x
+    'ytey': ('and-time-flow', 5),        # 10x
+    'ykain': ('and-vessel.ACC', 5),      # 10x
+    'ysheey': ('and-water-flow', 5),     # 10x
+    'yshedy': ('and-water-flowing', 5),  # 10x
+    'yteeody': ('and-earth-flow-ADJ', 4), # 9x
+    'ycheeo': ('and-flower-flow', 4),    # 8x
+    'ycho': ('and-flower', 4),           # 5x
+    'yto': ('and-celestial', 4),         # 5x
+    'yaiin': ('and.NOM', 4),             # 6x
+    'ysheedy': ('and-water-flowing', 4), # 6x
+    'ykaly': ('and-vessel-high-ADJ', 4), # 6x
+
+    # qo- prefix compounds (vessel)
+    'qokchor': ('vessel-SICK', 5),       # 11x - vessel for sick
+    'qodar': ('vessel-GIVE', 5),         # 11x - vessel give
+    'qodain': ('vessel-leaf.ACC', 5),    # 11x
+    'qokcho': ('vessel-flower', 5),      # 10x
+    'qoko': ('vessel-flow', 4),          # 9x
+    'qokan': ('vessel.ACC', 4),          # 8x
+    'qokshey': ('vessel-water-flow', 4), # 8x
+    'qoy': ('vessel-ADJ', 4),            # 7x
+    'qocthy': ('vessel-condition', 4),   # 7x
+    'qoain': ('vessel.ACC', 4),          # 7x
+    'qokees': ('vessel-flow-plural', 4), # 7x
+    'qodal': ('vessel-GIVE.PAST', 4),    # 7x
+    'qockhol': ('vessel-with-oil', 4),   # 7x
+    'qokeod': ('vessel-flow-a', 4),      # 7x
+    'qopaiin': ('vial.NOM', 4),          # 6x
+    'qochey': ('vessel-with-flow', 4),   # 6x
+    'qoteeol': ('basin-flow-oil', 4),    # 5x
+
+    # ch- prefix compounds (flower/blood)
+    'chkain': ('flower-vessel.ACC', 5),  # 12x
+    'chokain': ('flower-vessel.ACC', 5), # 10x
+    'chdain': ('flower-leaf.ACC', 4),    # 9x
+    'chodal': ('flower-GIVE.PAST', 4),   # 7x
+    'chod': ('flower-a', 4),             # 7x
+    'chkey': ('flower-period', 4),       # 7x
+    'chekey': ('flower-period', 4),      # 7x
+    'chcthedy': ('flower-condition-flowing', 4), # 7x
+    'chcthdy': ('flower-condition-ADJ', 4), # 7x
+    'cheodal': ('flower-of-GIVE.PAST', 4), # 7x
+    'chepy': ('flower-for-ADJ', 4),      # 7x
+    'chekain': ('flower-vessel.ACC', 4), # 7x
+    'chekar': ('flower-MIX', 4),         # 8x
+    'chok': ('flower-vessel', 4),        # 5x
+    'chopchy': ('flower-for-with-ADJ', 4), # 5x
+    'chokeody': ('flower-vessel-flow-ADJ', 4), # 5x
+    'chokeol': ('flower-vessel-oil', 4), # 5x
+    'cholody': ('flower-oil-a-ADJ', 4),  # 5x
+    'cheoldy': ('flower-oil-ADJ', 4),    # 5x
+    'chotol': ('flower-celestial', 4),   # 6x
+    'chokor': ('flower-vessel-heart', 4), # 6x
+    'chokey': ('flower-vessel-flow', 4), # 6x
+    'chary': ('flower-tree-ADJ', 4),     # 6x
+    'chocthey': ('flower-condition-flow', 4), # 6x
+    'choaiin': ('flower-water.NOM', 4),  # 6x
+    'cheekey': ('flower-flow-vessel-flow', 4), # 6x
+    'chedol': ('flower-PAIN', 4),        # 6x
+    'chtal': ('flower-time-high', 4),    # 6x
+
+    # d- prefix compounds (leaf/give)
+    'dcheey': ('leaf-flower-flow', 5),   # 12x
+    'dsheey': ('leaf-water-flow', 4),    # 8x
+    'doiir': ('leaf-of.NOM-tree', 4),    # 8x
+    'dcheo': ('leaf-flower-flow', 4),    # 6x
+    'dchaiin': ('leaf-flower.NOM', 4),   # 5x
+    'dshol': ('leaf-water-oil', 4),      # 5x
+    'doin': ('leaf-of-in', 4),           # 5x
+    'daiidy': ('leaf.NOM-ADJ', 4),       # 6x
+    'daiim': ('leaf.NOM.GEN', 4),        # 5x
+    'daiis': ('leaf.NOM-root', 4),       # 5x
+    'dals': ('GIVE.PAST-root', 4),       # 5x
+    'dady': ('leaf-a-ADJ', 4),           # 5x
+
+    # ot- prefix compounds (star/celestial)
+    'otoldy': ('star-oil-ADJ', 5),       # 10x
+    'otcho': ('star-flower', 4),         # 9x
+    'oteodaiin': ('star-earth-leaf.NOM', 4), # 8x
+    'otchody': ('star-flower-ADJ', 4),   # 6x
+    'otan': ('star.ACC', 4),             # 5x
+    'otchar': ('star-flower-tree', 4),   # 5x
+    'otcham': ('star-flower.GEN', 4),    # 5x
+    'oteodal': ('star-earth-GIVE.PAST', 4), # 6x
+
+    # sh- prefix compounds (water)
+    'shokchy': ('water-vessel-with-ADJ', 4), # 9x
+    'shain': ('water.ACC', 4),           # 8x
+    'shedar': ('water-GIVE', 4),         # 7x
+    'sham': ('water.GEN', 4),            # 7x
+    'shekeey': ('water-vessel-flow', 4), # 6x
+    'sheoky': ('water-flow-vessel-ADJ', 4), # 6x
+    'sheodaiin': ('water-of-leaf.NOM', 4), # 5x
+    'shosaiin': ('water-root.NOM', 4),   # 5x
+    'shoty': ('water-celestial-ADJ', 4), # 6x
+    'shekey': ('water-vessel-flow', 4),  # 5x
+    'shekchy': ('water-vessel-with-ADJ', 4), # 5x
+    'sheeey': ('water-flow-flow', 4),    # 6x
+
+    # ol- prefix compounds (oil)
+    'oldaiin': ('oil-leaf.NOM', 4),      # 9x
+    'olkeeody': ('oil-vessel-flow-ADJ', 4), # 7x
+    'olkeol': ('oil-vessel-oil', 4),     # 7x
+    'olal': ('oil-high', 4),             # 7x
+    'oldam': ('oil-place.GEN', 4),       # 6x
+    'olr': ('oil-tree', 4),              # 6x
+    'olkchedy': ('oil-vessel-with-flowing', 4), # 6x
+    'oltedy': ('oil-time-flowing', 4),   # 5x
+    'oloiin': ('oil-of.NOM', 4),         # 5x
+
+    # ok- prefix compounds (container)
+    'okos': ('container-bone', 4),       # 8x
+    'okom': ('container-EYE', 4),        # 7x
+    'okaiir': ('container.NOM-tree', 4), # 6x
+    'okoldy': ('container-oil-ADJ', 4),  # 6x
+    'okeeos': ('container-flow-bone', 4), # 6x
+    'okeoly': ('container-flow-oil-ADJ', 4), # 6x
+    'okechy': ('container-flow-with-ADJ', 4), # 6x
+    'okeom': ('container-flow-EYE', 4),  # 5x
+
+    # t- prefix compounds (time/celestial)
+    'tchody': ('time-flower-ADJ', 4),    # 8x
+    'tcho': ('time-flower', 4),          # 8x
+    'tshedy': ('time-water-flowing', 4), # 8x
+    'tcheey': ('time-flower-flow', 4),   # 6x
+    'tcheody': ('time-flower-flow-ADJ', 4), # 6x
+    'teeol': ('time-flow-oil', 4),       # 5x
+    'tshy': ('time-water-ADJ', 4),       # 5x
+    'tsho': ('time-water', 4),           # 5x
+    'toy': ('time-of-ADJ', 4),           # 5x
+
+    # Other high-frequency compounds
+    'oain': ('of.ACC', 5),               # 11x
+    'pchol': ('for-flower', 4),          # 8x
+    'chdor': ('with-leaf-heart', 4),     # 8x
+    'oshey': ('of-water-flow', 4),       # 7x
+    'ofchedy': ('beast-with-flowing', 4), # 7x
+    'ykchedy': ('and-vessel-with-flowing', 4), # 7x
+    'opor': ('for-heart', 4),            # 7x
+    'schedy': ('root-with-flowing', 4),  # 7x
+    'pcheody': ('for-flower-flow-ADJ', 4), # 7x
+    'cphaiin': ('with-for.NOM', 4),      # 7x
+    'ockhey': ('of-with-vessel-flow', 4), # 7x
+    'ochor': ('of-SICK', 4),             # 6x
+    'octhey': ('of-condition-flow', 4),  # 6x
+    'kchody': ('vessel-with-flow-ADJ', 4), # 6x
+    'ockhedy': ('of-with-vessel-flowing', 4), # 6x
+    'chetar': ('flower-time-tree', 4),   # 6x
+    'ofaiin': ('beast.NOM', 4),          # 6x
+    'raraiin': ('tree-tree.NOM', 4),     # 6x
+    'ctheor': ('condition-heart', 4),    # 6x
+    'ctheody': ('condition-flow-ADJ', 4), # 6x
+    'sodar': ('root-of-GIVE', 4),        # 6x
+    'koldy': ('vessel-oil-ADJ', 4),      # 6x
+    'alkam': ('high-vessel.GEN', 4),     # 6x
+    'lam': ('extract.GEN', 4),           # 6x
+    'lpchedy': ('extract-for-with-flowing', 4), # 6x
+    'soraiin': ('root-heart.NOM', 4),    # 6x
+    'cphey': ('with-for-flow', 4),       # 5x
+    'pshol': ('for-water-oil', 4),       # 5x
+    'kcho': ('vessel-flower', 4),        # 5x
+    'opchol': ('for-flower', 4),         # 5x
+    'kcheol': ('vessel-flower-oil', 4),  # 5x
 }
 
 # =============================================================================
