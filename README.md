@@ -234,9 +234,12 @@ voynich-decoded/
 ├── PAPER.md                     # Full paper structure
 ├── EVIDENCE.md                  # Evidence summary
 ├── QUICK_REFERENCE.md           # Quick lookup
+├── MATCHING_PROTOCOL.md         # Pre-registered matching rules
+├── BLIND_TEST_PLAN.md           # Blind test procedure
 │
 ├── evidence/
 │   ├── MASTER_LANGUAGE_REPORT.md     # Complete analysis
+│   ├── CANDIDATES.csv                # Frozen candidate roots
 │   ├── pre_ie_remnant_hypothesis.md  # Leading theory
 │   ├── copy_hypothesis.md            # Copy hypothesis
 │   ├── zodiac_labels_decoding.md     # Zodiac section
@@ -244,13 +247,18 @@ voynich-decoded/
 │   ├── herbal_plant_labels_decoding.md      # Herbal section
 │   ├── recipe_labels_decoding.md     # Recipe section
 │   ├── basque_*.md                   # 12 semantic domain tests
-│   ├── turkish_investigation.md      # Turkish analysis
-│   ├── altaic_investigation.md       # Mongolic, Korean
-│   ├── uralic_investigation.md       # Hungarian, Finnish
+│   ├── blind_test/                   # Blind test results
+│   │   └── run_YYYY-MM-DD/           # Individual test runs
 │   └── [other investigations]
 │
 ├── data/
 │   └── voynich_transcription.txt     # EVA transcription
+│
+├── tools/
+│   ├── extract_blind_labels.py       # Label extraction
+│   ├── run_blind_decode.py           # Blind decoding
+│   ├── score_blind_test.py           # Scoring and baseline
+│   └── run_full_blind_test.py        # Complete pipeline
 │
 ├── decoder/
 │   └── voynich_decoder.py            # Python decoder
@@ -280,6 +288,48 @@ voynich-decoded/
 - Sign/constellation names
 - Many high-frequency words (daiin, chol, etc.)
 - Sentence-level syntax
+
+---
+
+## Validation Framework
+
+To address concerns about selection bias and post-hoc fitting, this project implements a **pre-registered blind test protocol**.
+
+### Protocol Files
+
+| File | Purpose |
+|------|---------|
+| [MATCHING_PROTOCOL.md](MATCHING_PROTOCOL.md) | Pre-registered rules for cognate matching |
+| [BLIND_TEST_PLAN.md](BLIND_TEST_PLAN.md) | Deterministic sampling and blind decoding procedure |
+| [evidence/CANDIDATES.csv](evidence/CANDIDATES.csv) | Frozen candidate root list with strict match types |
+
+### Blind Test Process
+
+1. **Extract** - Deterministically sample 20 labels (5 per section) using hash-based selection
+2. **Decode** - Match roots from CANDIDATES.csv without access to section information
+3. **Reveal** - Join section metadata and score HIT/MISS/AMBIG
+4. **Baseline** - Run 1000 shuffled permutations to establish chance hit rate
+
+### Running the Test
+
+```bash
+python tools/run_full_blind_test.py
+```
+
+### Latest Results (Run 2026-01-13)
+
+| Metric | Value |
+|--------|-------|
+| Labels sampled | 20 |
+| Labels with matches | 5 |
+| HIT | 4 |
+| MISS | 1 |
+| Hit rate | 80% (4/5) |
+| Baseline mean | 88.1% |
+| Z-score | -0.82 |
+| Status | **INCONCLUSIVE** |
+
+The first run is underpowered (only 5 non-ambiguous matches). Key finding: "dam" (blood) appeared in medically-appropriate contexts. Next steps: expand candidate list and increase sample size.
 
 ---
 

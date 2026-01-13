@@ -1,0 +1,13 @@
+root,language,gloss,domain,confidence,source_form,match_type,notes
+oin,basque,FOOT,BODY,HIGH,oin,exact,Exact match in modern Basque
+soin,basque,BODY,BODY,HIGH,soin,exact,Exact match - body/shoulder
+orain,basque,NOW,TEMPORAL,HIGH,orain,exact,Exact match - temporal adverb
+olo,basque,OAT,BOTANICAL,HIGH,olo,exact,Exact match - grain/cereal
+lar,basque,MEADOW,BOTANICAL,MEDIUM,lar,exact,Exact match - pasture/meadow
+adar,basque,BRANCH,BOTANICAL,HIGH,adar,exact,Exact match - tree branch
+dam,hebrew,BLOOD,MEDICAL,MEDIUM,dam,exact,Contact layer - exact match
+dal,turkish,BRANCH,BOTANICAL,MEDIUM,dal,exact,Contact layer - exact match
+lor,basque,FLOWER,BOTANICAL,MEDIUM,lore,near,Missing final -e; needs Option B rule
+sar,basque,ENTER,VERB,LOW,sartu,truncated,Stem only - not strict
+sal,basque,SELL,VERB,LOW,saldu,truncated,Stem only - not strict
+ota,basque,GORSE,BOTANICAL,MEDIUM,ota,exact,Furze/gorse plant
