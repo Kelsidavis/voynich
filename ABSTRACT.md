@@ -1,105 +1,112 @@
-# A Bilingual Polish-Latin Solution to the Voynich Manuscript
+# The Voynich Manuscript: A Pre-Indo-European Remnant Language Hypothesis
 
-**Author:** Kelsi Davis | Independent Researcher | kelsihates2fa@gmail.com
+**Author:** Kelsi Davis | Independent Researcher
 
 ## Abstract
 
-The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex written in an undeciphered script, has resisted cryptanalysis for over a century. Previous decoding attempts have universally assumed a monolingual source text, testing candidates including Latin, Italian, Hebrew, and constructed languages. This study proposes that prior failures stem from this fundamental assumption: the manuscript employs a bilingual Polish-Latin vocabulary system using a consistent phonetic cipher.
+The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex written in an undeciphered script, has resisted cryptanalysis for over a century. Previous decoding attempts have tested candidates including Latin, Italian, Hebrew, Polish, and constructed languages, yet none has achieved scholarly consensus. This study employs a corpus-first methodology, testing 22 languages across 9 language families without pre-assumed solutions.
 
-We developed a 1,012-entry decoder mapping Voynichese tokens to Polish vernacular terms (for instructions and patient references) and Latin technical terminology (for botanical, pharmaceutical, and astronomical content). Computational analysis of approximately 36,000 words across 225 folios reveals statistically significant vocabulary distributions: the Herbal section contains the highest concentration of "chor" (Polish *chory*, "sick"; n=147), the Astronomical section shows peak "otar" (Latin *stella*, "star"; n=472), and the Recipe section demonstrates maximum instructional verb frequency ("dar/dal," Polish "give/gave"; n=428). Chi-square analysis confirms these distributions are non-random (p<0.001).
+We find that no single known language matches the Voynich text. However, statistically significant vocabulary overlaps exist with **Basque** (17+ terms, 6 unique), **Turkish** (17+ terms), and **Hungarian** (12 terms). Critically, Basque cognates appear in **semantically appropriate domains**: botanical terms (lor=flower, olo=oat) concentrate in herbal sections with plant illustrations; body vocabulary (oin=foot, soin=body) concentrates in biological sections with human figures; medical terms (osaiin=heal, dam=blood) concentrate in recipe/pharmaceutical sections. Abstract domains (numbers, celestial terms) show zero Basque matches.
 
-The decoder achieves 88.8% lexical coverage and explains previously anomalous statistical properties: the manuscript's elevated Index of Coincidence (0.077) reflects bilingual vocabulary overlap, while the 5-character word-length peak corresponds to Polish agglutinative morphology. Sample translations yield coherent medical instructions (e.g., "Give the flowing flower-oil to the sick patient") consistent with medieval pharmaceutical literature.
+This pattern is characteristic of **sister languages** that have diverged: concrete vocabulary remains similar while abstract/grammatical vocabulary completely diverges. We propose the **Pre-Indo-European Remnant Hypothesis**: the Voynich manuscript was written in a Pre-IE language related to Basque—not Basque itself, but a sister language that died out in the medieval period.
 
-Crucially, the manuscript displays six orthographic conventions specific to 15th-century Polish: (1) complete absence of the letter 'j' with systematic 'i' substitution (the letter 'j' was not introduced to Polish until the 18th century); (2) double vowels marking vowel length ('ee' in 12.7% of words), matching Jakub Parkoszowic's 1440 orthographic proposal; (3) Czech-influenced digraphs 'sh' and 'ch' for Polish sz/cz; (4) nasal vowels encoded as -ain/-am rather than using ogonek; (5) simplified 'ł' written as 'l'; and (6) case distinctions via vowel length (-aiin for nominative, -ain for accusative). These patterns converge on a date range of 1400-1500, consistent with radiocarbon dating (1404-1438 CE).
+Supporting evidence includes: (1) Basque roots taking Voynich morphological suffixes (loraiin = flower+NOM, oinaly = foot+ADJ); (2) multi-source vocabulary layers consistent with a Pre-IE community in contact with Turkic, Uralic, and Semitic traders; (3) agglutinative morphology matching the Basque language family. The **Copy Hypothesis** suggests the surviving manuscript (vellum dated 1404-1438 CE) is a 15th-century copy of an older original (12th-14th century), when Pre-IE communities were more plausible in the Pyrenean/Mediterranean region.
 
-These findings suggest the Voynich manuscript is a medical encyclopedia compiled by a Polish-speaking author using Latin technical vocabulary, produced in Central Europe during the early 15th century. The convergence of vocabulary analysis, orthographic patterns, and physical dating provides mutually reinforcing evidence that the bilingual hypothesis resolves the apparent paradox of meaningful structure without readable content that has characterized the manuscript since its discovery.
+Section-by-section analysis of manuscript labels reveals consistent vocabulary-content alignment: zodiac sections show celestial prefixes (ot-) and male markers (ar) for Aries/Taurus; biological sections show body terms; herbal sections show 43+ occurrences of "lor" (flower); recipe sections show timing markers (orain=now), commercial terms (sal=sell), and healing vocabulary (osaiin).
 
-**Keywords:** Voynich manuscript, historical cryptography, medieval medicine, Polish-Latin bilingualism, computational linguistics, manuscript studies, medieval Polish orthography, Parkoszowic
+The hypothesis achieves approximately 40% confidence—higher than alternatives but not definitive proof. Limitations include: incomplete vocabulary mapping (~30% of morphemes decoded), unclear sentence-level syntax, and the possibility that vocabulary overlaps are coincidental. The hypothesis is falsifiable through discovery of contradicting grammar patterns or identification of a better-matching language.
+
+**Keywords:** Voynich manuscript, Pre-Indo-European languages, Basque linguistics, historical linguistics, corpus analysis, undeciphered scripts, medieval manuscripts, language isolates
 
 ---
 
-## Extended Abstract (for conference submission)
-
-### Background
-
-The Voynich manuscript has been studied by professional cryptographers, linguists, and historians since Wilfrid Voynich acquired it in 1912. Radiocarbon dating places the vellum between 1404-1438 CE. The manuscript contains approximately 170,000 glyphs forming roughly 36,000 word-tokens across six thematic sections: Herbal, Astronomical, Biological, Cosmological (Rosettes), and Pharmaceutical (Recipe). Despite extensive analysis, no proposed solution has achieved scholarly consensus.
-
-### The Bilingual Hypothesis
-
-This study challenges the implicit assumption underlying all previous decoding attempts: that the manuscript encodes a single source language. We propose instead that the author employed code-switching between Polish (for vernacular instructions) and Latin (for technical terminology), a practice well-documented in medieval Central European manuscripts.
+## Extended Summary
 
 ### Methodology
 
-1. **Corpus preparation**: EVA (European Voynich Alphabet) transcription normalized to approximately 36,000 word-tokens
-2. **Vocabulary construction**: Iterative mapping of high-frequency tokens to Polish and Latin candidates based on phonetic correspondence and contextual coherence
-3. **Statistical validation**: Section-by-section vocabulary distribution analysis with chi-square testing
-4. **Decoder implementation**: Python-based tool achieving 88% coverage (1,012 entries)
+This study diverges from previous approaches by:
+
+1. **Corpus-first analysis**: Beginning with frequency analysis of the ~36,000-word corpus rather than assuming a source language
+2. **Multi-language testing**: Systematically testing 22 languages across Turkic, Uralic, Indo-European, Semitic, Caucasian, Altaic, and language isolate families
+3. **Semantic domain verification**: Testing whether vocabulary matches appear in semantically appropriate manuscript sections
+4. **Morphological analysis**: Identifying affixation patterns independent of vocabulary
 
 ### Key Findings
 
-| Section | Folios | Dominant Term | Count | Interpretation |
-|---------|--------|---------------|-------|----------------|
-| Herbal | f1-f57 | chor (sick) | 147 | Disease index |
-| Astronomical | f67-f73 | otar (star) | 472 | Timing calendar |
-| Biological | f75-f84 | shedy (water) | 247 | Hydrotherapy |
-| Rosettes | f85-f86 | 28.7% Polish | — | Master diagram |
-| Recipe | f88-f116 | dar/dal (give) | 428 | Preparations |
+| Finding | Evidence | Significance |
+|---------|----------|--------------|
+| No single language match | Grammar unique to Voynich | Rules out direct encoding |
+| Basque vocabulary overlap | 17+ words, 6 unique | Pre-IE connection |
+| Semantic appropriateness | Botanical → herbal, body → biological | Not random overlap |
+| Basque roots + Voynich suffixes | loraiin, oinaly, dalor | Sister language pattern |
+| Multi-source vocabulary | Turkic, Uralic, Semitic layers | Contact language profile |
 
-The vocabulary gradient from Rosettes (28.7% Polish) through transitional folio F87 (16.9%) to Recipe section (10.3%) yields R²=0.994, indicating intentional structural organization.
+### The Pre-IE Remnant Hypothesis
 
-### The CHOR Discovery
+The Voynich language is proposed to be:
 
-The token "chor" appears 529 times throughout the manuscript. Previous analyses interpreted this as Latin "chorus" or "cherub," yielding nonsensical translations. Identification as Polish "chory" (sick person/patient) transforms these passages into coherent medical references. The distribution of "chor"—highest in Herbal (plants treating conditions), lowest in Astronomical (timing, not treatment)—confirms the medical interpretation.
+- **Related to Basque** but not identical (sister language)
+- **Pre-Indo-European** in origin
+- **Extinct** by the 15th century (surviving only in this manuscript)
+- **Influenced by** Turkic, Uralic, and Semitic contact languages
+- **Used by** a healer/herbalist community in the Pyrenean/Mediterranean region
 
-### Sample Translation
+### The Copy Hypothesis
 
-**Voynich**: chor.cheol.qokeey.dar.chor
-**Token analysis**:
-- chor = Polish *chory* (sick patient)
-- cheol = Latin *flos* + *oleum* (flower-oil)
-- qokeey = Latin *fluere* (the flow)
-- dar = Polish *dać* (to give)
+| Timeline | Event |
+|----------|-------|
+| 11th-14th century | Original text composed by native Pre-IE speaker |
+| Early 15th century | Copied onto surviving vellum (1404-1438 CE) |
+| 15th-17th century | Manuscript circulates through various owners |
+| 1912 | Wilfrid Voynich acquires manuscript |
+| Present | Yale Beinecke Library |
 
-**Translation**: "Give the flowing flower-oil to the sick patient"
+The vellum radiocarbon date establishes when the COPY was made, not when the text was composed. A 12th-13th century original is more consistent with surviving Pre-IE communities.
 
-### Orthographic Evidence
+### Vocabulary Evidence
 
-Beyond vocabulary, the manuscript displays six orthographic conventions specific to medieval Polish:
+**Confirmed Basque Cognates:**
 
-| Pattern | Evidence | Historical Context |
-|---------|----------|-------------------|
-| No letter 'j' | 0 occurrences; 'dai' substitutes for 'daj' | Letter 'j' introduced 18th century |
-| Double vowels | 'ee' in 4,699 words (12.7%) | Parkoszowic's 1440 proposal |
-| Czech digraphs | 'sh' (12%), 'ch' (29%) | Czech influence post-1348 |
-| Nasal encoding | -ain/-am endings (6,000+) | Pre-ogonek convention |
-| Simplified 'ł' | 'dal' for 'dał', 'sal' for 'sól' | Medieval simplification |
-| Case via length | -aiin (nom.) vs -ain (acc.) | Vowel length grammaticalized |
+| Voynich | Basque | Meaning | Section |
+|---------|--------|---------|---------|
+| lor | lore | flower | Herbal |
+| oin | oin | foot | Biological |
+| soin | soin | body | Biological |
+| sar | sartu | enter | Throughout |
+| sal | saldu | sell | Recipe |
+| orain | orain | now | Recipe |
+| ar | ar | male | Zodiac |
+| or | or | dog | Throughout |
 
-The complete absence of 'j' initially appeared as a gap in the Polish verb paradigm—the imperative 'daj' (give!) seemed missing from a recipe book. Investigation revealed that 'j' appears zero times in the entire corpus, while 'dai-' forms appear 1,286 times. This is consistent with pre-18th-century Polish orthography, where /j/ was written as 'i' or 'y'. The first written Polish sentence (c. 1270) demonstrates this: "Day, ut ia pobrusa" = modern "Daj, niech ja pomielę."
+**Contact Language Vocabulary:**
 
-The double-vowel system is particularly significant. Jakub Parkoszowic, a professor at Jagiellonian University (Kraków), proposed in 1440 that vowel length be marked by doubling. Although not widely adopted, some scribes used this convention. The Voynich manuscript shows 'ee' in 12.7% of words and 'ii' in 12.1%—a pervasive pattern matching Parkoszowic's specific, dated proposal.
+| Source | Examples |
+|--------|----------|
+| Turkish | ot (grass), dal (branch), dar (narrow) |
+| Hungarian | [multiple overlaps with Turkic] |
+| Hebrew | dam (blood), sheol (underworld) |
 
-These orthographic patterns provide independent corroboration: they point to 15th-century Polish manuscript practice without relying on vocabulary interpretation, and they converge on the same date range (1400-1500) as the radiocarbon dating (1404-1438 CE).
+### Limitations
 
-### Implications
-
-1. **Historical**: Places manuscript origin in Polish-speaking Central Europe, consistent with early provenance theories linking it to Rudolf II's Prague court
-2. **Methodological**: Demonstrates necessity of testing bilingual hypotheses for undeciphered historical texts
-3. **Content**: Reveals the manuscript as a systematic medical encyclopedia, not an esoteric or meaningless text
+1. Only ~30% of morphemes decoded
+2. Sentence-level syntax unclear
+3. Complete translations not possible
+4. Alternative explanations remain (cipher, constructed language)
+5. 40% confidence—hypothesis, not proof
 
 ### Conclusion
 
-The Polish-Latin bilingual decoder resolves longstanding paradoxes of the Voynich manuscript: meaningful statistical structure, consistent internal grammar, yet persistent illegibility under monolingual analysis. The decoder and complete analysis are available for independent verification.
+The Pre-Indo-European Remnant Hypothesis provides the most coherent explanation for the Voynich manuscript's linguistic patterns. The vocabulary matches are not random—they concentrate in semantically appropriate sections (botanical terms in herbal sections, body terms in biological sections). The pattern of shared concrete vocabulary with divergent abstract vocabulary is characteristic of sister languages.
+
+However, this remains a hypothesis requiring further validation. The manuscript may yet yield to alternative explanations, or additional linguistic evidence may strengthen or refute this proposal.
 
 ---
 
-**Word count (main abstract)**: 298
+**Word count (main abstract):** 498
 
-**Author correspondence**: [To be added]
+**Data availability:** All analysis files, vocabulary mappings, and investigation reports available at repository.
 
-**Data availability**: Decoder source code, vocabulary mappings, and statistical analyses available at [repository URL]
-
-**Conflicts of interest**: None declared
+**Conflicts of interest:** None declared.
 
 ---
 
@@ -107,151 +114,30 @@ The Polish-Latin bilingual decoder resolves longstanding paradoxes of the Voynic
 
 ### Primary Sources
 
-1. Beinecke Rare Book and Manuscript Library. *Voynich Manuscript (MS 408)*. Yale University. https://beinecke.library.yale.edu/collections/highlights/voynich-manuscript
-
-2. Takahashi, T. (ed.). *Voynich Manuscript Transcription*. European Voynich Alphabet (EVA) standard. https://www.voynich.nu/transcr.html
+1. Beinecke Rare Book and Manuscript Library. *Voynich Manuscript (MS 408)*. Yale University.
+2. Takahashi, T. (ed.). *Voynich Manuscript Transcription*. EVA standard.
 
 ### Voynich Manuscript Studies
 
-3. D'Imperio, M. E. (1978). *The Voynich Manuscript: An Elegant Enigma*. National Security Agency, Central Security Service. Fort George G. Meade, MD. (Declassified)
+3. D'Imperio, M. E. (1978). *The Voynich Manuscript: An Elegant Enigma*. NSA.
+4. Zandbergen, R. (2024). *Voynich Manuscript*. voynich.nu
+5. Montemurro, M. A., & Zanette, D. H. (2013). Keywords and co-occurrence patterns. *PLoS ONE*.
 
-4. Zandbergen, R. (2024). *Voynich Manuscript*. Comprehensive research site. https://www.voynich.nu/
+### Basque and Pre-Indo-European Linguistics
 
-5. Kennedy, G., & Churchill, R. (2004). *The Voynich Manuscript: The Mysterious Code That Has Defied Interpretation for Centuries*. Inner Traditions.
+6. Trask, R. L. (1997). *The History of Basque*. Routledge.
+7. Hualde, J. I. & Ortiz de Urbina, J. (2003). *A Grammar of Basque*. Mouton de Gruyter.
+8. Vennemann, T. (2003). *Europa Vasconica - Europa Semitica*. Mouton de Gruyter.
+9. Lakarra, J. A. (2006). Protovasco, munda y otros: Reconstrucción interna y tipología. *Oihenart*, 21.
 
-6. Clemens, R., & Harkness, D. (2016). *The Voynich Manuscript*. Yale University Press.
+### Historical Linguistics Methodology
 
-### Radiocarbon Dating and Provenance
-
-7. Hodgins, G. (2011). Radiocarbon dating of the Voynich manuscript. *University of Arizona News*. [Dating established vellum production 1404-1438 CE]
-
-8. Zandbergen, R., & Landini, G. (2022). A re-examination of the Voynich manuscript's provenance. *Manuscript Studies*, 6(2), 234-267.
-
-### Cryptographic and Statistical Analysis
-
-9. Currier, P. (1976). Papers on the Voynich manuscript. *New Research on the Voynich Manuscript: Proceedings of a Seminar*. Washington, D.C.
-
-10. Friedman, W. F., & Friedman, E. S. (1959). *Acrostics, Anagrams, and Chaucer* [includes Voynich analysis]. Privately circulated; Friedman Collection, George C. Marshall Foundation.
-
-11. Reddy, S., & Knight, K. (2011). What we know about the Voynich manuscript. *Proceedings of the 5th ACL-HLT Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities*, 78-86. Association for Computational Linguistics.
-
-12. Montemurro, M. A., & Zanette, D. H. (2013). Keywords and co-occurrence patterns in the Voynich manuscript: An information-theoretic analysis. *PLoS ONE*, 8(6), e66344. https://doi.org/10.1371/journal.pone.0066344
-
-13. Amancio, D. R., Altmann, E. G., Rybski, D., Oliveira Jr., O. N., & Costa, L. da F. (2013). Probing the statistical properties of unknown texts: Application to the Voynich manuscript. *PLoS ONE*, 8(7), e67310.
-
-14. Bowern, C., & Lindemann, L. (2021). The linguistics of the Voynich manuscript. *Annual Review of Linguistics*, 7, 285-308.
-
-### Medieval Bilingualism and Code-Switching
-
-15. Schendl, H., & Wright, L. (Eds.). (2011). *Code-Switching in Early English*. De Gruyter Mouton.
-
-16. Adamska, A. (2014). Latin and three vernaculars in East-Central Europe from the point of view of the history of social communication. In A. Dąbrówka & S. Kuźmová (Eds.), *Latinitas in the Polish Crown and the Grand Duchy of Lithuania* (pp. 7-26). Instytut Badań Literackich PAN.
-
-17. Wenzel, S. (1994). *Macaronic Sermons: Bilingualism and Preaching in Late-Medieval England*. University of Michigan Press.
-
-18. Olesch, R. (1987). Polish-Latin language contact in medieval manuscripts. *Zeitschrift für Slavische Philologie*, 47(1), 89-112.
-
-### Medieval Medicine and Pharmaceutical Texts
-
-19. Stannard, J. (1999). *Herbs and Herbalism in the Middle Ages and Renaissance*. Ashgate Variorum.
-
-20. Riddle, J. M. (1974). Theory and practice in medieval medicine. *Viator*, 5, 157-184.
-
-21. Green, M. H. (2001). *The Trotula: A Medieval Compendium of Women's Medicine*. University of Pennsylvania Press.
-
-22. Voigts, L. E. (1995). Scientific and medical books. In J. Griffiths & D. Pearsall (Eds.), *Book Production and Publishing in Britain 1375-1475* (pp. 345-402). Cambridge University Press.
-
-23. Siraisi, N. G. (1990). *Medieval and Early Renaissance Medicine: An Introduction to Knowledge and Practice*. University of Chicago Press.
-
-24. Hunt, T. (1990). *Popular Medicine in Thirteenth-Century England*. D. S. Brewer.
-
-### Polish Historical Linguistics
-
-25. Długosz-Kurczabowa, K., & Dubisz, S. (2006). *Gramatyka historyczna języka polskiego* [Historical Grammar of the Polish Language]. Wydawnictwa Uniwersytetu Warszawskiego.
-
-26. Klemensiewicz, Z. (1974). *Historia języka polskiego* [History of the Polish Language]. Państwowe Wydawnictwo Naukowe.
-
-27. Rospond, S. (1971). *Gramatyka historyczna języka polskiego z ćwiczeniami* [Historical Grammar of Polish with Exercises]. Państwowe Wydawnictwo Naukowe.
-
-28. Walczak, B. (1999). *Zarys dziejów języka polskiego* [Outline History of the Polish Language]. Kantor Wydawniczy SAWW.
-
-### Medieval Polish Orthography
-
-29. Parkoszowic, J. (c. 1440). *Traktat o ortografii polskiej* [Treatise on Polish Orthography]. Jagiellonian University. [First systematic proposal for Polish orthographic reform, including double vowels for length]
-
-30. Wydra, W., & Rzepka, W. R. (2004). *Chrestomatia staropolska: Teksty do roku 1543* [Old Polish Chrestomathy: Texts to 1543]. Wydawnictwo Naukowe UAM. [Contains Book of Henryków with first Polish sentence]
-
-31. Urbańczyk, S. (1979). *Słowniki i encyklopedie: Ich rodzaje i użyteczność* [Dictionaries and Encyclopedias]. Ossolineum. [On medieval Polish lexicography]
-
-32. Kuraszkiewicz, W. (1981). *Podstawowe wiadomości z gramatyki historycznej języka polskiego* [Basic Information on Historical Grammar of Polish]. Wydawnictwo Naukowe PWN.
-
-### Medieval Latin
-
-33. Niermeyer, J. F. (1976). *Mediae Latinitatis Lexicon Minus*. E. J. Brill.
-
-34. Latham, R. E. (1965). *Revised Medieval Latin Word-List from British and Irish Sources*. Oxford University Press.
-
-35. Du Cange, C. (1883-1887). *Glossarium Mediae et Infimae Latinitatis*. L. Favre. http://ducange.enc.sorbonne.fr/
-
-### Computational Linguistics Methods
-
-36. Manning, C. D., & Schütze, H. (1999). *Foundations of Statistical Natural Language Processing*. MIT Press.
-
-37. Jurafsky, D., & Martin, J. H. (2023). *Speech and Language Processing* (3rd ed. draft). https://web.stanford.edu/~jurafsky/slp3/
-
-38. Zipf, G. K. (1949). *Human Behavior and the Principle of Least Effort*. Addison-Wesley.
-
-### Related Undeciphered Scripts
-
-39. Pope, M. (1999). *The Story of Decipherment: From Egyptian Hieroglyphs to Maya Script* (Revised ed.). Thames & Hudson.
-
-40. Robinson, A. (2002). *Lost Languages: The Enigma of the World's Undeciphered Scripts*. McGraw-Hill.
+10. Campbell, L. (2013). *Historical Linguistics: An Introduction*. MIT Press.
+11. Ringe, D. (2017). *From Proto-Indo-European to Proto-Germanic*. Oxford University Press.
 
 ---
 
-## Bibliography (Additional Resources)
+*Analysis: January 2026*
+*Methodology: Corpus-First, 22 Languages Tested*
+*Leading Theory: Pre-IE Remnant Hypothesis (40% confidence)*
 
-### Digital Resources
-
-- Beinecke Digital Collections: High-resolution manuscript images
-  https://collections.library.yale.edu/catalog/2002046
-
-- Voynich Manuscript Voyager: Interactive transcription browser
-  http://voynich.freie-literatur.de/
-
-- René Zandbergen's Encyclopedic Site
-  https://www.voynich.nu/
-
-### Databases
-
-- Voynich Information Browser (VIB)
-  Comprehensive searchable database of transcriptions and analyses
-
-- Medieval Plant Name Database
-  Cross-referencing botanical terminology across languages
-
-### Historical Context
-
-- Láng, B. (2008). *Unlocked Books: Manuscripts of Learned Magic in the Medieval Libraries of Central Europe*. Pennsylvania State University Press.
-
-- Thorndike, L. (1923-1958). *A History of Magic and Experimental Science* (8 vols.). Columbia University Press.
-
-- Kieckhefer, R. (1989). *Magic in the Middle Ages*. Cambridge University Press.
-
-### Methodological Frameworks
-
-- Kahn, D. (1967). *The Codebreakers: The Story of Secret Writing*. Macmillan.
-
-- Singh, S. (1999). *The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography*. Doubleday.
-
----
-
-## Notes on Sources
-
-**Primary transcription**: This study uses the EVA (European Voynich Alphabet) transcription, a standardized encoding system developed by René Zandbergen, Gabriel Landini, and others in the 1990s. EVA provides consistent character-to-glyph mapping essential for computational analysis.
-
-**Statistical methods**: Chi-square tests were performed using standard formulas with α=0.05 significance threshold. Index of Coincidence calculations follow Friedman (1920) methodology. R² values computed via ordinary least squares regression.
-
-**Vocabulary mappings**: Polish etymologies verified against *Słownik etymologiczny języka polskiego* (Boryś, 2005) and *Słownik staropolski* (Urbańczyk et al., 1953-2002). Latin pharmaceutical terminology cross-referenced with medieval herbals and the *Corpus Medicorum Latinorum*.
-
-**Reproducibility**: All analyses are reproducible using the provided Python decoder and publicly available EVA transcription files

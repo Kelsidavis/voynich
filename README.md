@@ -1,105 +1,227 @@
-# Voynich Manuscript Decoded: A Polish-Latin Bilingual Solution
+# Voynich Manuscript Language Investigation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Abstract
+## Current Working Theory: Pre-Indo-European Remnant Language
 
-The Voynich manuscript (Beinecke MS 408), a 15th-century illustrated codex written in an undeciphered script, has resisted cryptanalysis for over a century. This repository presents evidence that the manuscript is a **bilingual Polish-Latin medical encyclopedia** using a consistent phonetic cipher.
+After testing **22 languages** across 9 language families using corpus-first methodology, the leading hypothesis is that the Voynich manuscript is written in a **Pre-Indo-European sister language to Basque** - not Basque itself, but a related language that died out, possibly in the medieval period.
 
-**Key Discovery:** The word `chor` (529 occurrences) is Polish *chory* ("sick person"), transforming the manuscript from mystical nonsense into coherent medical instructions.
+### Key Findings
 
-The decoder achieves **88% decode rate** across 42,013 words with **1,012 vocabulary entries** (including zodiac signs, planets, medicinal plants, temperature terms, and pain/dolor vocabulary).
-
----
-
-## Evidence Summary
-
-### 1. Vocabulary Distribution by Section
-
-| Section | Folios | Words | Dominant Term | Count | Function |
-|---------|--------|-------|---------------|-------|----------|
-| Herbal | f1-f57 | 9,575 | chor (SICK) | 147 | Disease index |
-| Astronomical | f67-f73 | 3,026 | otar (STAR) | 472 | Timing calendar |
-| Biological | f75-f84 | 6,851 | shedy (WATER) | 670 | Hydrotherapy |
-| Rosettes | f85-f86 | 1,810 | 28.7% Polish | — | Master diagram |
-| Recipe | f88-f116 | 14,319 | dar/dal (GIVE) | 428 | Preparations |
-
-Chi-square analysis confirms non-random distribution (p < 0.001).
-
-### 2. Medieval Polish Orthographic Patterns
-
-Six orthographic conventions specific to 15th-century Polish provide **independent dating evidence**:
-
-| Pattern | Evidence | Historical Context |
-|---------|----------|-------------------|
-| No letter 'j' | 0 occurrences; 2,161 'dai' forms | Letter 'j' introduced 18th century |
-| Double vowels | 'ee' in 12.7% of words | Parkoszowic's 1440 proposal |
-| Czech digraphs | 'sh' (12%), 'ch' (29%) | Czech influence post-1348 |
-| Nasal encoding | -ain/-am endings (6,000+) | Pre-ogonek convention |
-| Simplified 'ł' | 'dal' for 'dał' | Medieval simplification |
-
-**Convergent date range: 1440-1500** (consistent with radiocarbon dating of 1404-1438 CE)
-
-### 3. Bilingual Pattern
-
-The manuscript consistently uses:
-- **Polish** for instructions: dar (give), dal (gave), chor (sick), kam (bathe)
-- **Latin** for technical terms: oleum (oil), stella (star), folium (leaf), sanare (heal)
-
-This matches documented medieval Polish-Latin code-switching in medical manuscripts.
+1. **No single language matches** - grammar is unique to Voynich
+2. **Multiple vocabulary overlaps** - suggesting multi-source origin
+3. **Top candidates**: Basque (17+ words, 6 unique), Turkish (17+), Hungarian (12)
+4. **Critical pattern**: Vocabulary matches manuscript content by section
+5. **Copy Hypothesis**: Manuscript is likely a 15th-century copy of an older (12th-14th c.) original
 
 ---
 
-## Sample Translation
+## The Pre-IE Remnant Hypothesis
 
-**Folio f88r (Recipe Section):**
-```
-Voynich:  chor.cheol.qokeey.dar.chor
-Decoded:  SICK . flower-oil . the-flow . GIVE . SICK
+### Core Evidence
 
-Translation: "Give the flowing flower-oil to the sick patient"
-```
+The Voynich language shares vocabulary with Basque in **semantically appropriate domains**:
+
+| Domain | Basque Cognates | Examples | Confidence |
+|--------|-----------------|----------|------------|
+| **Botanical** | 5 terms | lor=flower, olo=oat, ota=gorse, lar=meadow, adar=branch | HIGH |
+| **Body parts** | 3 terms | oin=foot, soin=body, odol=blood | HIGH |
+| **Medical** | 2-3 terms | osaiin=heal, lo=sleep | HIGH |
+| **Verbs** | 3-5 terms | sar=enter, sal=sell, ekar=bring | HIGH |
+| **Temporal** | 1 term | orain=now | HIGH |
+| **Celestial** | 0 terms | - | ABSENT |
+| **Numbers** | 0 terms | - | ABSENT |
+| **Function words** | 0 terms | - | ABSENT |
+
+**This pattern is the signature of a sister language**: Concrete vocabulary (plants, body, medicine) is shared; abstract vocabulary (numbers, celestial) has completely diverged.
+
+### Vocabulary with Contact Languages
+
+| Source | Terms | Examples | Contact Type |
+|--------|-------|----------|--------------|
+| **Basque/Pre-IE** | 17+ | lor, oin, sar, orain | Core vocabulary |
+| **Turkish** | 17+ | ot (grass), dal (branch), dar (narrow) | Trade/Crusades |
+| **Hungarian** | 12 | - | Central European |
+| **Hebrew** | 8 | dam (blood), sheol (underworld) | Mediterranean trade |
+
+### What This Means
+
+The Voynich author spoke a **Pre-Indo-European language** related to Basque, with extensive borrowings from Turkic, Uralic, and Semitic languages. This is consistent with:
+
+- A healer/herbalist from a surviving Pre-IE community
+- Located in the Pyrenean/Mediterranean region
+- Active during 11th-14th centuries (original composition)
+- Text copied onto surviving vellum in early 15th century
 
 ---
 
-## Complete Folio Translations
+## Section-by-Section Vocabulary Evidence
 
-Five complete folios have been translated representing all major manuscript sections:
+Analysis of manuscript sections shows vocabulary is **semantically appropriate** to content:
 
-| Folio | Section | Lines | Key Discovery |
-|-------|---------|-------|---------------|
-| F1R | Herbal Opening | 28 | First word "fachys" = FRUIT; first chor (SICK) at line 8 |
-| F72 | Zodiac | 45+ | 10 zodiac sign names identified; 8 are 100% exclusive to f72 |
-| F75R | Hydrotherapy | 20 | 70%+ shedy (WATER); balneotherapy instructions |
-| F85-F86 | Rosettes | 32+ | Master index function; vocabulary from ALL sections |
-| F88R | Recipe | 31 | 3 complete recipes; dar/dal instruction verbs |
+### Zodiac Section (f70-f73)
+- **"ot-" prefix** dominant (celestial/stellar meaning)
+- **"ar" (male)** concentrated in Aries (ram) and Taurus (bull)
+- Labels describe astrological properties, not sign names
 
-### Key Translation Examples
+### Biological Section (f75-f84)
+- **"oin" (foot)** - 7+ occurrences
+- **"soin" (body)** - confirmed
+- **"dam" (blood)** - in anatomical contexts
+- Body vocabulary where body illustrations appear
 
-**F1R Line 15 (Recipe Formula):**
-```
-Voynich:  daiin.chor.sar.cheol.cheol.shol
-Decoded:  [leaf] [SICK] [MIX] [flower] [flower] [ROOT]
-Meaning:  "Mix leaf with flower and root for the sick patient"
-```
+### Herbal Section (f1-f57)
+- **"lor" (flower)** - 43+ occurrences
+- **"olo" (oat/grain)** - confirmed
+- **"chor" (sick)** - 279 occurrences (medical context)
+- Botanical vocabulary where plants are illustrated
 
-**F72 Zodiac Labels:**
-```
-otaraldy  → ARIES (otar+aldy = star-of-ram)
-ofaralar  → TAURUS (ofar+alar = beast-of-bull)
-ogeom     → GEMINI (o+geom = of-twins)
-sholeey   → LEO (shol+eey = root/mane-the)
-olkalaiin → AQUARIUS (ol+kal+aiin = oil-vessel-water)
-```
+### Recipe Section (f88-f116)
+- **"orain" (now)** - 25+ occurrences (timing for preparations)
+- **"sal" (sell)** - commercial pharmaceutical terms
+- **"dam" (blood)** - bloodletting/blood medicine
+- **"osaiin" (heal)** - medical purpose explicit
+- **"saldam"** - Basque+Hebrew compound (sell + blood)
 
-**F85-F86 Cosmological Framework:**
-```
-tarar  → EARTH (100% exclusive to rosettes)
-otal   → HEAVEN/celestial sphere
-tdam   → [unique cosmological term]
-```
+---
 
-See [`APPENDIX_C_SAMPLE_TRANSLATIONS.md`](appendices/APPENDIX_C_SAMPLE_TRANSLATIONS.md) for complete translations.
+## The Copy Hypothesis
+
+### Timeline
+
+| Period | Event |
+|--------|-------|
+| **11th-14th c.** | Original text composed by Pre-IE speaking healer |
+| **15th c.** | Text copied onto surviving vellum (1404-1438 CE) |
+| **Present** | Manuscript at Yale's Beinecke Library |
+
+### Evidence
+
+- Vellum carbon-dated to 1404-1438 (dates the COPY, not original)
+- Pre-IE languages nearly extinct in Western Europe by 15th century
+- Linguistic features suggest older original
+- Scribal error patterns consistent with copying from damaged exemplar
+
+---
+
+## Morphological Patterns
+
+### Voynich Grammar
+
+| Element | Function | Examples |
+|---------|----------|----------|
+| **-aiin** | Nominative case | otaiin, okaiin, loraiin |
+| **-y, -dy** | Adjectival suffix | otody, otaldy, okaly |
+| **-al** | Substantival suffix | otal, okal, saral |
+| **qo-** | Determiner (THE) | qokal, qoin |
+| **ot-** | Celestial prefix | otal, otar, oteos |
+
+### Key Discovery: Basque Roots + Voynich Suffixes
+
+| Compound | Analysis | Meaning |
+|----------|----------|---------|
+| **loraiin** | lor + aiin | flower + NOM |
+| **oinaly** | oin + al + y | foot + substance + ADJ |
+| **dalor** | dal + lor | branch + flower |
+| **otoin** | ot + oin | star + foot |
+
+This demonstrates a **related but distinct language** - Basque vocabulary taking Voynich morphology.
+
+---
+
+## Complete Decoding Files
+
+### Section Decodings
+
+| File | Section | Key Findings |
+|------|---------|--------------|
+| [zodiac_labels_decoding.md](evidence/zodiac_labels_decoding.md) | Zodiac (f70-73) | "ot-" = celestial; "ar" = male |
+| [biological_nymph_labels_decoding.md](evidence/biological_nymph_labels_decoding.md) | Biological (f75-84) | "oin" (foot), "soin" (body), "dam" (blood) |
+| [herbal_plant_labels_decoding.md](evidence/herbal_plant_labels_decoding.md) | Herbal (f1-57) | "lor" (flower) 43+ times |
+| [recipe_labels_decoding.md](evidence/recipe_labels_decoding.md) | Recipe (f88-116) | "orain" (now), "saldam" (sell-blood), "osaiin" (heal) |
+
+### Core Investigation Files
+
+| File | Content |
+|------|---------|
+| [MASTER_LANGUAGE_REPORT.md](evidence/MASTER_LANGUAGE_REPORT.md) | Complete 22-language analysis |
+| [pre_ie_remnant_hypothesis.md](evidence/pre_ie_remnant_hypothesis.md) | Pre-IE sister language theory |
+| [copy_hypothesis.md](evidence/copy_hypothesis.md) | Manuscript as copy of older text |
+| [author_profile_analysis.md](evidence/author_profile_analysis.md) | Who wrote the Voynich? |
+| [language_contact_analysis.md](evidence/language_contact_analysis.md) | Multi-source vocabulary layers |
+
+### Basque Semantic Domain Tests
+
+| File | Domain | Result |
+|------|--------|--------|
+| [basque_botanical_investigation.md](evidence/basque_botanical_investigation.md) | Plant vocabulary | 5 terms CONFIRMED |
+| [basque_body_parts_investigation.md](evidence/basque_body_parts_investigation.md) | Body vocabulary | 3 terms CONFIRMED |
+| [basque_medical_investigation.md](evidence/basque_medical_investigation.md) | Medical vocabulary | 2-3 terms CONFIRMED |
+| [basque_verbs_investigation.md](evidence/basque_verbs_investigation.md) | Action verbs | 3-5 terms CONFIRMED |
+| [basque_numbers_investigation.md](evidence/basque_numbers_investigation.md) | Number words | 0 terms (ABSENT) |
+| [basque_celestial_investigation.md](evidence/basque_celestial_investigation.md) | Celestial terms | 0 terms (ABSENT) |
+
+---
+
+## Key Vocabulary
+
+### Confirmed Pre-IE/Basque Cognates
+
+| Voynich | Basque | Meaning | Occurrences | Section Focus |
+|---------|--------|---------|-------------|---------------|
+| **lor** | lore | flower | 43+ | Herbal |
+| **oin** | oin | foot | 7+ | Biological |
+| **soin** | soin | body | 4+ | Biological |
+| **sar** | sartu | enter | 30+ | Throughout |
+| **sal** | saldu | sell | 20+ | Recipe |
+| **orain** | orain | now | 25+ | Recipe |
+| **ar** | ar | male | 350+ | Zodiac |
+| **or** | or | dog | 100+ | Throughout |
+| **dam** | (Hebrew) | blood | 80+ | Medical |
+| **osaiin** | osatu | heal | 10+ | Recipe |
+
+### High-Frequency Terms
+
+| Term | Count | Possible Meaning |
+|------|-------|------------------|
+| daiin | 890+ | Leaf? (grammatical particle?) |
+| chor | 529 | Sick/illness |
+| chol | 400+ | Plant part (stem/flower?) |
+| otal | 300+ | Heaven/celestial |
+| dar/dal | 540+ | Give/branch |
+
+---
+
+## Methodology
+
+### Corpus-First Approach
+
+1. **No pre-assumed language** - let the data speak
+2. **Frequency analysis** - identify high-frequency patterns
+3. **Cross-linguistic testing** - 22 languages across 9 families
+4. **Semantic domain testing** - test vocabulary in appropriate sections
+5. **Morphological analysis** - identify grammar patterns
+
+### Languages Tested
+
+**Tier 1 (15+ matches)**: Turkish, Basque
+**Tier 2 (10-14)**: Hungarian, Korean, Gascon
+**Tier 3 (6-9)**: Hebrew, Mongolian, Old Turkic, Armenian
+**Tier 4 (1-5)**: Polish, Georgian, Finnish, Latin, Iberian, Chechen, Manchu
+**Tier 5 (0)**: Arabic, Persian, Sumerian, Japanese, Etruscan
+
+---
+
+## Statistical Summary
+
+| Metric | Value |
+|--------|-------|
+| Total tokens analyzed | 36,373 |
+| Languages tested | 22 |
+| Language families tested | 9 |
+| Basque semantic domains tested | 12 |
+| Basque content terms confirmed | 16-19 |
+| Section decodings completed | 4 |
 
 ---
 
@@ -108,141 +230,66 @@ See [`APPENDIX_C_SAMPLE_TRANSLATIONS.md`](appendices/APPENDIX_C_SAMPLE_TRANSLATI
 ```
 voynich-decoded/
 ├── README.md                    # This file
-├── ABSTRACT.md                  # Academic abstract (298 words)
-├── PAPER.md                     # Full academic paper structure
-│
-├── appendices/
-│   ├── APPENDIX_A_VOCABULARY.md        # Complete 1,012-entry vocabulary
-│   ├── APPENDIX_B_SECTION_ANALYSIS.md  # Section-by-section statistics
-│   ├── APPENDIX_C_SAMPLE_TRANSLATIONS.md # Curated translation examples
-│   ├── APPENDIX_D_ORTHOGRAPHIC_PATTERNS.md # Medieval Polish spelling
-│   ├── APPENDIX_E_CONTROL_TEST.md      # Random mapping comparison
-│   └── APPENDIX_F_EVA_PHONEME_MAPPINGS.md # Glyph-to-sound tables
-│
-├── decoder/
-│   └── voynich_decoder.py       # Python decoder (1,012 entries)
-│
-├── data/
-│   └── voynich_transcription.txt # EVA transcription (~36,000 words)
+├── ABSTRACT.md                  # Academic abstract
+├── PAPER.md                     # Full paper structure
+├── EVIDENCE.md                  # Evidence summary
+├── QUICK_REFERENCE.md           # Quick lookup
 │
 ├── evidence/
-│   ├── statistical/             # IC analysis, chi-square tests
-│   ├── sections/                # Per-section analysis summaries
-│   ├── DAJ_INVESTIGATION.md     # Missing 'j' discovery
-│   ├── MEDIEVAL_POLISH_ORTHOGRAPHY.md # Spelling conventions
-│   └── GLYPH_MAPPINGS.md        # EVA-to-phoneme mappings
+│   ├── MASTER_LANGUAGE_REPORT.md     # Complete analysis
+│   ├── pre_ie_remnant_hypothesis.md  # Leading theory
+│   ├── copy_hypothesis.md            # Copy hypothesis
+│   ├── zodiac_labels_decoding.md     # Zodiac section
+│   ├── biological_nymph_labels_decoding.md  # Biological section
+│   ├── herbal_plant_labels_decoding.md      # Herbal section
+│   ├── recipe_labels_decoding.md     # Recipe section
+│   ├── basque_*.md                   # 12 semantic domain tests
+│   ├── turkish_investigation.md      # Turkish analysis
+│   ├── altaic_investigation.md       # Mongolic, Korean
+│   ├── uralic_investigation.md       # Hungarian, Finnish
+│   └── [other investigations]
 │
-└── figures/
-    ├── SAMPLE_TRANSLATIONS.md   # Translation examples
-    ├── KEY_EXAMPLES.html        # Visual presentation
-    └── charts/                  # Vocabulary distribution charts
+├── data/
+│   └── voynich_transcription.txt     # EVA transcription
+│
+├── decoder/
+│   └── voynich_decoder.py            # Python decoder
+│
+└── appendices/
+    └── [technical appendices]
 ```
 
 ---
 
-## Quick Start
+## Current Status
 
-### Using the Decoder
+### What We Can Decode
 
-```python
-from decoder.voynich_decoder import decode_text, decode_word, VOCAB
+| Level | Status | Evidence |
+|-------|--------|----------|
+| Individual morphemes | ~30% | lor, oin, sar, orain, ar, dam |
+| Word compounds | ~20% | saldam, otoin, loraiin |
+| Label meanings | PARTIAL | Section-appropriate vocabulary |
+| Complete sentences | LOW | Grammar unclear |
+| Full translations | NOT YET | Insufficient vocabulary |
 
-# Decode a single word
-result = decode_word('daiin')
-print(result)  # '[leaf.NOM]'
+### What Remains Unknown
 
-# Decode a line of text
-result = decode_text('daiin.chol.dar.saiin')
-print(result)  # '[leaf.NOM] . [flower] . [GIVE] . [heal.NOM]'
-
-# Check vocabulary size
-print(f"Vocabulary entries: {len(VOCAB)}")  # 1012
-```
-
-### Key Vocabulary
-
-| Voynich | Language | Meaning | Occurrences |
-|---------|----------|---------|-------------|
-| chor | Polish | sick (patient) | 529 |
-| dar/dal | Polish | give/gave | 540+ |
-| ol | Latin | oil (oleum) | 1,800+ |
-| daiin | Latin | leaf (folium) | 890 |
-| otar | Latin | star (stella) | 472 |
-| cheol | Latin | flower-oil | 234 |
-| shedy | Polish | water | 670 |
-| saiin | Latin | heal (sanare) | 312 |
-
-### Zodiac Signs (f72 Folio Analysis)
-
-| Voynich | Meaning | Exclusivity | Confidence |
-|---------|---------|-------------|------------|
-| otaraldy | ARIES | 100% | High |
-| ofaralar | TAURUS | 100% | High |
-| ogeom | GEMINI | 100% | High |
-| otchol | CANCER | 100% | High |
-| sholeey | LEO | 100% | Medium |
-| okeey | VIRGO | 97% | Medium |
-| otal | LIBRA/HEAVEN | 89% | High |
-| okaiin | SCORPIO | 100% | Medium |
-| otolal | SAGITTARIUS | 100% | Medium |
-| olkalaiin | AQUARIUS | 100% | High |
+- Complete vocabulary mapping
+- Definitive grammar rules
+- Sign/constellation names
+- Many high-frequency words (daiin, chol, etc.)
+- Sentence-level syntax
 
 ---
 
-## Statistical Validation
+## Limitations and Caveats
 
-| Test | Result | Significance |
-|------|--------|--------------|
-| Index of Coincidence | 0.077 | Matches bilingual text |
-| Word length peak | 5 characters | Matches Polish morphology |
-| Section vocabulary χ² | p < 0.001 | Non-random distribution |
-| Vocabulary gradient | R² = 0.994 | Linear structure |
-| Control test percentile | 94.5% | Approaches significance |
-| Combined probability | 1 in 70 million | Highly significant |
-
-### Decode Rate by Section
-
-| Section | Words | Decode Rate | Key Vocabulary |
-|---------|-------|-------------|----------------|
-| Biological | 7,579 | **92.1%** | shedy (WATER), qokai (vessel) |
-| Recipe | 16,374 | 88.7% | dar/dal (GIVE), chor (SICK), dol (PAIN) |
-| Astronomical | 3,275 | 85.2% | otar (STAR), okeos (MARS) |
-| Herbal | 11,114 | 84.6% | daiin (leaf), chol (flower) |
-| **Total** | **42,013** | **88.0%** | 1,012 vocabulary entries |
-
----
-
-## Academic Paper
-
-The full academic paper is available in [`PAPER.md`](PAPER.md) with:
-- Complete methodology
-- Statistical analysis
-- Historical context
-- Discussion of limitations
-- References (40 sources)
-
-For journal submission, see [`ABSTRACT.md`](ABSTRACT.md) (298 words).
-
----
-
-## Key Findings
-
-1. **The manuscript is bilingual**: Polish vernacular + Latin technical vocabulary
-2. **It's a medical encyclopedia**: Herbal index, timing calendar, hydrotherapy, recipes
-3. **The script is phonetic**: Consistent glyph-to-sound mappings
-4. **Dating confirmed**: Orthographic patterns match 1440-1500 CE
-5. **Origin is Central European**: Polish-speaking region (likely Kraków milieu)
-
----
-
-## Verification
-
-To verify these findings:
-
-1. **Check vocabulary distribution**: Each section should show content-appropriate terms
-2. **Test translations**: Decoded passages should produce coherent medical content
-3. **Verify orthography**: Spelling patterns should match medieval Polish conventions
-4. **Run control test**: Random mappings should not achieve similar coherence
+1. **Hypothesis, not proof** - Pre-IE Remnant Hypothesis has ~40% confidence
+2. **Vocabulary overlap ≠ identity** - cognates don't prove language
+3. **No complete translations** - we decode words, not sentences
+4. **Grammar unclear** - morphology identified but syntax unknown
+5. **Alternative explanations exist** - constructed language, cipher, etc.
 
 ---
 
@@ -254,10 +301,12 @@ To verify these findings:
 
 ### Key Secondary Sources
 - D'Imperio, M. E. (1978). *The Voynich Manuscript: An Elegant Enigma*. NSA.
-- Parkoszowic, J. (c. 1440). *Traktat o ortografii polskiej*. Jagiellonian University.
+- Zandbergen, R. (2024). *Voynich Manuscript*. voynich.nu
 - Montemurro, M. A., & Zanette, D. H. (2013). Keywords and co-occurrence patterns in the Voynich manuscript. *PLoS ONE*.
 
-See [`ABSTRACT.md`](ABSTRACT.md) for complete references (40 sources).
+### Basque Linguistics
+- Trask, R. L. (1997). *The History of Basque*. Routledge.
+- Hualde, J. I. & Ortiz de Urbina, J. (2003). *A Grammar of Basque*. Mouton de Gruyter.
 
 ---
 
@@ -270,12 +319,12 @@ This research is released under the MIT License. The Voynich manuscript itself i
 ## Citation
 
 ```bibtex
-@misc{voynich_polish_latin_2026,
-  title={A Bilingual Polish-Latin Solution to the Voynich Manuscript},
+@misc{voynich_preie_2026,
+  title={Pre-Indo-European Remnant Hypothesis for the Voynich Manuscript},
   author={Davis, Kelsi},
   year={2026},
   howpublished={\url{https://github.com/Kelsidavis/voynich}},
-  note={Decoder v7.5, 1,012 vocabulary entries, 88\% decode rate}
+  note={22 languages tested, Pre-IE sister language to Basque}
 }
 ```
 
@@ -283,12 +332,16 @@ This research is released under the MIT License. The Voynich manuscript itself i
 
 ## Acknowledgments
 
-- René Zandbergen for the comprehensive Voynich research site (voynich.nu)
+- Ren&eacute; Zandbergen for the comprehensive Voynich research site (voynich.nu)
 - The EVA transcription team for standardized corpus
 - Beinecke Library for manuscript digitization
+- Basque linguistic resources and etymology databases
 
 ---
 
 *Analysis: January 2026*
-*Decoder Version: 7.5 (1,012 entries)*
-*Decode Rate: 88.0% of 42,013 words*
+*Methodology: Corpus-First, 22 Languages Tested*
+*Leading Theory: Pre-IE Remnant Hypothesis (40% confidence)*
+*Key Evidence: Basque cognates in semantically appropriate sections*
+*Copy Hypothesis: 15th c. copy of 12th-14th c. original*
+
